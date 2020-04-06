@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586193007092
+    "lastModifiedOn": 1586194446546
   },
   "creationTag": {
     "versionNumber": 0,
@@ -106,7 +106,8 @@
       },
       {
         "name": "cat",
-        "type": "string"
+        "type": "string",
+        "meaning": "Text"
       },
       {
         "name": "dep",
