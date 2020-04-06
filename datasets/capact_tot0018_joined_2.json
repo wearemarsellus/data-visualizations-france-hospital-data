@@ -1,6 +1,7 @@
 {
   "type": "Filesystem",
   "managed": true,
+  "shortDesc": "Jointure de toutes les séries longues",
   "formatType": "csv",
   "checklists": {
     "checklists": []
@@ -59,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586197376970
+    "lastModifiedOn": 1586197537300
   },
   "creationTag": {
     "versionNumber": 0,
