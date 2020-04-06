@@ -232,7 +232,25 @@
         "tooltipMeasures": [],
         "boxplotBreakdownDim": [],
         "boxplotValue": [],
-        "filters": [],
+        "filters": [
+          {
+            "filterType": "ALPHANUM_FACET",
+            "column": "DISCIPLINE",
+            "columnType": "ALPHANUM",
+            "isA": "filter",
+            "excludedValues": {
+              "___dku_no_value___": true,
+              "Soins de suite et réadaptation": true,
+              "Chirurgie": true,
+              "Psychiatrie": true,
+              "Autres discipines de la section hôpital": true,
+              "Gynéco-Obstétrique": true,
+              "Soins de longue durée": true,
+              "Hospitalisation à domicile": true
+            },
+            "explicitExclude": false
+          }
+        ],
         "axis1LogScale": false,
         "axis2LogScale": false,
         "includeZero": true,
@@ -293,7 +311,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAACDUlEQVRoQ2NkGGGAcST4V758S+vDTp9qkF+HvYdVcrex35ns9RMWscPSw3Llm8s4//+bfrPL/zN6Ch6yHpYpXMX5pD/sO6lZcsh4WL5sy5yHXT4ppHpwyMWwQvnWzged3uWUenRQ5WHFsq2u/xj+yz3s8plLLY/hMmfIJGlqBQTVPaxUvlvuXqfrI2o5kNrmkOVhmcIdQizsf+P/MTKyMv/7u/N+p+9FajuMVuaR5WFaOYYe5o56mB6hTAs7Np95JvL7N/OE/7+ZSv8Ki7wN02b8hc0enDGsULYx/kGX/0JKHLfu6AuxIGuJV8hmrDv+Kv4/4385hr9/DzIwM+r8/P5/VZSj1BtK7CFFL1WTdEPDf6aGBsZ/pDiA3mqp6mF6O54c+/B6eOPxF37+lhKbyDF4sOoZjWFYzKw9/rIs2FK8a7DGFLnuGo1hUMjJVWxxedThs4fcUBzM+nDFMEj8/2B2OLluG03S5IbcUNGHNYbXn3jZE2ghXoLuif87y5IZ3btoPipBy8AbkCT9/1ClKKNd+2tSPfZ/d7UFA+Pfvwzvfl5hDOsnasTy//4GDkbHhh8wuwbEw6R6lJrqRz0MCs3/OysKGd07+qkZsoPFrNEYli/dZPSw2+/cYIkRarsDI4bXH38xKdBSIo/aFg0W80aT9GCJCVq5YzSGaRWyg8Xc0RgeLDFBK3eMuBgGAJbghCn1coF7AAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAACY0lEQVRoQ+2XTWsTURSG3zMjUgVFY6GampqVIBTcCU2hIFSLSKw2tBvdSkE3IpJKQ+GCJjQFRRcWxLWblhg1uogKutAERPwDgkTbTI1fIJamrc0cKTTQapQJuZdMJpP14dz3Oc+5MxlCk/2oaXiF0CCE2TzAa2ZdYKevuGt4vWH/yOPhXPz47Ua3vi/88NyHiROTqxwVDfvF85acOLzY6KCV8rsr7USr65lqNuyNpH1GtG+mUQZVM7DdQfdGUu2z0WC+nNPxwH8KcYHtvqLV5PNeTPuM6xufL/80nHpjtBYXiIZ69nyp5pB61a7eVe2Xdh5gjYB3xaXSo883+wvlPPdff/OdPLRrxvYr3XH5weDH8f5pWYO0PbAsUGlP6UTGOBUKeJOyg6nqp8xwRzgVI6IWMF5C5zkwHYDJXQRtdrlk3jKuBb+qgvpfX2XA9YCxcqbjgROZTxdCgd03pN1hK1O1U01Fw5y+1AldH4DGr7CCY9C0Seodf2+n4Fay3MsWTg90td2V9rXEU4M6DU2Xyg0TmcJYKNB2xUqYetXY6g4ns3N+0+QzoW7vVdkD4ZTYSkGxUDMwPwl76eiEITugqn41A6sKpqqv44H56chZOhK/I/21xM9GY9QbG1VlRlZf5YZ5SmyGZ7EHJg+DkISJHPXFM7IAqu2jHLjaQKrrXWDVE653/6YxzJEt7RQt5qUCc7x1G+aXOrEJ+8HoBmg7mN9CozxgLv9l19R/gPAdMHMkflb8PuaxHQehYyew4gFBt7QhJXgA8kDjLIn5F9L+S1s63GZFUg3bjK1iHBe4ESzVkvE3mEafKdJB/KAAAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
@@ -304,9 +322,9 @@
       "copySelectionFromScript": true,
       "engineType": "LINO",
       "def": {
-        "type": "multi_columns_lines",
+        "type": "lines",
         "variant": "normal",
-        "name": "Avg. of INF by an",
+        "name": "Avg. of JOU by an",
         "userEditedName": false,
         "genericDimension0": [
           {
@@ -329,45 +347,12 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of INF, descending"
+                "label": "Average of JOU, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of INF, ascending",
-                "sortAscending": true
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 1,
-                "label": "Average of AIDES, descending"
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 1,
-                "label": "Average of AIDES, ascending",
-                "sortAscending": true
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 2,
-                "label": "Average of CADRE, descending"
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 2,
-                "label": "Average of CADRE, ascending",
-                "sortAscending": true
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 3,
-                "label": "Average of ASHAU, descending"
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 3,
-                "label": "Average of ASHAU, ascending",
+                "label": "Average of JOU, ascending",
                 "sortAscending": true
               }
             ],
@@ -383,40 +368,7 @@
         "animationDimension": [],
         "genericMeasures": [
           {
-            "column": "INF",
-            "function": "AVG",
-            "type": "NUMERICAL",
-            "displayed": true,
-            "isA": "measure",
-            "displayAxis": "axis1",
-            "displayType": "column",
-            "computeMode": "NORMAL",
-            "computeModeDim": 0
-          },
-          {
-            "column": "AIDES",
-            "function": "AVG",
-            "type": "NUMERICAL",
-            "displayed": true,
-            "isA": "measure",
-            "displayAxis": "axis1",
-            "displayType": "column",
-            "computeMode": "NORMAL",
-            "computeModeDim": 0
-          },
-          {
-            "column": "CADRE",
-            "function": "AVG",
-            "type": "NUMERICAL",
-            "displayed": true,
-            "isA": "measure",
-            "displayAxis": "axis1",
-            "displayType": "column",
-            "computeMode": "NORMAL",
-            "computeModeDim": 0
-          },
-          {
-            "column": "ASHAU",
+            "column": "JOU",
             "function": "AVG",
             "type": "NUMERICAL",
             "displayed": true,
@@ -505,7 +457,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAB5UlEQVRoQ2NkGGGAcYT5l2HUw8M9xkdjeDSGh1kIDIokLZq1iuf1tLAv9AhbmntYvnzL/oedPo4gzyCzZcu3RDzu9FkBEhcvWcT9sifu65D1MC5PyldsWfewwycI5LEh6WH58s3NDzt9a9Fjb1h5GKdncCRdFPVDJYYp8iRyQAxmD1PNk3T08LoTLzcEWYgHgLLYuuMv9gdZSoALS2Q2zlKaFh7Wqdux5UqThw96obXi8PM9EbaSLvgcissDpIoPmIeLll3Z2Bel4w/y5KiHsSRFUmNy0CXp0RgezcO4S1pKkvdooQVrwNO6WhrNw6N5eDQPY20qklqAESy0/u+tMlLYZdUL6sT/312xX2GPDQO2Dj0xeR65aTlo8zCyJyli76rYqHvEgRnUlv6/pzKg+FV04qBsWlLkSaQU8R/Zw3vLfYtfxqaMehhPt47UvEp2W3o0hqGFFskBMZqkR/Pw4BjxIDnpIpfMQ62UfsARycBgk80AamxQzLbO/gSqhy8zhnIz2GX1gaql3puWfIyNnx1BQzzhe9SYQWxQ6Rq4Q5WBVmy8LS2KPYkcWCPRwzpHHISuMIb+YbDNmZj9NKx06j27X6CYXHro2YGover/aRWryKmG5pNp9JggI8WOUQ+TElpDUS0AkoHlksGZPhcAAAAASUVORK5CYII\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABAklEQVRoQ+3SPQ7BABwF8Bp9XMCiJbGbDI6gukrcwlIMIiId0IOYTG2vYHAAi/g+g8UgYpB0IXmNpHnp6yiv8n/v15yRsSeXsb6GCn8TN4dh67LobNi/iFSEK244ufqdWdLxLDfqnX179XnfcqNGoXjf7abdx/s3s78uP0v5ws1rH8xR5F7mtv/JplI4XrQ6CJqnpbP9Vb42DupHz9knHSj+XuqF/1EC+Q8VRtZizEqYUQ25WcLIWoxZCTOqITdLGFmLMSthRjXkZgkjazFmJcyohtwsYWQtxqyEGdWQmyWMrMWYlTCjGnKzhJG1GLMSZlRDbpYwshZjVsKMasjNmRN+AQK5IymL1fjXAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
