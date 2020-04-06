@@ -133,6 +133,7 @@
   },
   "name": "SAE-serie-longue-2018",
   "projectStatus": "Sandbox",
+  "imgPattern": 3,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -188,11 +189,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586193618610
+    "lastModifiedOn": 1586210764261
   },
   "creationTag": {
     "versionNumber": 0,
@@ -225,7 +226,7 @@
             "stateChangedOn": 0
           },
           {
-            "done": false,
+            "done": true,
             "text": "Import your [first dataset](projects/SAESERIELONGUE2018/datasets/new/)",
             "createdOn": 1586192540470,
             "createdBy": "admin",
