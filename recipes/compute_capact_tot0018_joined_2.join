@@ -4,110 +4,224 @@
       "table2": 1,
       "table1": 0,
       "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "fi",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "fi",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 1,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "an",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "an",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "fi_ej",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "fi_ej",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "rs",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "rs",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "stj",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "stj",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "fi",
+      "type": "string",
       "table": 0
     },
     {
       "name": "an",
+      "type": "string",
       "table": 0
     },
     {
       "name": "fi_ej",
+      "type": "string",
       "table": 0
     },
     {
       "name": "rs",
+      "type": "string",
       "table": 0
     },
     {
       "name": "stj",
+      "type": "string",
       "table": 0
     },
     {
       "name": "cat",
+      "type": "string",
       "table": 0
     },
     {
       "name": "dep",
+      "type": "string",
       "table": 0
     },
     {
       "name": "reg",
+      "type": "string",
       "table": 0
     },
     {
       "name": "anc_reg",
+      "type": "string",
       "table": 0
     },
     {
       "name": "espic",
+      "type": "string",
       "table": 0
     },
     {
       "name": "COMINSEE",
+      "type": "string",
       "table": 0
     },
     {
       "name": "grp",
+      "type": "string",
       "table": 0
     },
     {
       "name": "LIT",
+      "type": "string",
       "table": 0
     },
     {
       "name": "SEJHC",
+      "type": "string",
       "table": 0
     },
     {
       "name": "JOU",
+      "type": "string",
       "table": 0
     },
     {
       "name": "PLA",
+      "type": "string",
       "table": 0
     },
     {
       "name": "SEJHP",
+      "type": "string",
       "table": 0
     },
     {
       "name": "PAS",
+      "type": "string",
       "table": 0
     },
     {
       "name": "SEJACC",
+      "type": "string",
       "table": 0
     },
     {
       "name": "SEHEM",
+      "type": "string",
       "table": 0
     },
     {
       "name": "SERAD",
+      "type": "string",
       "table": 0
     },
     {
       "name": "SECHI",
+      "type": "string",
       "table": 0
     },
     {
       "name": "cominsee",
+      "type": "string",
       "table": 1
     },
     {
       "name": "DISCI",
+      "type": "string",
       "table": 1
     },
     {
       "name": "DISCIPLINE",
+      "type": "string",
       "table": 1
     }
   ],
@@ -165,5 +279,6 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
   "enableAutoCastInJoinConditions": false
 }
