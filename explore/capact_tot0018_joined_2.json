@@ -240,13 +240,13 @@
             "isA": "filter",
             "excludedValues": {
               "___dku_no_value___": true,
+              "Médecine": true,
               "Soins de suite et réadaptation": true,
               "Chirurgie": true,
               "Psychiatrie": true,
               "Autres discipines de la section hôpital": true,
               "Gynéco-Obstétrique": true,
-              "Soins de longue durée": true,
-              "Hospitalisation à domicile": true
+              "Soins de longue durée": true
             },
             "explicitExclude": false
           }
@@ -311,7 +311,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAACY0lEQVRoQ+2XTWsTURSG3zMjUgVFY6GampqVIBTcCU2hIFSLSKw2tBvdSkE3IpJKQ+GCJjQFRRcWxLWblhg1uogKutAERPwDgkTbTI1fIJamrc0cKTTQapQJuZdMJpP14dz3Oc+5MxlCk/2oaXiF0CCE2TzAa2ZdYKevuGt4vWH/yOPhXPz47Ua3vi/88NyHiROTqxwVDfvF85acOLzY6KCV8rsr7USr65lqNuyNpH1GtG+mUQZVM7DdQfdGUu2z0WC+nNPxwH8KcYHtvqLV5PNeTPuM6xufL/80nHpjtBYXiIZ69nyp5pB61a7eVe2Xdh5gjYB3xaXSo883+wvlPPdff/OdPLRrxvYr3XH5weDH8f5pWYO0PbAsUGlP6UTGOBUKeJOyg6nqp8xwRzgVI6IWMF5C5zkwHYDJXQRtdrlk3jKuBb+qgvpfX2XA9YCxcqbjgROZTxdCgd03pN1hK1O1U01Fw5y+1AldH4DGr7CCY9C0Seodf2+n4Fay3MsWTg90td2V9rXEU4M6DU2Xyg0TmcJYKNB2xUqYetXY6g4ns3N+0+QzoW7vVdkD4ZTYSkGxUDMwPwl76eiEITugqn41A6sKpqqv44H56chZOhK/I/21xM9GY9QbG1VlRlZf5YZ5SmyGZ7EHJg+DkISJHPXFM7IAqu2jHLjaQKrrXWDVE653/6YxzJEt7RQt5qUCc7x1G+aXOrEJ+8HoBmg7mN9CozxgLv9l19R/gPAdMHMkflb8PuaxHQehYyew4gFBt7QhJXgA8kDjLIn5F9L+S1s63GZFUg3bjK1iHBe4ESzVkvE3mEafKdJB/KAAAAAASUVORK5CYII\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAACoElEQVRoQ2NkGGGAcaT4V75sS9DDLp91I8bDsIgd9fBwT+KjMTwaw8MgBBQqtkY+6PBeDvLKaJIeBhGK1wujMTwaw8MsBOiSpNcdfSEWZC3xaiDCTrpynfDT9qC3dGlabjj+IjzAUmIlyLI1Jx7rhVjIXhoITyPbSbMY/v//PyMjI+N/cjy4/viLmkBLiRZy9BLSQzMPY7N43fHn5UGWkp2EHEVLeap7eN2x59lBVpJTyXW0bM025cctXnfJ1Y+sT65sW8ijLq81dEnSMEvkyzfXPOz0pUnyJDZQkLMX1WOYWEdQU51s+Zaqx50+bcSYSTMPazWsYrvWEPYL2RFKpZtV73X73kYWM047w3p2lslvdMeuOvZYKMxK9h26OKgj8O//f9VHnT7NDAwMJBeKNPMwMaE9EGqo6mH5si3FD7t8egfCI8TaSRUPrz/x2jjQQvQssZYOpDqqeHggPYDP7lX//zOHMTL+pXq1hN5epXcArD/+KizQUmwVMfYO6xhGDoD/u8p7Gd06i0eMh2Gep9jD8lVrJR+2BT8nJjkNBjV4PSxXuTnkUbsvSlsU2dFrjz4vDraWHNTVEHogY3h49bEXzqFWEnvRFW488prX30b0M0x8/f73AoGOgh9A/P+7yzMZXTunD4YYJOQGipP0/92VmYyu7UPCs6DAIMnDMtWbpZl/M3o87PKZC4nZagtG19YThEIVtbSsymZ0ayO7+0iSXTtLuBnde75SvR6GGfi/lluXgZkpkuEP43zGlk8onQR0h/7fU+HBwMT4meE30yMG1r9iDK8fBDGGr6gmxUOkqP1fw6/M2PLxLkkxTIoFg0Ht/zIRXsauN/Byh+QkjRFLdTzBjE1f1g4GzxHrhmEdw9gCYdTDxCaNoapuxMUwAD1BuSkhiaNnAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
