@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586198080917
+    "lastModifiedOn": 1586206978810
   },
   "creationTag": {
     "versionNumber": 0,
@@ -89,7 +89,8 @@
     "columns": [
       {
         "name": "fi",
-        "type": "string"
+        "type": "string",
+        "meaning": "Text"
       },
       {
         "name": "an",
