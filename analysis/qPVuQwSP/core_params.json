@@ -57,13 +57,13 @@
           "rules": []
         },
         "samplingMethod": "HEAD_SEQUENTIAL",
-        "maxRecords": 100000,
+        "maxRecords": 1000000,
         "targetRatio": 0.02,
         "withinFirstN": -1,
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 1
+      "_refreshTrigger": 2
     },
     "vizSampling": {
       "autoRefreshSample": false,
@@ -79,11 +79,11 @@
   "charts": [],
   "name": "Analyze capact0018",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586195730381
+    "lastModifiedOn": 1586195832985
   },
   "creationTag": {
     "versionNumber": 0,
