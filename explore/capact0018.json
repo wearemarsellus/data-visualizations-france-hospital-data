@@ -49,16 +49,63 @@
       "copySelectionFromScript": true,
       "engineType": "LINO",
       "def": {
-        "type": "grouped_columns",
+        "type": "pivot_table",
         "variant": "normal",
-        "name": "New chart",
+        "name": "Count by dep",
         "userEditedName": false,
         "genericDimension0": [],
         "genericDimension1": [],
         "facetDimension": [],
         "animationDimension": [],
-        "genericMeasures": [],
-        "xDimension": [],
+        "genericMeasures": [
+          {
+            "function": "COUNT",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          }
+        ],
+        "xDimension": [
+          {
+            "column": "dep",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Count of records, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Count of records, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, descending"
+            }
+          }
+        ],
         "yDimension": [],
         "uaXDimension": [],
         "uaYDimension": [],
@@ -75,6 +122,7 @@
         "tooltipMeasures": [],
         "boxplotBreakdownDim": [],
         "boxplotValue": [],
+        "filters": [],
         "axis1LogScale": false,
         "axis2LogScale": false,
         "includeZero": true,
@@ -130,9 +178,10 @@
           "lockSquareGrid": false
         },
         "mapGridOptions": {
-          "gridLonDeg": 0.6,
-          "gridLatDeg": 0.6
+          "gridLonDeg": 0.5,
+          "gridLatDeg": 0.5
         },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAA70lEQVRoQ+2W0Q3CMAxEzwOwAuOwBbvAKmzBOKzAAof4qIQokIg6p7S5/rZ18/zOSQODXTEYLwy8deM2bMMb64AjvTGhMxwbtuHkDpDke8mIkCVN9qEn5CfYCV4FLQP+BauElgCTPAK4lKZDYVkFPJvbb/CtoQ1cit0/92vmVzXHzQ2TPAC41jZq9ZEmeQOwHwa4dP6qf0KaR9rAhWyvfoaHNFwL3drucx2SGR4SuAStsCs1PO1VJO8Adi971ykizrXn9NLnZJFeutCs9w2c1cle69hwr2ay1mXDWZ3stY4N92oma102nNXJXusMZ/gBiGFFKSOybdwAAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
