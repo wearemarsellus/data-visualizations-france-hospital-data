@@ -112,7 +112,7 @@
       "showXAxis": false,
       "showInChartValues": false,
       "showInChartLabels": true,
-      "strokeWidth": 4,
+      "strokeWidth": 3,
       "fillOpacity": 0.6,
       "showXAxisLabel": true,
       "showYAxisLabel": true,
@@ -173,11 +173,11 @@
   "listed": false,
   "name": "Avg. of LIT by an on capact_tot0018",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586193899523
+    "lastModifiedOn": 1586193900232
   },
   "creationTag": {
     "versionNumber": 0,
