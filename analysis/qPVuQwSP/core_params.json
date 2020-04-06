@@ -6,14 +6,43 @@
     "columnsSelection": {
       "mode": "ALL"
     },
-    "columnWidthsByName": {},
+    "columnWidthsByName": {
+      "fi": 100,
+      "an": 100,
+      "fi_ej": 100,
+      "rs": 300,
+      "stj": 100,
+      "cat": 100,
+      "dep": 100,
+      "reg": 100,
+      "anc_reg": 100,
+      "espic": 100,
+      "cominsee": 100,
+      "grp": 100,
+      "DISCI": 100,
+      "DISCIPLINE": 288,
+      "LIT": 100,
+      "SEJHC": 100,
+      "JOU": 100,
+      "PLA": 100,
+      "SEJHP": 100,
+      "PAS": 100,
+      "SEJACC": 100,
+      "SEHEM": 100,
+      "SERAD": 100,
+      "SECHI": 100
+    },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
       "valueColoringMode": "HASH"
     },
     "sorting": [],
-    "analysisColumnData": {},
+    "analysisColumnData": {
+      "cat": {
+        "meaning": "Text"
+      }
+    },
     "explorationSampling": {
       "selection": {
         "maxStoredBytes": 104857600,
@@ -40,7 +69,9 @@
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
@@ -48,11 +79,11 @@
   "charts": [],
   "name": "Analyze capact0018",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586195052917
+    "lastModifiedOn": 1586195143974
   },
   "creationTag": {
     "versionNumber": 0,
