@@ -293,7 +293,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAACDUlEQVRoQ2NkGGGAcST4V758S+vDTp9qkF+HvYdVcrex35ns9RMWscPSw3Llm8s4//+bfrPL/zN6Ch6yHpYpXMX5pD/sO6lZcsh4WL5sy5yHXT4ppHpwyMWwQvnWzged3uWUenRQ5WHFsq2u/xj+yz3s8plLLY/hMmfIJGlqBQTVPaxUvlvuXqfrI2o5kNrmkOVhmcIdQizsf+P/MTKyMv/7u/N+p+9FajuMVuaR5WFaOYYe5o56mB6hTAs7Np95JvL7N/OE/7+ZSv8Ki7wN02b8hc0enDGsULYx/kGX/0JKHLfu6AuxIGuJV8hmrDv+Kv4/4385hr9/DzIwM+r8/P5/VZSj1BtK7CFFL1WTdEPDf6aGBsZ/pDiA3mqp6mF6O54c+/B6eOPxF37+lhKbyDF4sOoZjWFYzKw9/rIs2FK8a7DGFLnuGo1hUMjJVWxxedThs4fcUBzM+nDFMEj8/2B2OLluG03S5IbcUNGHNYbXn3jZE2ghXoLuif87y5IZ3btoPipBy8AbkCT9/1ClKKNd+2tSPfZ/d7UFA+Pfvwzvfl5hDOsnasTy//4GDkbHhh8wuwbEw6R6lJrqRz0MCs3/OysKGd07+qkZsoPFrNEYli/dZPSw2+/cYIkRarsDI4bXH38xKdBSIo/aFg0W80aT9GCJCVq5YzSGaRWyg8Xc0RgeLDFBK3eMuBgGAJbghCn1coF7AAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAB90lEQVRoQ2NkGGGAcYT5l2HUw8MlxhXKt8x40OmTge6fIRvD8hVbSx8afe1jCAv7S0okDVkPk+JJZLWjHiY35CjRpzJpG/uvZ/8nMP9jmnC/y/MmJWYR0jsaw4RCiJC8QvnW9Aed3jMJqRsoebJi2DhtJusbAdn0/4z/GBkZma4+7PDaN1AeINVesjxMqiWDST1+Dzc0MDE0NPwbTA6m1C3DKobXH3/uycDIoMXC8n/h2S2z3jVgiSycHpYr3xz3qNN3ESUhuvbQU+tgO+mjyGZsufRB8NfXn3OYGRkaf//7o83EyKwTaCFew8jI+J8Su4jVS/UYXnf8eXyQpeRCYh1Ab3VU9zC9PUCqfXg9vO7Y89AgK8nVpBo6mNWPxjAsdtaeeFkbbCHePJhjixy3jcYwKNTkyreVPer06iInBAe7ntEYHuwxRKn7RmMYFILrjr+oDrKUaEUPzf+7K+YyunYkUxrKA6l/QGL4/+7yeYyunUmkevz/5gYuBvZfUQwMbNsY3RqeEav//96KQEbnjvUg9QPiYWIdSgt1ox4Gher/HeVxjB6dFHUNaRE71DATI4blyzdnP+z0nUoNwwejGdiSNEiMLp3xgQgQDA+vPfo8JNhacs1AOIYedo4WWvQI5YG0YzSGBzL06WH3aAzTI5QH0o4RF8MAuPJzKThMhjIAAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
@@ -304,15 +304,63 @@
       "copySelectionFromScript": true,
       "engineType": "LINO",
       "def": {
-        "type": "grouped_columns",
+        "type": "lines",
         "variant": "normal",
-        "name": "New chart",
+        "name": "Avg. of JOU by an",
         "userEditedName": false,
-        "genericDimension0": [],
+        "genericDimension0": [
+          {
+            "column": "an",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of JOU, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of JOU, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of JOU, descending"
+            }
+          }
+        ],
         "genericDimension1": [],
         "facetDimension": [],
         "animationDimension": [],
-        "genericMeasures": [],
+        "genericMeasures": [
+          {
+            "column": "JOU",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          }
+        ],
         "xDimension": [],
         "yDimension": [],
         "uaXDimension": [],
@@ -372,6 +420,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
@@ -389,6 +438,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAxUlEQVRoQ+3RwQ2CQBSEYbAQDt5pxBATmrAFKAFDO3jUBqyBi5QBuHZgZuMBxv33PJvMmy/PEnt5YvdmHBwrXrTDJazzferrMfbvFvndCx+bW7mEcAqH92Pqzs9fR9r9wTEHFu3QvLrq+u3PXx2sjMPBykrOGYSd9ZTuCCsrOWcQdtZTuiOsrOScQdhZT+mOsLKScwZhZz2lO8LKSs4ZhJ31lO4IKys5ZxB21lO6I6ys5JxB2FlP6Y6wspJzBmFnPaV7csIfnSQWKddP34gAAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
