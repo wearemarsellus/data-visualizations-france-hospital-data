@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586194792178
+    "lastModifiedOn": 1586194794544
   },
   "creationTag": {
     "versionNumber": 0,
@@ -120,7 +120,8 @@
       },
       {
         "name": "anc_reg",
-        "type": "string"
+        "type": "string",
+        "meaning": "Text"
       },
       {
         "name": "espic",
