@@ -96,6 +96,291 @@
           "strict": false
         }
       ]
+    },
+    {
+      "table2": 2,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "rightLimit": {},
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": [
+        {
+          "column1": {
+            "name": "fi",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "fi",
+            "table": 2
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "an",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "an",
+            "table": 2
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "fi_ej",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "fi_ej",
+            "table": 2
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "rs",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "rs",
+            "table": 2
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "cat",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "cat",
+            "table": 2
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "table2": 3,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "rightLimit": {},
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": [
+        {
+          "column1": {
+            "name": "fi",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "fi",
+            "table": 3
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "an",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "an",
+            "table": 3
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "rs",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "rs",
+            "table": 3
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "stj",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "stj",
+            "table": 3
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "cat",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "cat",
+            "table": 3
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "table2": 4,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "rightLimit": {},
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": [
+        {
+          "column1": {
+            "name": "fi",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "fi",
+            "table": 4
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "an",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "an",
+            "table": 4
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "rs",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "rs",
+            "table": 4
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "stj",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "stj",
+            "table": 4
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "cat",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "cat",
+            "table": 4
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
     }
   ],
   "selectedColumns": [
@@ -210,11 +495,6 @@
       "table": 0
     },
     {
-      "name": "cominsee",
-      "type": "string",
-      "table": 1
-    },
-    {
       "name": "DISCI",
       "type": "string",
       "table": 1
@@ -223,6 +503,86 @@
       "name": "DISCIPLINE",
       "type": "string",
       "table": 1
+    },
+    {
+      "name": "stjr",
+      "type": "string",
+      "table": 2
+    },
+    {
+      "name": "IVG",
+      "type": "string",
+      "table": 2
+    },
+    {
+      "name": "nat",
+      "type": "string",
+      "table": 3
+    },
+    {
+      "name": "ETPSAL",
+      "type": "string",
+      "table": 3
+    },
+    {
+      "name": "EFFLIB",
+      "type": "string",
+      "table": 3
+    },
+    {
+      "name": "ADMTO",
+      "type": "string",
+      "table": 4
+    },
+    {
+      "name": "CADRE",
+      "type": "string",
+      "table": 4
+    },
+    {
+      "name": "INF",
+      "type": "string",
+      "table": 4
+    },
+    {
+      "name": "REEDU",
+      "type": "string",
+      "table": 4
+    },
+    {
+      "name": "AIDES",
+      "type": "string",
+      "table": 4
+    },
+    {
+      "name": "ASHAU",
+      "type": "string",
+      "table": 4
+    },
+    {
+      "name": "PSYCH",
+      "type": "string",
+      "table": 4
+    },
+    {
+      "name": "SAGFE",
+      "type": "string",
+      "table": 4
+    },
+    {
+      "name": "EDUTO",
+      "type": "string",
+      "table": 4
+    },
+    {
+      "name": "PHLAB",
+      "type": "string",
+      "table": 4
+    },
+    {
+      "name": "TECHN",
+      "type": "string",
+      "table": 4
     }
   ],
   "engineParams": {
@@ -277,8 +637,189 @@
       "autoSelectColumns": false,
       "index": 1,
       "computedColumns": []
+    },
+    {
+      "index": 2
+    },
+    {
+      "index": 3
+    },
+    {
+      "index": 4
     }
   ],
   "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "fi",
+            "type": "string"
+          },
+          {
+            "name": "an",
+            "type": "string"
+          },
+          {
+            "name": "fi_ej",
+            "type": "string"
+          },
+          {
+            "name": "rs",
+            "type": "string"
+          },
+          {
+            "name": "stj",
+            "type": "string"
+          },
+          {
+            "meaning": "Text",
+            "name": "cat",
+            "type": "string"
+          },
+          {
+            "name": "dep",
+            "type": "string"
+          },
+          {
+            "meaning": "Text",
+            "name": "reg",
+            "type": "string"
+          },
+          {
+            "meaning": "Text",
+            "name": "anc_reg",
+            "type": "string"
+          },
+          {
+            "name": "espic",
+            "type": "string"
+          },
+          {
+            "name": "COMINSEE",
+            "type": "string"
+          },
+          {
+            "name": "grp",
+            "type": "string"
+          },
+          {
+            "name": "LIT",
+            "type": "string"
+          },
+          {
+            "name": "SEJHC",
+            "type": "string"
+          },
+          {
+            "name": "JOU",
+            "type": "string"
+          },
+          {
+            "name": "PLA",
+            "type": "string"
+          },
+          {
+            "name": "SEJHP",
+            "type": "string"
+          },
+          {
+            "name": "PAS",
+            "type": "string"
+          },
+          {
+            "name": "SEJACC",
+            "type": "string"
+          },
+          {
+            "name": "SEHEM",
+            "type": "string"
+          },
+          {
+            "name": "SERAD",
+            "type": "string"
+          },
+          {
+            "name": "SECHI",
+            "type": "string"
+          },
+          {
+            "name": "DISCI",
+            "type": "string"
+          },
+          {
+            "name": "DISCIPLINE",
+            "type": "string"
+          },
+          {
+            "name": "stjr",
+            "type": "string"
+          },
+          {
+            "name": "IVG",
+            "type": "string"
+          },
+          {
+            "name": "nat",
+            "type": "string"
+          },
+          {
+            "name": "ETPSAL",
+            "type": "string"
+          },
+          {
+            "name": "EFFLIB",
+            "type": "string"
+          },
+          {
+            "name": "ADMTO",
+            "type": "string"
+          },
+          {
+            "name": "CADRE",
+            "type": "string"
+          },
+          {
+            "name": "INF",
+            "type": "string"
+          },
+          {
+            "name": "REEDU",
+            "type": "string"
+          },
+          {
+            "name": "AIDES",
+            "type": "string"
+          },
+          {
+            "name": "ASHAU",
+            "type": "string"
+          },
+          {
+            "name": "PSYCH",
+            "type": "string"
+          },
+          {
+            "name": "SAGFE",
+            "type": "string"
+          },
+          {
+            "name": "EDUTO",
+            "type": "string"
+          },
+          {
+            "name": "PHLAB",
+            "type": "string"
+          },
+          {
+            "name": "TECHN",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
