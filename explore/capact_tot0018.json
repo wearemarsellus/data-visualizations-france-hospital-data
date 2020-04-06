@@ -5,7 +5,30 @@
     "columnsSelection": {
       "mode": "ALL"
     },
-    "columnWidthsByName": {},
+    "columnWidthsByName": {
+      "fi": 100,
+      "an": 100,
+      "fi_ej": 100,
+      "rs": 300,
+      "stj": 100,
+      "cat": 100,
+      "dep": 100,
+      "reg": 100,
+      "anc_reg": 100,
+      "espic": 100,
+      "COMINSEE": 100,
+      "grp": 100,
+      "LIT": 100,
+      "SEJHC": 100,
+      "JOU": 100,
+      "PLA": 100,
+      "SEJHP": 100,
+      "PAS": 100,
+      "SEJACC": 100,
+      "SEHEM": 100,
+      "SERAD": 100,
+      "SECHI": 100
+    },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
@@ -33,13 +56,15 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 0
+      "_refreshTrigger": 1
     },
     "vizSampling": {
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
@@ -116,6 +141,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
