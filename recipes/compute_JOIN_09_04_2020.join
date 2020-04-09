@@ -645,14 +645,7 @@
       "index": 4
     }
   ],
-  "computedColumns": [
-    {
-      "mode": "GREL",
-      "name": "",
-      "expr": "",
-      "type": "double"
-    }
-  ],
+  "computedColumns": [],
   "postFilter": {
     "$status": {
       "schema": {
