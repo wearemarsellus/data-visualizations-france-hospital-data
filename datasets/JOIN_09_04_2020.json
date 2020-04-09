@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586427942307
+    "lastModifiedOn": 1586428197812
   },
   "creationTag": {
     "versionNumber": 0,
@@ -188,7 +188,8 @@
       },
       {
         "name": "stjr",
-        "type": "string"
+        "type": "string",
+        "meaning": "Text"
       },
       {
         "name": "IVG",
