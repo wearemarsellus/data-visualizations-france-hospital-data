@@ -1675,7 +1675,7 @@
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "Moyennes des journées d\u0027HC et total  ",
+        "name": "Moyennes des journées d\u0027HC (par hôpital \u003d stable) et total journées HC (-20%)",
         "userEditedName": true,
         "genericDimension0": [
           {
@@ -1878,6 +1878,221 @@
           "gridLatDeg": 0.5
         },
         "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABh0lEQVRoQ+2RsUrDcBDG79IuiouLdjLFwQfoFhdRXMQIEicV3OorRJzcaju4+wCOzaBxcCpYiPgOYluQkMHBSSSW/kuRgJa0vcTScnoZc9/d//u+H0LMd133l946YeZoLd+Im3P+hxTzTv1lBbLZS+viflNfnqkAYCHaU4Ahqk4IqLVRg/Nmafvx+03ddk8BIYMKXgHaz83y7h3lTapGt10HAOZBgfqcVaZ/tvM+bJcUeNABxwtuAGHua44flrG4RTGq226tVTbXKdpI09vphWpVzI0ke/3aXwVO8rDzENQsI/cj5LDg+ZPbfaXUcdJiRnmaWODISFzwUSbHOZ944HGaT3NrqoGrXnC1t5o7TGM87c5UA6c1PWiv6vkHiFoRQHuyjIVinO5PBaYUKIEpLXHWCGHO9CjehTClJc4aIcyZHsW7EKa0xFkjhDnTo3gXwpSWOGuEMGd6FO9CmNISZ40Q5kyP4l0IU1rirBHCnOlRvAthSkucNUKYMz2KdyFMaYmz5t8R7gImdlIp/FwKwAAAAABJRU5ErkJggg\u003d\u003d",
+        "disableSafetyLimits": false,
+        "useLiveProcessingIfAvailable": true,
+        "legendPlacement": "OUTER_RIGHT"
+      },
+      "maxDataBytes": 157286400
+    },
+    {
+      "copySelectionFromScript": true,
+      "engineType": "LINO",
+      "def": {
+        "type": "lines",
+        "variant": "normal",
+        "name": "Moy passage aux urgences (par hop. \u003d +100%), total passage aux urgences +35%",
+        "userEditedName": true,
+        "genericDimension0": [
+          {
+            "column": "an",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of PAS, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of PAS, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Sum of PAS, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Sum of PAS, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            }
+          }
+        ],
+        "genericDimension1": [],
+        "facetDimension": [],
+        "animationDimension": [],
+        "genericMeasures": [
+          {
+            "column": "PAS",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "PAS",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis2",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          }
+        ],
+        "xDimension": [],
+        "yDimension": [],
+        "uaXDimension": [],
+        "uaYDimension": [],
+        "uaSize": [],
+        "uaShape": [],
+        "uaColor": [],
+        "uaTooltip": [],
+        "groupDimension": [],
+        "xMeasure": [],
+        "yMeasure": [],
+        "colorMeasure": [],
+        "sizeMeasure": [],
+        "geometry": [],
+        "tooltipMeasures": [],
+        "boxplotBreakdownDim": [],
+        "boxplotValue": [],
+        "filters": [
+          {
+            "filterType": "ALPHANUM_FACET",
+            "column": "cat",
+            "columnType": "ALPHANUM",
+            "isA": "filter",
+            "excludedValues": {
+              "108": true,
+              "109": true,
+              "114": true,
+              "119": true,
+              "122": true,
+              "127": true,
+              "128": true,
+              "129": true,
+              "131": true,
+              "135": true,
+              "138": true,
+              "139": true,
+              "140": true,
+              "141": true,
+              "144": true,
+              "146": true,
+              "156": true,
+              "161": true,
+              "173": true,
+              "179": true,
+              "292": true,
+              "362": true,
+              "365": true,
+              "412": true,
+              "422": true,
+              "425": true,
+              "426": true,
+              "430": true,
+              "431": true,
+              "433": true,
+              "444": true,
+              "696": true,
+              "697": true,
+              "698": true,
+              "699": true,
+              "999": true,
+              "___dku_no_value___": true
+            },
+            "explicitExclude": false
+          }
+        ],
+        "axis1LogScale": false,
+        "axis2LogScale": false,
+        "includeZero": true,
+        "smoothing": true,
+        "showLegend": true,
+        "showXAxis": false,
+        "showInChartValues": false,
+        "showInChartLabels": true,
+        "strokeWidth": 5,
+        "fillOpacity": 0.6,
+        "showXAxisLabel": true,
+        "showYAxisLabel": true,
+        "xAxisLabel": "",
+        "hexbinRadius": 20,
+        "hexbinNumber": 20,
+        "hexbinRadiusMode": "NUM_HEXAGONS",
+        "chartHeight": 200,
+        "singleXAxis": true,
+        "multiTooltips": false,
+        "animationFrameDuration": 3000,
+        "animationRepeat": true,
+        "colorOptions": {
+          "singleColor": "#2678B1",
+          "transparency": 0.75,
+          "colorPalette": "default",
+          "ccScaleMode": "NORMAL",
+          "customPalette": {
+            "id": "__dku_custom__",
+            "name": "Custom Palette",
+            "colors": [],
+            "values": [],
+            "fixedValues": false
+          },
+          "paletteType": "CONTINUOUS",
+          "quantizationMode": "NONE",
+          "numQuantizeSteps": 5,
+          "paletteMiddleValue": 0.0
+        },
+        "bubblesOptions": {
+          "defaultRadius": 5.0,
+          "singleShape": "FILLED_CIRCLE"
+        },
+        "computeMode": "NORMAL",
+        "xAxisMode": "NORMAL",
+        "yAxisMode": "NORMAL",
+        "pieOptions": {
+          "donutHoleSize": 54.0
+        },
+        "scatterOptions": {
+          "equalScales": false,
+          "identityLine": false
+        },
+        "mapOptions": {
+          "tilesLayer": "cartodb-positron",
+          "lockSquareGrid": false
+        },
+        "mapGridOptions": {
+          "gridLonDeg": 0.5,
+          "gridLatDeg": 0.5
+        },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAB40lEQVRoQ+2WvU8CMRyGW5h0N7kYw8GqcRYWE1hI5CBRg3+Bs4nRWFY3m2CizO4mfoLeDTrIJg6u6mSgLqLuDAapueEMEuAK1zsKlLl9+3vep3cHBGP2g6PEe3b/EfdBmtnMPwKCEzEAIG3lGwngi1K1uBJRoirSiwRr0W4ShxbYgjThQluGWt5PEJbbOlTA56VqbjWibDSDBdDV3BtOPbHAmmuEBDbtWQAQgsJyWDloBgpmLoP++mTtNRv/ZAX9y+t1g5vrm69pu3PU7asQyabKTmYYmGHLIoTguA4alXR4+rYTiIquTwlOpp2ADsywnUVrsBAyFhuA7tq9dXstwTPDLKAsn5VeAT3/DrOAmkN5AdvXW/qEUj94/pqwmkvPTtUghI3WJruBegXX7jYwXWlWSyzXTUX6HcFajGWtG2s6Aucf3pe+F5SbNQh/eBysIuOI4MQ6jywnGUyGnRygIj1HsPbv35GTPKd7XQMe5HParRRm4BlkzPsBzUFA8xWcPGwNDezoBZ8PvFT2tIxTC27utwUW1VS/pdgC9xss6j4JLKoZXnNJw7yaFDVHGhbVDK+5pGFeTYqaIw2LaobXXNIwryZFzZGGRTXDay5pmFeTouZIw6Ka4TWXNMyrSVFzxs7wL4EYkyklG0fDAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
