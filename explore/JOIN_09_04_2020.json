@@ -309,22 +309,11 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of INF, descending"
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 0,
-                "label": "Average of INF, ascending",
-                "sortAscending": true
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 1,
                 "label": "Sum of INF, descending"
               },
               {
                 "type": "AGGREGATION",
-                "measureIdx": 1,
+                "measureIdx": 0,
                 "label": "Sum of INF, ascending",
                 "sortAscending": true
               }
@@ -340,17 +329,6 @@
         "facetDimension": [],
         "animationDimension": [],
         "genericMeasures": [
-          {
-            "column": "INF",
-            "function": "AVG",
-            "type": "NUMERICAL",
-            "displayed": true,
-            "isA": "measure",
-            "displayAxis": "axis1",
-            "displayType": "column",
-            "computeMode": "NORMAL",
-            "computeModeDim": 0
-          },
           {
             "column": "INF",
             "function": "SUM",
@@ -426,11 +404,21 @@
               "___dku_no_value___": true
             },
             "explicitExclude": false
+          },
+          {
+            "filterType": "ALPHANUM_FACET",
+            "column": "an",
+            "columnType": "ALPHANUM",
+            "isA": "filter",
+            "excludedValues": {
+              "2000": true
+            },
+            "explicitExclude": false
           }
         ],
         "axis1LogScale": false,
         "axis2LogScale": false,
-        "includeZero": true,
+        "includeZero": false,
         "smoothing": true,
         "showLegend": true,
         "showXAxis": false,
@@ -440,6 +428,7 @@
         "fillOpacity": 0.6,
         "showXAxisLabel": true,
         "showYAxisLabel": true,
+        "xAxisLabel": "",
         "hexbinRadius": 20,
         "hexbinNumber": 20,
         "hexbinRadiusMode": "NUM_HEXAGONS",
@@ -487,7 +476,228 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAB5klEQVRoQ2NkGGGAcSj6d/2JlzH///37yc3NuM1dX+Iruh9kClcJPekPe4fNb4PSwxtOvGwMsBCvJyEyQP74T4z6AfHwuuMvi/5YiE0MY2T8S4wj0dXIlm01edzlfYYcvTTz8KpVq5jDwsLI8hA2jyhVblW71+59ixxPIuuhmYcpdRhY////jAyMjEQlVWLtI8vD64+/nBZoKZ5FrCUkqVu1ipmBiikD3W6iPLx//38WR0fGPyQ5nIBi6cp1wk/bg95S00xizCLKw8QYRIwaufJtvo86vTYTo5ZWamjqYbmKLYKPOnze08rx5JiL08Nrjj8PC7GUXEWsoWoNm0VuNfi+IVb9QKkjO4ZlCldxPukP+z5QDifXXpI8rFC+teJBp3cHuZYNBn0keXgwOJhSN4x6GBaCciWbfR/1+A5oFUJpbGLTPxrDtAjVwWTmaAyDYmPN8ZdFIZbifYMpZqjlltEYplZIDlZzsMawYtVG8ftt/i8Hq6MpcRdWD+Mb9aPEssGgdzQPD4ZYoKUbRmOYlqE7GMwejeFl+z+JRDnyDfqhGnJTC0YMbzzymtffRvQzuQYOdn0YHpYr25T3qMtv0mB3OLnuG83D5IbcUNE3GsNDJabIdedoDJMbckNF32gMD5WYItedAFwxail/SRGpAAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAYElEQVRoQ+3UAREAQAiEQO1f+gN8A1wbCMztHLs99u94uG6cYYZjBCQdE/q9wzDDMQKSjgk1WpKWdIyApGNCrbSkJR0jIOmYUCstaUnHCEg6JtRKS1rSMQKSjgm10ueSfinJACn8bS8UAAAAAElFTkSuQmCC",
+        "disableSafetyLimits": false,
+        "useLiveProcessingIfAvailable": true,
+        "legendPlacement": "OUTER_RIGHT"
+      },
+      "maxDataBytes": 157286400
+    },
+    {
+      "copySelectionFromScript": true,
+      "engineType": "LINO",
+      "def": {
+        "type": "lines",
+        "variant": "normal",
+        "name": "Sum of SEJHC by an",
+        "userEditedName": false,
+        "genericDimension0": [
+          {
+            "column": "an",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Sum of SEJHC, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Sum of SEJHC, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Sum of JOU, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Sum of JOU, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            }
+          }
+        ],
+        "genericDimension1": [],
+        "facetDimension": [],
+        "animationDimension": [],
+        "genericMeasures": [
+          {
+            "column": "SEJHC",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "JOU",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis2",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          }
+        ],
+        "xDimension": [],
+        "yDimension": [],
+        "uaXDimension": [],
+        "uaYDimension": [],
+        "uaSize": [],
+        "uaShape": [],
+        "uaColor": [],
+        "uaTooltip": [],
+        "groupDimension": [],
+        "xMeasure": [],
+        "yMeasure": [],
+        "colorMeasure": [],
+        "sizeMeasure": [],
+        "geometry": [],
+        "tooltipMeasures": [],
+        "boxplotBreakdownDim": [],
+        "boxplotValue": [],
+        "filters": [
+          {
+            "filterType": "ALPHANUM_FACET",
+            "column": "cat",
+            "columnType": "ALPHANUM",
+            "isA": "filter",
+            "excludedValues": {
+              "108": true,
+              "109": true,
+              "114": true,
+              "119": true,
+              "122": true,
+              "127": true,
+              "128": true,
+              "129": true,
+              "131": true,
+              "135": true,
+              "138": true,
+              "139": true,
+              "140": true,
+              "141": true,
+              "144": true,
+              "146": true,
+              "156": true,
+              "161": true,
+              "173": true,
+              "179": true,
+              "292": true,
+              "362": true,
+              "365": true,
+              "412": true,
+              "422": true,
+              "425": true,
+              "426": true,
+              "430": true,
+              "431": true,
+              "433": true,
+              "444": true,
+              "696": true,
+              "697": true,
+              "698": true,
+              "699": true,
+              "999": true,
+              "___dku_no_value___": true
+            },
+            "explicitExclude": false
+          },
+          {
+            "filterType": "ALPHANUM_FACET",
+            "column": "an",
+            "columnType": "ALPHANUM",
+            "isA": "filter",
+            "excludedValues": {},
+            "explicitExclude": false
+          }
+        ],
+        "axis1LogScale": false,
+        "axis2LogScale": false,
+        "includeZero": false,
+        "smoothing": true,
+        "showLegend": true,
+        "showXAxis": false,
+        "showInChartValues": false,
+        "showInChartLabels": true,
+        "strokeWidth": 1,
+        "fillOpacity": 0.6,
+        "showXAxisLabel": true,
+        "showYAxisLabel": true,
+        "hexbinRadius": 20,
+        "hexbinNumber": 20,
+        "hexbinRadiusMode": "NUM_HEXAGONS",
+        "chartHeight": 200,
+        "singleXAxis": true,
+        "multiTooltips": false,
+        "animationFrameDuration": 3000,
+        "animationRepeat": true,
+        "colorOptions": {
+          "singleColor": "#2678B1",
+          "transparency": 0.75,
+          "colorPalette": "default",
+          "ccScaleMode": "NORMAL",
+          "customPalette": {
+            "id": "__dku_custom__",
+            "name": "Custom Palette",
+            "colors": [],
+            "values": [],
+            "fixedValues": false
+          },
+          "paletteType": "CONTINUOUS",
+          "quantizationMode": "NONE",
+          "numQuantizeSteps": 5,
+          "paletteMiddleValue": 0.0
+        },
+        "bubblesOptions": {
+          "defaultRadius": 5.0,
+          "singleShape": "FILLED_CIRCLE"
+        },
+        "xAxisMode": "NORMAL",
+        "yAxisMode": "NORMAL",
+        "pieOptions": {
+          "donutHoleSize": 54.0
+        },
+        "scatterOptions": {
+          "equalScales": false,
+          "identityLine": false
+        },
+        "mapOptions": {
+          "tilesLayer": "cartodb-positron",
+          "lockSquareGrid": false
+        },
+        "mapGridOptions": {
+          "gridLonDeg": 0.5,
+          "gridLatDeg": 0.5
+        },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAB1klEQVRoQ2NkoBJYc+x5ToiV5BQqGUczYxipafKGE8+1Aiwkr1HLTLnSTT6Puv22UMs8kDlU9TA1HUYrs0Y9TIuQXX/iZWyghfhiWphNqpmjMUxqiFFDvVzFFsFHHT7vqWEWITMGfQzLV2w0fNjhf56QR4iVH/QeJtYjxKob9TCxITVU1Y3G8GCMOcXitfL3e4Mforit4T8TQwPjP1LdS5cYFm1YxfO6IewLqY7DpV6+YkvWww6faYTMkyvfpP2o0+8qsjq6eJiQw+gpP+phaoa2Yvlm/fudvhfRzVxz7KlhiJU01RoTpLh5NIZJCS18ahUqNwc8aPfdQC3zqGXOaAxTKyQHqzlYY1i6co/w03aXt7R09PrjL3IDLSUm09IObGaPJml6hzi97RuNYXqG+KRtt9nzvFR/0tNOgjGslbWK59o07A1/+YptLQ87vGro6WBK7SLoYUotGGz6ifTwf0YGBsb/yI6XL9tS/LDLp5dSD607+kIsyFriFaXmEKufSA8zMCiUb4l40OmzgliDB6s6oj08WD1AqruGhIdnnvnPmm7C+Bvdc2uPvYgKtpJYRoqnh4SHSfEQIbWjHiYUQkNdfjSGh3oMEnL/aAwTCqGhLj/iYhgAh/1hKXsEvjkAAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
