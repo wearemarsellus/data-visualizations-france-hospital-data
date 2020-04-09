@@ -324,7 +324,7 @@
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "Avg. of JOU by an",
+        "name": "Sum of JOU by an",
         "userEditedName": false,
         "genericDimension0": [
           {
@@ -347,12 +347,12 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of JOU, descending"
+                "label": "Sum of JOU, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of JOU, ascending",
+                "label": "Sum of JOU, ascending",
                 "sortAscending": true
               }
             ],
@@ -369,13 +369,13 @@
         "genericMeasures": [
           {
             "column": "JOU",
-            "function": "AVG",
+            "function": "SUM",
             "type": "NUMERICAL",
             "displayed": true,
             "isA": "measure",
             "displayAxis": "axis1",
             "displayType": "column",
-            "computeMode": "NORMAL",
+            "computeMode": "PERCENTAGE",
             "computeModeDim": 0
           }
         ],
@@ -457,7 +457,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABAklEQVRoQ+3SPQ7BABwF8Bp9XMCiJbGbDI6gukrcwlIMIiId0IOYTG2vYHAAi/g+g8UgYpB0IXmNpHnp6yiv8n/v15yRsSeXsb6GCn8TN4dh67LobNi/iFSEK244ufqdWdLxLDfqnX179XnfcqNGoXjf7abdx/s3s78uP0v5ws1rH8xR5F7mtv/JplI4XrQ6CJqnpbP9Vb42DupHz9knHSj+XuqF/1EC+Q8VRtZizEqYUQ25WcLIWoxZCTOqITdLGFmLMSthRjXkZgkjazFmJcyohtwsYWQtxqyEGdWQmyWMrMWYlTCjGnKzhJG1GLMSZlRDbpYwshZjVsKMasjNmRN+AQK5IymL1fjXAAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAA+0lEQVRoQ+3WQQqCQBQG4HlCuwi6gBJ0mgl3nSDoClo7l9oVgk7QJgQXHqEzBFHuWrZvjBbtJBVe+EZ/1+Pj/f83iyE1sI8GllchcN/FIQzhHjQwj7LJJdLPTxRc6R6A/owAYQhb3oAbpMv7zj9+Y+BKWw5auz6Eayuy/ACEqwC9baqNcUZFsjhZDvy/p6UbZoFSr6kip3SofJSGxoboXMQ6b1vaLEzX18Tft/2v6nznV9rbZKtbrA8cYZrM6DxwkyU5zyAwZ5sSZ0FYogrnThDmbFPiLAhLVOHcCcKcbUqcBWGJKpw7QZizTYmzICxRhXMnCHO2KXHW4ITfH2UiKYh75j8AAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
