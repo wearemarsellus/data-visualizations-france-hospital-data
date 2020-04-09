@@ -94,7 +94,7 @@
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "Sum of JOU by an",
+        "name": "Sum of LIT by an",
         "userEditedName": false,
         "genericDimension0": [
           {
@@ -117,30 +117,19 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Sum of JOU, descending"
+                "label": "Sum of LIT, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Sum of JOU, ascending",
-                "sortAscending": true
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 1,
-                "label": "Sum of PLA, descending"
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 1,
-                "label": "Sum of PLA, ascending",
+                "label": "Sum of LIT, ascending",
                 "sortAscending": true
               }
             ],
             "sort": {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of JOU, descending"
+              "label": "Sum of LIT, descending"
             }
           }
         ],
@@ -149,18 +138,7 @@
         "animationDimension": [],
         "genericMeasures": [
           {
-            "column": "JOU",
-            "function": "SUM",
-            "type": "NUMERICAL",
-            "displayed": true,
-            "isA": "measure",
-            "displayAxis": "axis1",
-            "displayType": "column",
-            "computeMode": "NORMAL",
-            "computeModeDim": 0
-          },
-          {
-            "column": "PLA",
+            "column": "LIT",
             "function": "SUM",
             "type": "NUMERICAL",
             "displayed": true,
@@ -292,7 +270,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAxUlEQVRoQ+3SwQmDUBCEYS1E7MdDLEcP8ZRLtAh7SED7ESFVhCTXHER48IZ54u9ZZ3fnM89O9uQh95bt3C336hbyTWrvBh28t3zZTOPn+76uQ/1K7cj/faIdnPKRHHwUnRh78kvHaNGdUTTPeu0vj609EHbrqOcjrG7YnY+wW0A9H2F1w+58hN0C6vkIqxt25yPsFlDPR1jdsDsfYbeAej7C6obd+Qi7BdTzEVY37M5H2C2gno+wumF3PsJuAfV8hNUNu/N//JsQKZe6BzgAAAAASUVORK5CYII\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABBElEQVRoQ+2UsQ7BUBiF75WIWM2CwRvYPQA1egUmgxh0NOrQycRsYlWJh/AGFiQmG4tILi/Q5qTRNvfX0/X03p7vfEm1ytmj4/A2R/vSadF5xTlj27uxgMPKtwbL4nE1fNsGFtXnZ+CoixtuMP4Y01ZaP41S66vnHGwYJTVgG+DCOhA4azP1aeCfve4kq+9aY7g621TMo1y4+b17mvDWACcFWXN3/cvc2Wb+l04KIOl7/s4wGojAaCHpOQ1LN4j60zBaSHpOw9INov40jBaSntOwdIOoPw2jhaTnNCzdIOpPw2gh6TkNSzeI+tMwWkh6TsPSDaL+NIwWkp7TsHSDqH/uDH8BKTogKVv5jOYAAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
