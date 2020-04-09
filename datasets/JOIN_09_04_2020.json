@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586426518837
+    "lastModifiedOn": 1586426755013
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,175 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "fi",
+        "type": "string"
+      },
+      {
+        "name": "an",
+        "type": "string"
+      },
+      {
+        "name": "fi_ej",
+        "type": "string"
+      },
+      {
+        "name": "rs",
+        "type": "string"
+      },
+      {
+        "name": "stj",
+        "type": "string"
+      },
+      {
+        "name": "cat",
+        "type": "string",
+        "meaning": "Text"
+      },
+      {
+        "name": "dep",
+        "type": "string"
+      },
+      {
+        "name": "reg",
+        "type": "string",
+        "meaning": "Text"
+      },
+      {
+        "name": "anc_reg",
+        "type": "string",
+        "meaning": "Text"
+      },
+      {
+        "name": "espic",
+        "type": "string"
+      },
+      {
+        "name": "COMINSEE",
+        "type": "string"
+      },
+      {
+        "name": "grp",
+        "type": "string"
+      },
+      {
+        "name": "LIT",
+        "type": "string"
+      },
+      {
+        "name": "SEJHC",
+        "type": "string"
+      },
+      {
+        "name": "JOU",
+        "type": "string"
+      },
+      {
+        "name": "PLA",
+        "type": "string"
+      },
+      {
+        "name": "SEJHP",
+        "type": "string"
+      },
+      {
+        "name": "PAS",
+        "type": "string"
+      },
+      {
+        "name": "SEJACC",
+        "type": "string"
+      },
+      {
+        "name": "SEHEM",
+        "type": "string"
+      },
+      {
+        "name": "SERAD",
+        "type": "string"
+      },
+      {
+        "name": "SECHI",
+        "type": "string"
+      },
+      {
+        "name": "DISCI",
+        "type": "string"
+      },
+      {
+        "name": "DISCIPLINE",
+        "type": "string"
+      },
+      {
+        "name": "stjr",
+        "type": "string"
+      },
+      {
+        "name": "IVG",
+        "type": "string"
+      },
+      {
+        "name": "nat",
+        "type": "string"
+      },
+      {
+        "name": "ETPSAL",
+        "type": "string"
+      },
+      {
+        "name": "EFFLIB",
+        "type": "string"
+      },
+      {
+        "name": "ADMTO",
+        "type": "string"
+      },
+      {
+        "name": "CADRE",
+        "type": "string"
+      },
+      {
+        "name": "INF",
+        "type": "string"
+      },
+      {
+        "name": "REEDU",
+        "type": "string"
+      },
+      {
+        "name": "AIDES",
+        "type": "string"
+      },
+      {
+        "name": "ASHAU",
+        "type": "string"
+      },
+      {
+        "name": "PSYCH",
+        "type": "string"
+      },
+      {
+        "name": "SAGFE",
+        "type": "string"
+      },
+      {
+        "name": "EDUTO",
+        "type": "string"
+      },
+      {
+        "name": "PHLAB",
+        "type": "string"
+      },
+      {
+        "name": "TECHN",
+        "type": "string"
+      },
+      {
+        "name": "field_40",
+        "type": "double"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
