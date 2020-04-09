@@ -165,7 +165,7 @@
             "type": "NUMERICAL",
             "displayed": true,
             "isA": "measure",
-            "displayAxis": "axis2",
+            "displayAxis": "axis1",
             "displayType": "column",
             "computeMode": "NORMAL",
             "computeModeDim": 0
@@ -292,7 +292,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABlUlEQVRoQ2NkGGGAkRT/yhSu4nzSH/adFD0DpXbd8WepQZZSs9HtJ8nDuBwvX77F+z8jM9ejDs/VA+HBVWfe8YeZCH0kxm6qeJgYiyhVs/bIi/BgG4mVyOasPf6yIdhSvIEUswedh9efeNEWaCFRhc0T////Z2RkZPwPklu16ipbWJj2L1I8C1I7qDy85shz7RAbyav4PLHl8AfBH4zflENspM6Q6tlB5eFVh5/JhdlKPSLHE6ToGVQxTIrDsamVq9hi/KjD5yw+cwbUwxtOvowLMBdfRKlHSdE/oB4mxaHUUjvqYWqF5GA1ZzSGKY2ZtYdeSwbbiT4HmbPu+IvWIEuJ6jXHn8eHWEoupNRsaugfjWFKQnHTyReKfuYS9ykxg9Z6yYrhDcde6AZYSVymteNoYT5ZHqaFQ+hl5qiH6RXSA2XPaAwPVMjTy97RGKZXSA+UPaMxPFAhTy97R2OYXiE9UPaMxvBAhTy97B2NYXqF9EDZMxrDAxXy9LJ3NIbpFdIDZc9oDA9UyNPL3tEYpldID5Q9AJi3TykU6Qq4AAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAxUlEQVRoQ+3SwQmDUBCEYS1E7MdDLEcP8ZRLtAh7SED7ESFVhCTXHER48IZ54u9ZZ3fnM89O9uQh95bt3C336hbyTWrvBh28t3zZTOPn+76uQ/1K7cj/faIdnPKRHHwUnRh78kvHaNGdUTTPeu0vj609EHbrqOcjrG7YnY+wW0A9H2F1w+58hN0C6vkIqxt25yPsFlDPR1jdsDsfYbeAej7C6obd+Qi7BdTzEVY37M5H2C2gno+wumF3PsJuAfV8hNUNu/N//JsQKZe6BzgAAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
