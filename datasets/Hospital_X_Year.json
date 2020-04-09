@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586444922818
+    "lastModifiedOn": 1586444931930
   },
   "creationTag": {
     "versionNumber": 0,
@@ -132,7 +132,8 @@
       },
       {
         "name": "espic",
-        "type": "string"
+        "type": "string",
+        "meaning": "Text"
       },
       {
         "name": "COMINSEE",
