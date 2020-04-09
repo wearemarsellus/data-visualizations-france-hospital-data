@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586435269479
+    "lastModifiedOn": 1586435385429
   },
   "creationTag": {
     "versionNumber": 0,
@@ -132,7 +132,8 @@
       },
       {
         "name": "COMINSEE",
-        "type": "string"
+        "type": "string",
+        "meaning": "Text"
       },
       {
         "name": "grp",
