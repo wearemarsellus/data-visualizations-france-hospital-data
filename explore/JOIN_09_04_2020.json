@@ -52,7 +52,12 @@
       "individualColumns": [],
       "valueColoringMode": "HASH"
     },
-    "sorting": [],
+    "sorting": [
+      {
+        "column": "an",
+        "ascending": true
+      }
+    ],
     "analysisColumnData": {},
     "explorationSampling": {
       "selection": {
@@ -83,7 +88,7 @@
     "exploreUIParams": {
       "autoRefresh": true
     },
-    "globalSearchQuery": "",
+    "globalSearchQuery": "ouest parisien",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
   },
@@ -94,7 +99,7 @@
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "Nombre de lits et places / an",
+        "name": "Moyenne du nombre de places en service (discipline) / an",
         "userEditedName": true,
         "genericDimension0": [
           {
@@ -158,17 +163,6 @@
             "displayType": "column",
             "computeMode": "NORMAL",
             "computeModeDim": 0
-          },
-          {
-            "column": "LIT",
-            "function": "AVG",
-            "type": "NUMERICAL",
-            "displayed": true,
-            "isA": "measure",
-            "displayAxis": "axis1",
-            "displayType": "column",
-            "computeMode": "NORMAL",
-            "computeModeDim": 0
           }
         ],
         "xDimension": [],
@@ -185,7 +179,19 @@
         "colorMeasure": [],
         "sizeMeasure": [],
         "geometry": [],
-        "tooltipMeasures": [],
+        "tooltipMeasures": [
+          {
+            "column": "LIT",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          }
+        ],
         "boxplotBreakdownDim": [],
         "boxplotValue": [],
         "filters": [
@@ -295,7 +301,222 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABSklEQVRoQ+2RvU4CQRRG7122siCh0KCFhBegJMGO2liAdta2ViqUVIRga2fjA6jRQG8njU9AJSFhKShN2PAzY0ViYQgMu/fDeLeenTPnfEz/7GNX39bHYGc29RqlQvrS9Q7Ef87CiMeuynx8D67PjvZvfzsPFX7uDC/KhfT9qiJRnIMK/xR46QQVQ0Ts8Yis6XueH/pE3eP83jAK0cUdWyMcpdSyu1RYqjSKowujyktxdWGp0iiOLowqL8XVhaVKozi6MKq8FFcXliqN4ujCqPJSXF1YqjSKowujyktxdWGp0iiOLowqL8XVhaVKozi6MKp87Nzam0+14uxPLJy9es3ZUbL7+VAMNw0DEc7ctMtE9qDXPLnbVGDd/52ED6vtFBt7zsxzYh5bM08wJ3atNV/kT5569dNg3YdInXcSlnpcHBwVjqPqNt35DdmDOSltoydlAAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABKUlEQVRoQ2NkGGGAcST4V65iS9qjDp9ZIL+OCA8jR+qw9bBi5dbY++3ei9FT8LD1MK6sOurh4V6IDYsY1mq4ynatQfsXMZE1LDxMjEdhakY9TEpoDUW1ozE8FGONFDcP6hhWKN1m/6Db6yApHiKkdlB7mJDjyZEf9TA5oTaU9IzG8FCKLXLcOhrD5ITaUNIzGsP0iC3pyj3CT9td3tLDrtEhnoEI5YG0czQP0yL05at2SD5s83hOC7NJNZPmMSxXuc36UbvXUVIdRiv1NPcwrRxOrrmjHiY35IaKvtEYHioxRa47yY5h+fLNUQ87fZeRa/FA6SPbwwPlYErtxeth+cotJQ/bfXootWQw6cfwsFz5lrpHnT5Ng8mR1HTLaJKmZmgORrNGXAwDAIO/KCkaLY+lAAAAAElFTkSuQmCC",
+        "disableSafetyLimits": false,
+        "useLiveProcessingIfAvailable": true,
+        "legendPlacement": "OUTER_RIGHT"
+      },
+      "maxDataBytes": 157286400
+    },
+    {
+      "copySelectionFromScript": true,
+      "engineType": "LINO",
+      "def": {
+        "type": "lines",
+        "variant": "normal",
+        "name": "Moyenne du nombre de lits (toute discipline) / an",
+        "userEditedName": true,
+        "genericDimension0": [
+          {
+            "column": "an",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of LIT, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of LIT, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of LIT, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of LIT, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            }
+          }
+        ],
+        "genericDimension1": [],
+        "facetDimension": [],
+        "animationDimension": [],
+        "genericMeasures": [
+          {
+            "column": "LIT",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          }
+        ],
+        "xDimension": [],
+        "yDimension": [],
+        "uaXDimension": [],
+        "uaYDimension": [],
+        "uaSize": [],
+        "uaShape": [],
+        "uaColor": [],
+        "uaTooltip": [],
+        "groupDimension": [],
+        "xMeasure": [],
+        "yMeasure": [],
+        "colorMeasure": [],
+        "sizeMeasure": [],
+        "geometry": [],
+        "tooltipMeasures": [
+          {
+            "column": "LIT",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          }
+        ],
+        "boxplotBreakdownDim": [],
+        "boxplotValue": [],
+        "filters": [
+          {
+            "filterType": "ALPHANUM_FACET",
+            "column": "cat",
+            "columnType": "ALPHANUM",
+            "isA": "filter",
+            "excludedValues": {
+              "108": true,
+              "109": true,
+              "114": true,
+              "119": true,
+              "122": true,
+              "127": true,
+              "128": true,
+              "129": true,
+              "131": true,
+              "135": true,
+              "138": true,
+              "139": true,
+              "140": true,
+              "141": true,
+              "144": true,
+              "146": true,
+              "156": true,
+              "161": true,
+              "173": true,
+              "179": true,
+              "292": true,
+              "362": true,
+              "365": true,
+              "412": true,
+              "422": true,
+              "425": true,
+              "426": true,
+              "430": true,
+              "431": true,
+              "433": true,
+              "444": true,
+              "696": true,
+              "697": true,
+              "698": true,
+              "699": true,
+              "999": true,
+              "___dku_no_value___": true
+            },
+            "explicitExclude": false
+          }
+        ],
+        "axis1LogScale": false,
+        "axis2LogScale": false,
+        "includeZero": false,
+        "smoothing": true,
+        "showLegend": true,
+        "showXAxis": false,
+        "showInChartValues": false,
+        "showInChartLabels": true,
+        "strokeWidth": 1,
+        "fillOpacity": 0.6,
+        "showXAxisLabel": true,
+        "showYAxisLabel": true,
+        "hexbinRadius": 20,
+        "hexbinNumber": 20,
+        "hexbinRadiusMode": "NUM_HEXAGONS",
+        "chartHeight": 200,
+        "singleXAxis": true,
+        "multiTooltips": false,
+        "animationFrameDuration": 3000,
+        "animationRepeat": true,
+        "colorOptions": {
+          "singleColor": "#2678B1",
+          "transparency": 0.75,
+          "colorPalette": "default",
+          "ccScaleMode": "NORMAL",
+          "customPalette": {
+            "id": "__dku_custom__",
+            "name": "Custom Palette",
+            "colors": [],
+            "values": [],
+            "fixedValues": false
+          },
+          "paletteType": "CONTINUOUS",
+          "quantizationMode": "NONE",
+          "numQuantizeSteps": 5,
+          "paletteMiddleValue": 0.0
+        },
+        "bubblesOptions": {
+          "defaultRadius": 5.0,
+          "singleShape": "FILLED_CIRCLE"
+        },
+        "computeMode": "NORMAL",
+        "xAxisMode": "NORMAL",
+        "yAxisMode": "NORMAL",
+        "pieOptions": {
+          "donutHoleSize": 54.0
+        },
+        "scatterOptions": {
+          "equalScales": false,
+          "identityLine": false
+        },
+        "mapOptions": {
+          "tilesLayer": "cartodb-positron",
+          "lockSquareGrid": false
+        },
+        "mapGridOptions": {
+          "gridLonDeg": 0.5,
+          "gridLatDeg": 0.5
+        },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABbElEQVRoQ2NkGGGAkZB/FSq2Njzo8G4gpG6oyBP08FDxCLHuHPUwsSE1VNWRHMPK1Rtk77YGPB4xHgZ5VKl8N/+9TtePQ9HTJMfwUPQksptHPUxqDMqXb6l62OnTRqq+gVI/GsMDFfL0snc0hqkd0grl290fdHrupLa55JpH1xhWKN/S+KDTp55cx1JDH808rF62kfdml/9najiSEjPkyze1Puz0q4aZQTMPU+JIWuod9TAtQ3cwmD0gMaxQtsniQZffCWoHgELF1oQHHd4L8Jk7IB6mvkc3JTzo8MPr0dFCi9qhPljNG7AkrVi1R/x+m8tLegfMgHmY3h4dzcMDFeL0tnc0SdM7xOlt35CJYanizSLPen3fUBpAQ8bDlHp00JTS8uVbex92ehdTy0OEzBmNYUIhNNTlR2N4sMWgfPmW1oedPvAxKUrdNyhjWL5qh+TDNo/nlHoOm/5B6WFaeHTQVEu09NxoDANDAACza0ApuDiGcgAAAABJRU5ErkJggg\u003d\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
