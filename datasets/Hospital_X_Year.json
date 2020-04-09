@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586444422428
+    "lastModifiedOn": 1586444440965
   },
   "creationTag": {
     "versionNumber": 0,
@@ -187,6 +187,50 @@
       },
       {
         "name": "EFFLIB",
+        "type": "string"
+      },
+      {
+        "name": "ADMTO",
+        "type": "string"
+      },
+      {
+        "name": "CADRE",
+        "type": "string"
+      },
+      {
+        "name": "INF",
+        "type": "string"
+      },
+      {
+        "name": "REEDU",
+        "type": "string"
+      },
+      {
+        "name": "AIDES",
+        "type": "string"
+      },
+      {
+        "name": "ASHAU",
+        "type": "string"
+      },
+      {
+        "name": "PSYCH",
+        "type": "string"
+      },
+      {
+        "name": "SAGFE",
+        "type": "string"
+      },
+      {
+        "name": "EDUTO",
+        "type": "string"
+      },
+      {
+        "name": "PHLAB",
+        "type": "string"
+      },
+      {
+        "name": "TECHN",
         "type": "string"
       }
     ],
