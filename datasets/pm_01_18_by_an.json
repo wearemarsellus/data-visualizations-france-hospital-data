@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586441057772
+    "lastModifiedOn": 1586441074131
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,257 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": false
+    "columns": [
+      {
+        "name": "null_an_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2001_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2002_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2003_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2004_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2005_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2006_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2007_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2008_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2009_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2010_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2011_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2012_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2013_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2014_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2015_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2016_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2017_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2018_count",
+        "type": "bigint"
+      }
+    ],
+    "userModified": false,
+    "metadata": {
+      "engineType": "DSS",
+      "pivotElementsModalities": [
+        {
+          "pivotElement": {
+            "keyColumns": [
+              "an"
+            ],
+            "valueLimit": "TOP_N",
+            "topnLimit": 20,
+            "minOccLimit": 0,
+            "explicitValues": [],
+            "globalCount": true,
+            "valueColumns": []
+          },
+          "pivotedModalities": [
+            {
+              "keyValues": [
+                null
+              ],
+              "name": "null_an",
+              "valueColumns": [],
+              "globalCountColumn": "null_an_count"
+            },
+            {
+              "keyValues": [
+                "2001"
+              ],
+              "name": "2001",
+              "valueColumns": [],
+              "globalCountColumn": "2001_count"
+            },
+            {
+              "keyValues": [
+                "2002"
+              ],
+              "name": "2002",
+              "valueColumns": [],
+              "globalCountColumn": "2002_count"
+            },
+            {
+              "keyValues": [
+                "2003"
+              ],
+              "name": "2003",
+              "valueColumns": [],
+              "globalCountColumn": "2003_count"
+            },
+            {
+              "keyValues": [
+                "2004"
+              ],
+              "name": "2004",
+              "valueColumns": [],
+              "globalCountColumn": "2004_count"
+            },
+            {
+              "keyValues": [
+                "2005"
+              ],
+              "name": "2005",
+              "valueColumns": [],
+              "globalCountColumn": "2005_count"
+            },
+            {
+              "keyValues": [
+                "2006"
+              ],
+              "name": "2006",
+              "valueColumns": [],
+              "globalCountColumn": "2006_count"
+            },
+            {
+              "keyValues": [
+                "2007"
+              ],
+              "name": "2007",
+              "valueColumns": [],
+              "globalCountColumn": "2007_count"
+            },
+            {
+              "keyValues": [
+                "2008"
+              ],
+              "name": "2008",
+              "valueColumns": [],
+              "globalCountColumn": "2008_count"
+            },
+            {
+              "keyValues": [
+                "2009"
+              ],
+              "name": "2009",
+              "valueColumns": [],
+              "globalCountColumn": "2009_count"
+            },
+            {
+              "keyValues": [
+                "2010"
+              ],
+              "name": "2010",
+              "valueColumns": [],
+              "globalCountColumn": "2010_count"
+            },
+            {
+              "keyValues": [
+                "2011"
+              ],
+              "name": "2011",
+              "valueColumns": [],
+              "globalCountColumn": "2011_count"
+            },
+            {
+              "keyValues": [
+                "2012"
+              ],
+              "name": "2012",
+              "valueColumns": [],
+              "globalCountColumn": "2012_count"
+            },
+            {
+              "keyValues": [
+                "2013"
+              ],
+              "name": "2013",
+              "valueColumns": [],
+              "globalCountColumn": "2013_count"
+            },
+            {
+              "keyValues": [
+                "2014"
+              ],
+              "name": "2014",
+              "valueColumns": [],
+              "globalCountColumn": "2014_count"
+            },
+            {
+              "keyValues": [
+                "2015"
+              ],
+              "name": "2015",
+              "valueColumns": [],
+              "globalCountColumn": "2015_count"
+            },
+            {
+              "keyValues": [
+                "2016"
+              ],
+              "name": "2016",
+              "valueColumns": [],
+              "globalCountColumn": "2016_count"
+            },
+            {
+              "keyValues": [
+                "2017"
+              ],
+              "name": "2017",
+              "valueColumns": [],
+              "globalCountColumn": "2017_count"
+            },
+            {
+              "keyValues": [
+                "2018"
+              ],
+              "name": "2018",
+              "valueColumns": [],
+              "globalCountColumn": "2018_count"
+            }
+          ]
+        }
+      ]
+    }
   },
   "metrics": {
     "probes": [
