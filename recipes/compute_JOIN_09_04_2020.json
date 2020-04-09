@@ -17,6 +17,18 @@
         {
           "ref": "capact0018",
           "deps": []
+        },
+        {
+          "ref": "capact18",
+          "deps": []
+        },
+        {
+          "ref": "pm_01_18",
+          "deps": []
+        },
+        {
+          "ref": "pnm_01_18",
+          "deps": []
         }
       ]
     }
@@ -32,11 +44,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586426518841
+    "lastModifiedOn": 1586426755053
   },
   "creationTag": {
     "versionNumber": 0,
