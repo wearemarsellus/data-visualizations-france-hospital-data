@@ -2105,7 +2105,7 @@
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "Moy SEJHC (stable +2%), total SEJHC (+30%) (diff entre les deux très bizarre ?)",
+        "name": "Moy SEJHC (par etablissement +30%), nbr total SEJHC (stable, +2%) (diff entre les deux très bizarre ?)",
         "userEditedName": true,
         "genericDimension0": [
           {
@@ -2308,6 +2308,265 @@
           "gridLatDeg": 0.5
         },
         "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABzElEQVRoQ+2TsUsCYRjG389cqimotEEuIloaWgq0KKigpSzU5v6AWgKhw80lqCRqbsn54GzQpMhwyFIooi1oCK6lExqLhujecBBs0PNO3+6Dvlu/733e53l+3zHg9Evd6IcMXcnQVP9DOy2ydorZ0ToplaMG4iIDYCG/Z44xhrU6qaKeDwe8s2bakpzJV+5ou0sN7/5JYPX6dZW52AYCPkYCA+tNmUdAcEEBEKYPQuPnYb93pzp3dKaNfhrfBV9PV2P6iMfv3UxdG/N+VGdJAqslPcYQFpohUzEiyelLRLh62QvG65UxEk33Pu0H38zKMjuvG1hRlA63bybXyHSqqG8DwGSzwWrNVJ6g2fMzM2/n3DJh9bY8FJnwPNtZ5lTIWq+WA1sNKsnpHBi4pSWW763OUtxve2BJzlwAgFvrvJuHeNygMN2KZkuBh2PZvi/DUJz4F+2GNg08KJ+uIODmrwUGJrREMGt3qZNzpoGdNEexWwSmaJUnTUGYJxoUXgRhilZ50hSEeaJB4UUQpmiVJ01BmCcaFF4EYYpWedIUhHmiQeFFEKZolSdNQZgnGhReBGGKVnnSFIR5okHhRRCmaJUnTUGYJxoUXv4d4R8skXQp6sID1QAAAABJRU5ErkJggg\u003d\u003d",
+        "disableSafetyLimits": false,
+        "useLiveProcessingIfAvailable": true,
+        "legendPlacement": "OUTER_RIGHT"
+      },
+      "maxDataBytes": 157286400
+    },
+    {
+      "copySelectionFromScript": true,
+      "engineType": "LINO",
+      "def": {
+        "type": "lines",
+        "variant": "normal",
+        "name": "New chart",
+        "userEditedName": true,
+        "genericDimension0": [
+          {
+            "column": "an",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of SECHI, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of SECHI, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Sum of SECHI, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Sum of SECHI, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 2,
+                "label": "Average of SERAD, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 2,
+                "label": "Average of SERAD, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 3,
+                "label": "Sum of SERAD, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 3,
+                "label": "Sum of SERAD, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            }
+          }
+        ],
+        "genericDimension1": [],
+        "facetDimension": [],
+        "animationDimension": [],
+        "genericMeasures": [
+          {
+            "column": "SECHI",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "SECHI",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis2",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "SERAD",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "SERAD",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis2",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          }
+        ],
+        "xDimension": [],
+        "yDimension": [],
+        "uaXDimension": [],
+        "uaYDimension": [],
+        "uaSize": [],
+        "uaShape": [],
+        "uaColor": [],
+        "uaTooltip": [],
+        "groupDimension": [],
+        "xMeasure": [],
+        "yMeasure": [],
+        "colorMeasure": [],
+        "sizeMeasure": [],
+        "geometry": [],
+        "tooltipMeasures": [],
+        "boxplotBreakdownDim": [],
+        "boxplotValue": [],
+        "filters": [
+          {
+            "filterType": "ALPHANUM_FACET",
+            "column": "cat",
+            "columnType": "ALPHANUM",
+            "isA": "filter",
+            "excludedValues": {
+              "108": true,
+              "109": true,
+              "114": true,
+              "119": true,
+              "122": true,
+              "127": true,
+              "128": true,
+              "129": true,
+              "131": true,
+              "135": true,
+              "138": true,
+              "139": true,
+              "140": true,
+              "141": true,
+              "144": true,
+              "146": true,
+              "156": true,
+              "161": true,
+              "173": true,
+              "179": true,
+              "292": true,
+              "362": true,
+              "365": true,
+              "412": true,
+              "422": true,
+              "425": true,
+              "426": true,
+              "430": true,
+              "431": true,
+              "433": true,
+              "444": true,
+              "696": true,
+              "697": true,
+              "698": true,
+              "699": true,
+              "999": true,
+              "___dku_no_value___": true
+            },
+            "explicitExclude": false
+          }
+        ],
+        "axis1LogScale": false,
+        "axis2LogScale": false,
+        "includeZero": true,
+        "smoothing": true,
+        "showLegend": true,
+        "showXAxis": false,
+        "showInChartValues": false,
+        "showInChartLabels": true,
+        "strokeWidth": 5,
+        "fillOpacity": 0.6,
+        "showXAxisLabel": true,
+        "showYAxisLabel": true,
+        "xAxisLabel": "",
+        "hexbinRadius": 20,
+        "hexbinNumber": 20,
+        "hexbinRadiusMode": "NUM_HEXAGONS",
+        "chartHeight": 200,
+        "singleXAxis": true,
+        "multiTooltips": false,
+        "animationFrameDuration": 3000,
+        "animationRepeat": true,
+        "colorOptions": {
+          "singleColor": "#2678B1",
+          "transparency": 0.75,
+          "colorPalette": "default",
+          "ccScaleMode": "NORMAL",
+          "customPalette": {
+            "id": "__dku_custom__",
+            "name": "Custom Palette",
+            "colors": [],
+            "values": [],
+            "fixedValues": false
+          },
+          "paletteType": "CONTINUOUS",
+          "quantizationMode": "NONE",
+          "numQuantizeSteps": 5,
+          "paletteMiddleValue": 0.0
+        },
+        "bubblesOptions": {
+          "defaultRadius": 5.0,
+          "singleShape": "FILLED_CIRCLE"
+        },
+        "computeMode": "NORMAL",
+        "xAxisMode": "NORMAL",
+        "yAxisMode": "NORMAL",
+        "pieOptions": {
+          "donutHoleSize": 54.0
+        },
+        "scatterOptions": {
+          "equalScales": false,
+          "identityLine": false
+        },
+        "mapOptions": {
+          "tilesLayer": "cartodb-positron",
+          "lockSquareGrid": false
+        },
+        "mapGridOptions": {
+          "gridLonDeg": 0.5,
+          "gridLatDeg": 0.5
+        },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAADP0lEQVRoQ+2XX0hTcRTHz1lZmg4lxZxQq0B6iCIUJBWKmSaujTEVoYeEqKeELJTNMOwqhNs0eiqC6sXqxeZMNi3TtQrSrPTBqJeI3BJmIpJOsyz3iyuMxObu3bx/tul9Gtyz3/l+ft/zO79zEdbZg9HKe6Pni7uyaI9sJV/UAVsG3I8vdr677zSoH/gzM6qALQPjjgvm4UrXNeXH1So3aoAfvZ4oq7IMZjtNal2gYxo1wHK97Z7TqDrF1JMiGri9391amiur2FnbffyrQfmUCZZ+H7HA9HktyUlTsIFcHhOxwMGC+uIjCjhUVyPCYcsr92nYhPmxU56zSmXGL59oud7mcBpVQZdyWDvsz8ndlCNplFJ8D7WUwxLYH+haHQ3L0bKt7cOW8vL9C8vFcQFKrOeGUH0zK2zOsD9Hd9XaslwG1VAwpUt6ax1YaFCQK1IHAExhg6c0bEZLYq/LBclvV0ds9e2SnB3FhKIkkPfT/n4m4dCBxFkTALiAwEkAiAfEESxoqvInntjr5EAWb2GBoZgGxQYPq0Ym2LVE+vT1WGBstPS7K0pyZa3BdN0l5xAGIG5rE4xNLkByUhx4FzWAmIkNM343RDSHSadOihqThxawvITJZem+F5LMvUc9n5/j9bH5lQJJfZIWcPE8W+fYHgHeHfadLx8s7VbanFn1raVojq1ILuP4B+67lNwRX2XW9mQQpDz5XHTftWwA58C0kwhkWJsjq6aFEQKICIT+naLrlE6aNEvlLdbDGfBqc66vgx6s6YkfEamMOb2HmQZ6eU13vrNF+UwsR0OatCyDM8ng/WEmXqIrzZO9Xdlx/10xXXb0/mkebdY8CRdA1sDt/eN3iERiLDuc+olJvNiNiElfwJLuejORdiI7dZzNIkygxEEloIKaZbOWUDEBm1Z6tTUlZjM+DPX703cHCwXDJs9/wOmUdVvMPFidRvUxNgsEiiG9updYaDqy1nW4/D9n15I/UcEM9VxCBVqLX2BKqkLKYxMKhk0eXoHZCBA6ZgNY6B0XOh9vDpNefSIWGqeFBmLKxx9wx5kp1N7dziRA6Pf8Adcn1mHj9FWhgZjy8QbMlFis9xvAYu28UHnXncN/AairPDjwy83GAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
