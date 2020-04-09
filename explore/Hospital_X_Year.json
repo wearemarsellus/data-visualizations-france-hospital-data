@@ -1675,7 +1675,7 @@
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "Moyennes des journées d\u0027HC (par hôpital \u003d stable) et total journées HC (-20%)",
+        "name": "Moy journées HC (par hôpital \u003d stable) et total journées HC (-20%)",
         "userEditedName": true,
         "genericDimension0": [
           {
@@ -2343,45 +2343,23 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of SECHI, descending"
+                "label": "Average of SEJHP, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of SECHI, ascending",
+                "label": "Average of SEJHP, ascending",
                 "sortAscending": true
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 1,
-                "label": "Sum of SECHI, descending"
+                "label": "Sum of SEJHP, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 1,
-                "label": "Sum of SECHI, ascending",
-                "sortAscending": true
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 2,
-                "label": "Average of SERAD, descending"
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 2,
-                "label": "Average of SERAD, ascending",
-                "sortAscending": true
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 3,
-                "label": "Sum of SERAD, descending"
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 3,
-                "label": "Sum of SERAD, ascending",
+                "label": "Sum of SEJHP, ascending",
                 "sortAscending": true
               }
             ],
@@ -2397,7 +2375,7 @@
         "animationDimension": [],
         "genericMeasures": [
           {
-            "column": "SECHI",
+            "column": "SEJHP",
             "function": "AVG",
             "type": "NUMERICAL",
             "displayed": true,
@@ -2408,29 +2386,7 @@
             "computeModeDim": 0
           },
           {
-            "column": "SECHI",
-            "function": "SUM",
-            "type": "NUMERICAL",
-            "displayed": true,
-            "isA": "measure",
-            "displayAxis": "axis2",
-            "displayType": "column",
-            "computeMode": "NORMAL",
-            "computeModeDim": 0
-          },
-          {
-            "column": "SERAD",
-            "function": "AVG",
-            "type": "NUMERICAL",
-            "displayed": true,
-            "isA": "measure",
-            "displayAxis": "axis1",
-            "displayType": "column",
-            "computeMode": "NORMAL",
-            "computeModeDim": 0
-          },
-          {
-            "column": "SERAD",
+            "column": "SEJHP",
             "function": "SUM",
             "type": "NUMERICAL",
             "displayed": true,
@@ -2566,7 +2522,222 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAADP0lEQVRoQ+2XX0hTcRTHz1lZmg4lxZxQq0B6iCIUJBWKmSaujTEVoYeEqKeELJTNMOwqhNs0eiqC6sXqxeZMNi3TtQrSrPTBqJeI3BJmIpJOsyz3iyuMxObu3bx/tul9Gtyz3/l+ft/zO79zEdbZg9HKe6Pni7uyaI9sJV/UAVsG3I8vdr677zSoH/gzM6qALQPjjgvm4UrXNeXH1So3aoAfvZ4oq7IMZjtNal2gYxo1wHK97Z7TqDrF1JMiGri9391amiur2FnbffyrQfmUCZZ+H7HA9HktyUlTsIFcHhOxwMGC+uIjCjhUVyPCYcsr92nYhPmxU56zSmXGL59oud7mcBpVQZdyWDvsz8ndlCNplFJ8D7WUwxLYH+haHQ3L0bKt7cOW8vL9C8vFcQFKrOeGUH0zK2zOsD9Hd9XaslwG1VAwpUt6ax1YaFCQK1IHAExhg6c0bEZLYq/LBclvV0ds9e2SnB3FhKIkkPfT/n4m4dCBxFkTALiAwEkAiAfEESxoqvInntjr5EAWb2GBoZgGxQYPq0Ym2LVE+vT1WGBstPS7K0pyZa3BdN0l5xAGIG5rE4xNLkByUhx4FzWAmIkNM343RDSHSadOihqThxawvITJZem+F5LMvUc9n5/j9bH5lQJJfZIWcPE8W+fYHgHeHfadLx8s7VbanFn1raVojq1ILuP4B+67lNwRX2XW9mQQpDz5XHTftWwA58C0kwhkWJsjq6aFEQKICIT+naLrlE6aNEvlLdbDGfBqc66vgx6s6YkfEamMOb2HmQZ6eU13vrNF+UwsR0OatCyDM8ng/WEmXqIrzZO9Xdlx/10xXXb0/mkebdY8CRdA1sDt/eN3iERiLDuc+olJvNiNiElfwJLuejORdiI7dZzNIkygxEEloIKaZbOWUDEBm1Z6tTUlZjM+DPX703cHCwXDJs9/wOmUdVvMPFidRvUxNgsEiiG9updYaDqy1nW4/D9n15I/UcEM9VxCBVqLX2BKqkLKYxMKhk0eXoHZCBA6ZgNY6B0XOh9vDpNefSIWGqeFBmLKxx9wx5kp1N7dziRA6Pf8Adcn1mHj9FWhgZjy8QbMlFis9xvAYu28UHnXncN/AairPDjwy83GAAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAACIUlEQVRoQ2NkGKRg3YkX7UEWEpXUdh4jtQ2k1LxFO19wx7lLfCXVnHXHX+xnYGQ8HWQuVi5fsXXfw04fR2xmDCoPrz/y3DPQRnI7skNBHgmylMDqeGQ5+fIt+3F5Etm8AfXwupNPhP//Z53J+P+/MC5PYYultcde7A22knAGyRHrUZg5dPcwvhiDOUqucJO2Ej/vzfvfv+6Gxdq64y/2/Pv//3yIlWQp2KNlm/c87PJ1ITXp08XDxHgS5nD58q1RDzu9lyH4qElVpXKb6J12r9ekepTmMbz2+PNpjIwMp4MsJOcT4zh8SRMmJ1+2efPDLl9fYszDpYbqMUxKbMqVb9nByMDATkxhQ4knqV5orVr1nzksjPEvsY6SL9uy9WGXjzex6qmpjuIYXnf8ZUeQpXgFMY6SL9+y52GnD8kFDTFmE6uGbA+TknRJrTqIdTw56kjy8OYzz0R+/2ZaTUydOZg8SVIeBsUk2x+OIB9bgfeEQlShfMuqr5zfkl43hH0hpHag5EmKYVyOHKyxSfW29FDyKEUND4XyrTMedHpnDFSypMReopM0KDYZ//+f+KDLdwMlFg60XpweBnkQ5Dh6toLoERhExzA9HEMPO0Y9TI9QHkg7RmN4IEOfHnaPxjA9Qnkg7RiN4YEMfXrYPRrD9AjlgbRjNIYHMvTpYfdoDNMjlAfSjtEYHsjQp4fdozFMj1AeSDtGY3ggQ58edo+4GAYAnEy4KSuZA6kAAAAASUVORK5CYII\u003d",
+        "disableSafetyLimits": false,
+        "useLiveProcessingIfAvailable": true,
+        "legendPlacement": "OUTER_RIGHT"
+      },
+      "maxDataBytes": 157286400
+    },
+    {
+      "copySelectionFromScript": true,
+      "engineType": "LINO",
+      "def": {
+        "type": "lines",
+        "variant": "normal",
+        "name": "Chimio (moy +300%), Radio (moy +43% depuis 2007)",
+        "userEditedName": true,
+        "genericDimension0": [
+          {
+            "column": "an",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of SECHI, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of SECHI, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of SERAD, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of SERAD, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            }
+          }
+        ],
+        "genericDimension1": [],
+        "facetDimension": [],
+        "animationDimension": [],
+        "genericMeasures": [
+          {
+            "column": "SECHI",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "SERAD",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          }
+        ],
+        "xDimension": [],
+        "yDimension": [],
+        "uaXDimension": [],
+        "uaYDimension": [],
+        "uaSize": [],
+        "uaShape": [],
+        "uaColor": [],
+        "uaTooltip": [],
+        "groupDimension": [],
+        "xMeasure": [],
+        "yMeasure": [],
+        "colorMeasure": [],
+        "sizeMeasure": [],
+        "geometry": [],
+        "tooltipMeasures": [],
+        "boxplotBreakdownDim": [],
+        "boxplotValue": [],
+        "filters": [
+          {
+            "filterType": "ALPHANUM_FACET",
+            "column": "cat",
+            "columnType": "ALPHANUM",
+            "isA": "filter",
+            "excludedValues": {
+              "108": true,
+              "109": true,
+              "114": true,
+              "119": true,
+              "122": true,
+              "127": true,
+              "128": true,
+              "129": true,
+              "131": true,
+              "135": true,
+              "138": true,
+              "139": true,
+              "140": true,
+              "141": true,
+              "144": true,
+              "146": true,
+              "156": true,
+              "161": true,
+              "173": true,
+              "179": true,
+              "292": true,
+              "362": true,
+              "365": true,
+              "412": true,
+              "422": true,
+              "425": true,
+              "426": true,
+              "430": true,
+              "431": true,
+              "433": true,
+              "444": true,
+              "696": true,
+              "697": true,
+              "698": true,
+              "699": true,
+              "999": true,
+              "___dku_no_value___": true
+            },
+            "explicitExclude": false
+          }
+        ],
+        "axis1LogScale": false,
+        "axis2LogScale": false,
+        "includeZero": true,
+        "smoothing": true,
+        "showLegend": true,
+        "showXAxis": false,
+        "showInChartValues": false,
+        "showInChartLabels": true,
+        "strokeWidth": 5,
+        "fillOpacity": 0.6,
+        "showXAxisLabel": true,
+        "showYAxisLabel": true,
+        "xAxisLabel": "",
+        "hexbinRadius": 20,
+        "hexbinNumber": 20,
+        "hexbinRadiusMode": "NUM_HEXAGONS",
+        "chartHeight": 200,
+        "singleXAxis": true,
+        "multiTooltips": false,
+        "animationFrameDuration": 3000,
+        "animationRepeat": true,
+        "colorOptions": {
+          "singleColor": "#2678B1",
+          "transparency": 0.75,
+          "colorPalette": "default",
+          "ccScaleMode": "NORMAL",
+          "customPalette": {
+            "id": "__dku_custom__",
+            "name": "Custom Palette",
+            "colors": [],
+            "values": [],
+            "fixedValues": false
+          },
+          "paletteType": "CONTINUOUS",
+          "quantizationMode": "NONE",
+          "numQuantizeSteps": 5,
+          "paletteMiddleValue": 0.0
+        },
+        "bubblesOptions": {
+          "defaultRadius": 5.0,
+          "singleShape": "FILLED_CIRCLE"
+        },
+        "computeMode": "NORMAL",
+        "xAxisMode": "NORMAL",
+        "yAxisMode": "NORMAL",
+        "pieOptions": {
+          "donutHoleSize": 54.0
+        },
+        "scatterOptions": {
+          "equalScales": false,
+          "identityLine": false
+        },
+        "mapOptions": {
+          "tilesLayer": "cartodb-positron",
+          "lockSquareGrid": false
+        },
+        "mapGridOptions": {
+          "gridLonDeg": 0.5,
+          "gridLatDeg": 0.5
+        },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAB1ElEQVRoQ2NkGGGAcbj7V758y/6HnT6OMH8Oew+jR+ioh4d7Eh+N4dEYHgIhIF+yOfBhj+96Ypw65JM0erVDyNND2sOkehYUGEPaw4RiE5v8kPMwObGK7PEh4WG58q0LGf4z3HvU5d1ITqwOGQ9TGpswj6499mJ9sJVE4LDMw2uPv3RhZPhf/Z+R8VawhXj6oG5LUytG8SX7QZGHifHouhMvZjH8Z1D9wcgY8fP7t4/i3//8/84jIMTI9q/oz9/f68KsZY4Tk78H1MOrjrxW33z9QUiMmewEd32Jr+gO3njipfjf//9XBFlKwPuzxHhq0MXwuuMv9pdsvZR2r8XtNqUeIFU/3WJ4//7/LB84XzkFWojvIiYJk+oRYtXTxcOgGKVmsiTWc8OipUWJZ+lWD8uVb1n1qNMnjFLHUkM/1ZP0QOZPYgKEah6Wrdha+LjDu58YSwdSDUUeli/fMomJhbH3fqv3Q1yeWHX1KluYtvavgfQkSZ0HSpPoYCqhcRZalHoSOUTXHn+xNNhSInrIxPBgcSi13EFRHqaWI+hpzqiH6RnaA2HXaAxTM9QHW5VE87Z0Q0MDU0NDwz9qBiKlZo0maUpDcLDrH43hwR5DlLpvxMUwAH5qlylkXvCVAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
