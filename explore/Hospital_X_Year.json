@@ -218,7 +218,7 @@
         "showXAxis": false,
         "showInChartValues": false,
         "showInChartLabels": true,
-        "strokeWidth": 1,
+        "strokeWidth": 5,
         "fillOpacity": 0.6,
         "showXAxisLabel": true,
         "showYAxisLabel": true,
@@ -269,7 +269,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABbElEQVRoQ2NkGGGAkZB/FSq2Njzo8G4gpG6oyBP08FDxCLHuHPUwsSE1VNWRHMPK1Rtk77YGPB4xHgZ5VKl8N/+9TtePQ9HTJMfwUPQksptHPUxqDMqXb6l62OnTRqq+gVI/GsMDFfL0snc0hqkd0grl290fdHrupLa55JpH1xhWKN/S+KDTp55cx1JDH808rF62kfdml/9najiSEjPkyze1Puz0q4aZQTMPU+JIWuod9TAtQ3cwmD0gMaxQtsniQZffCWoHgELF1oQHHd4L8Jk7IB6mvkc3JTzo8MPr0dFCi9qhPljNG7AkrVi1R/x+m8tLegfMgHmY3h4dzcMDFeL0tnc0SdM7xOlt35CJYanizSLPen3fUBpAQ8bDlHp00JTS8uVbex92ehdTy0OEzBmNYUIhNNTlR2N4sMWgfPmW1oedPvAxKUrdNyhjWL5qh+TDNo/nlHoOm/5B6WFaeHTQVEu09NxoDANDAACza0ApuDiGcgAAAABJRU5ErkJggg\u003d\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABuUlEQVRoQ+3ZPU7DMBQH8GRgQhyBmI1zMDZ1YAcJcQYEcREDYqIObFwAIcEOcduRjSMgITHgcATEwIZSiBRVpLaTlzgvbbbKjuuf/8/5aF1nwQ5X5SVMPElOt1T9sLQrwSmkS2gt8BQdxlcyCo6wJFk0T21wOoDHRo8J729jRhuBu1DexmDs6FLgvz29J6PgDlt5lwZjg2bzrQzGdsuqDMaWNAiYsHFPcn+CAQ8CxgAF28MqbLbHPRaHCQ8iVf+620ETXh+MDj6G/Zts0oQJITmluc/WX0RAwXmo4zirbXjLSivMcd2XlS/38O3a/64FPK8sm7qNbYYPa6/RzufsXBoH171HVeMvwaoVgmivq6x1xu1EwjrQxu7DEBVRNMYGE+fvnJ6ZfEcnEkYBNilDE5CqL7qESRjfyijYV8GK2lGBvYFgyZDystj0PKtgcjLx5UVvXAVgeq5dsIV/NayCTdOB6I8GDHVVRwOGSNf6RSudAFRyuguCImESinsZ0V1d1Lx+KMAQ0E68PJRZiFYkTI5jX14G/z6AQO/xVoDzSU1/dPs9niWnp2VSXO7h3Aq0LmHoRGfHWzjwD2iyiCncZErbAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
@@ -410,7 +410,7 @@
         "showXAxis": false,
         "showInChartValues": false,
         "showInChartLabels": true,
-        "strokeWidth": 1,
+        "strokeWidth": 5,
         "fillOpacity": 0.6,
         "showXAxisLabel": true,
         "showYAxisLabel": true,
@@ -461,7 +461,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABCElEQVRoQ+2RsQ2CUBiEYQMbW5HEHeys7CBWtk7gAIgLALE2DuAGhmdlZecMFiixtzMWJlrREMmRCPhOf9p7+bnvPtP4s88sy2t5anqOnGXZ97q+Kw1cBNCZxcM0dHe6AuZ7fQycP9jzt+3749a6LMZHHUeoHBhB2v5mkgSjNXpXV944cAZie2qQRM6+LrCiu18Dbho0+582wF1f9U+Bc6h7CG2AqwK1vHj+NI1VGrrXdzd/DhgNJ8BoIfZcDLMbRP3FMFqIPRfD7AZRfzGMFmLPxTC7QdRfDKOF2HMxzG4Q9RfDaCH2XAyzG0T9xTBaiD0Xw+wGUX8xjBZiz8Uwu0HUXwyjhdjzF2NOISlTFK9xAAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABTElEQVRoQ+2UsUrDUBiF799GqKV7oaCC7+DeLlKsj+EbFGLGTtLGwaGbuLd7GwQ79A18AqGGgouLSwgBm1siVCR0OMiNyR//bklOLuc7Xyip1O/Ifmqt3fO39P2yXBMCcuo8nm30xqWY7l9vexPknaJmIOB95duDpbUKg0XyzB9ddooKmO71a+B9gK3BrH4Qkpc800q9k6ZDRbpRpFGMAiOWT67nyzy/iD8H3o2SF3huwN/gjnflD3sPyNdhIpM78E/jSqlAa32nKrSKI+uj9hkHL+OLyATo7ozCAJuAOra9KZFufp1Vtfr+Tfc5039pE6WzPqNUhpGxBBhZiXNGDHO2h3QXw8hKnDNimLM9pLsYRlbinBHDnO0h3cUwshLnjBjmbA/pLoaRlThnxDBne0h3MYysxDkjhjnbQ7qLYWQlzhkxzNke0v3fGd4Ci1o/KdUGZ/IAAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
@@ -601,7 +601,7 @@
         "showXAxis": false,
         "showInChartValues": false,
         "showInChartLabels": true,
-        "strokeWidth": 1,
+        "strokeWidth": 5,
         "fillOpacity": 0.6,
         "showXAxisLabel": true,
         "showYAxisLabel": true,
@@ -652,7 +652,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABEUlEQVRoQ+2TTw7BUByEVTcSezaCRA8jURYOIQ6g0YWNRNI2vYC4hX8JF3AKC21YugBNWNmIl06qwuiv2zevmW++PC2XsU9DeRv23IhueinwzB165xdzMHCS8uXBtljQr06Uv4xPTvec5B9p3/kosKpsdbiwQ6/jpg2D/O8rwK+K1azlKPDbE6T0O5mfAY6DqNgb4+g293G5uHMaYOXzsFa90DdncaCPc3pgFWjdXvcPbmv6fP63wKohBBh9C6w5McxqDu0thtGlWHNimNUc2lsMo0ux5sQwqzm0txhGl2LNiWFWc2hvMYwuxZoTw6zm0N5iGF2KNSeGWc2hvcUwuhRrTgyzmkN7i2F0KdZc5gzfAUotIinS/k+TAAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABLElEQVRoQ+2TMW7CUBBE/7qJZHEGTJGCC+QAtDjOCaBCoqOgCZRQIdxGOUlMlC60HIMIXwEKSDYSKJ2DR8iOPGHdev7XvHm2uCt7JJd3MvHq27tnEW2esrpbz6N27rmKBvKBLyheH71Eoq7vRGo/x9fz+9YFVxV+pBTgcy1vB683e//r7aBeN43bm8KJci78c+CsPo3xYqiqD8d34tJPkafNLFyVMUYlgBGwYJS8F/Fb0ABnjRKMk4VT56vK8iMOp8hw1MC/AQaPSc+J62R9Ef8S+JxpA0b+A+aMGWa2h3Q3w8hKzBkzzGwP6W6GkZWYM2aY2R7S3QwjKzFnzDCzPaS7GUZWYs6YYWZ7SHczjKzEnDHDzPaQ7mYYWYk5Y4aZ7SHdzTCyEnPm6gx/AyzZMCk/wiHrAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
@@ -665,7 +665,7 @@
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "Nombre total infirmiers / an (+23%)",
+        "name": "ETP (équivalent temps plein) total infirmiers / an (+23%)",
         "userEditedName": true,
         "genericDimension0": [
           {
@@ -803,7 +803,7 @@
         "showXAxis": false,
         "showInChartValues": false,
         "showInChartLabels": true,
-        "strokeWidth": 1,
+        "strokeWidth": 5,
         "fillOpacity": 0.6,
         "showXAxisLabel": true,
         "showYAxisLabel": true,
@@ -855,7 +855,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAu0lEQVRoQ+2TPQ5AUBgEOYmz6DmPM9C7hVLvLFzkiUKiILHxO+yr9yU7O/ni6Gcv/hlvZOCvG8caToq2m+SEEOqhypu9ojDAE2BfZulesK3cK4HPgluDfg3wlZBL8MeB7wKdoR8HPnqT6n8Dq4vR8jZMM6b2tWF1MVrehmnG1L42rC5Gy9swzZja14bVxWh5G6YZU/vasLoYLW/DNGNqXxtWF6PlbZhmTO1rw+pitLwN04ypfW1YXYyWHwGplRgpOMbveAAAAABJRU5ErkJggg\u003d\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABJ0lEQVRoQ+2TMQsBYRzG/y+TEqVs8i73RZTFUcqH8a634Vaj0WAi5bAon0NZThktp0zqTAyU3OV5+8v/5rvn/T3P7z1Ff/I43qqw99xI/WLfqgnmiqh4Z48pMzsM3OEnXVgW1ibYhoNW7ZMCSd+xWlh3FyNSynlAxvH0ms1Njr36KSl42ve/XlibYEOKorDf6qSFQn6XurA2wZiIKqirhyqdqDDy30IVfM59W1h3l+vQbzZswdg456Vw2dvmS5dI7fz22QaA7TMSXWnbcIjzpDBiVU6ZYpiTDQSLGEasyilTDHOygWARw4hVOWWKYU42ECxiGLEqp0wxzMkGgkUMI1bllCmGOdlAsIhhxKqcMsUwJxsIFjGMWJVTphjmZAPBIoYRq3LKvAG9Uy4phg1ECAAAAABJRU5ErkJggg\u003d\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
@@ -868,7 +868,7 @@
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "Nombre total de médecins / an (+22,5%)",
+        "name": "ETP (équivalent temps plein) total de médecins / an (+22,5%)",
         "userEditedName": true,
         "genericDimension0": [
           {
@@ -1006,7 +1006,7 @@
         "showXAxis": false,
         "showInChartValues": false,
         "showInChartLabels": true,
-        "strokeWidth": 1,
+        "strokeWidth": 5,
         "fillOpacity": 0.6,
         "showXAxisLabel": true,
         "showYAxisLabel": true,
@@ -1058,7 +1058,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAA7ElEQVRoQ+2RsQ3CMBREvzMHImIJKgZACjAAayAUaioCe1BRAZEoU9AzAiKiZwPMCrFs3YG41I6f7z1nf/a5X92br85rs3fjLbu1m8mr646vHNwvj6O2ml27jgg5Bx88WNS5ZX543xYHc86HPDbFWfjgFI+OuSNqcF6e5o9quo95APrfoMG9ZT1+7ooL+pEpeUGDU4JZd2kwyzyKq8Io0yyOCrPMo7gqjDLN4qgwyzyKq8Io0yyOCrPMo7gqjDLN4qgwyzyKq8Io0yyOCrPMo7gqjDLN4qgwyzyKq8Io0yyOCrPMo7gqjDLN4nwA9MEaKZt9BuoAAAAASUVORK5CYII\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABJ0lEQVRoQ+2TMQsBYRzG/y+TEqVs8i73RZTFUcqH8a634Vaj0WAi5bAon0NZThktp0zqTAyU3OV5+8v/5rvn/T3P7z1Ff/I43qqw99xI/WLfqgnmiqh4Z48pMzsM3OEnXVgW1ibYhoNW7ZMCSd+xWlh3FyNSynlAxvH0ms1Njr36KSl42ve/XlibYEOKorDf6qSFQn6XurA2wZiIKqirhyqdqDDy30IVfM59W1h3l+vQbzZswdg456Vw2dvmS5dI7fz22QaA7TMSXWnbcIjzpDBiVU6ZYpiTDQSLGEasyilTDHOygWARw4hVOWWKYU42ECxiGLEqp0wxzMkGgkUMI1bllCmGOdlAsIhhxKqcMsUwJxsIFjGMWJVTphjmZAPBIoYRq3LKvAG9Uy4phg1ECAAAAABJRU5ErkJggg\u003d\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
@@ -1071,7 +1071,408 @@
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "Équivalent temps plein / an (+30%)",
+        "name": "ETP (Équivalent temps plein) pour chaque spé / an (+30%)",
+        "userEditedName": true,
+        "genericDimension0": [
+          {
+            "column": "an",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Sum of ADMTO, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Sum of ADMTO, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Sum of ASHAU, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Sum of ASHAU, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 2,
+                "label": "Sum of EDUTO, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 2,
+                "label": "Sum of EDUTO, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 3,
+                "label": "Sum of PHLAB, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 3,
+                "label": "Sum of PHLAB, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 4,
+                "label": "Sum of SAGFE, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 4,
+                "label": "Sum of SAGFE, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 5,
+                "label": "Sum of PSYCH, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 5,
+                "label": "Sum of PSYCH, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 6,
+                "label": "Sum of AIDES, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 6,
+                "label": "Sum of AIDES, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 7,
+                "label": "Sum of REEDU, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 7,
+                "label": "Sum of REEDU, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 8,
+                "label": "Sum of INF, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 8,
+                "label": "Sum of INF, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 9,
+                "label": "Sum of CADRE, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 9,
+                "label": "Sum of CADRE, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            }
+          }
+        ],
+        "genericDimension1": [],
+        "facetDimension": [],
+        "animationDimension": [],
+        "genericMeasures": [
+          {
+            "column": "ADMTO",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "ASHAU",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "EDUTO",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "PHLAB",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "SAGFE",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "PSYCH",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "AIDES",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "REEDU",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "INF",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "CADRE",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          }
+        ],
+        "xDimension": [],
+        "yDimension": [],
+        "uaXDimension": [],
+        "uaYDimension": [],
+        "uaSize": [],
+        "uaShape": [],
+        "uaColor": [],
+        "uaTooltip": [],
+        "groupDimension": [],
+        "xMeasure": [],
+        "yMeasure": [],
+        "colorMeasure": [],
+        "sizeMeasure": [],
+        "geometry": [],
+        "tooltipMeasures": [],
+        "boxplotBreakdownDim": [],
+        "boxplotValue": [],
+        "filters": [
+          {
+            "filterType": "ALPHANUM_FACET",
+            "column": "an",
+            "columnType": "ALPHANUM",
+            "isA": "filter",
+            "excludedValues": {
+              "2000": true
+            },
+            "explicitExclude": false
+          },
+          {
+            "filterType": "ALPHANUM_FACET",
+            "column": "cat",
+            "columnType": "ALPHANUM",
+            "isA": "filter",
+            "excludedValues": {
+              "108": true,
+              "109": true,
+              "114": true,
+              "119": true,
+              "122": true,
+              "127": true,
+              "128": true,
+              "129": true,
+              "131": true,
+              "135": true,
+              "138": true,
+              "139": true,
+              "140": true,
+              "141": true,
+              "144": true,
+              "146": true,
+              "156": true,
+              "161": true,
+              "173": true,
+              "179": true,
+              "292": true,
+              "362": true,
+              "365": true,
+              "412": true,
+              "422": true,
+              "425": true,
+              "426": true,
+              "430": true,
+              "431": true,
+              "433": true,
+              "444": true,
+              "696": true,
+              "697": true,
+              "698": true,
+              "699": true,
+              "999": true,
+              "___dku_no_value___": true
+            },
+            "explicitExclude": false
+          }
+        ],
+        "axis1LogScale": false,
+        "axis2LogScale": false,
+        "includeZero": true,
+        "smoothing": true,
+        "showLegend": true,
+        "showXAxis": false,
+        "showInChartValues": false,
+        "showInChartLabels": true,
+        "strokeWidth": 5,
+        "fillOpacity": 0.6,
+        "showXAxisLabel": true,
+        "showYAxisLabel": true,
+        "xAxisLabel": "",
+        "hexbinRadius": 20,
+        "hexbinNumber": 20,
+        "hexbinRadiusMode": "NUM_HEXAGONS",
+        "chartHeight": 200,
+        "singleXAxis": true,
+        "multiTooltips": false,
+        "animationFrameDuration": 3000,
+        "animationRepeat": true,
+        "colorOptions": {
+          "singleColor": "#2678B1",
+          "transparency": 0.75,
+          "colorPalette": "default",
+          "ccScaleMode": "NORMAL",
+          "customPalette": {
+            "id": "__dku_custom__",
+            "name": "Custom Palette",
+            "colors": [],
+            "values": [],
+            "fixedValues": false
+          },
+          "paletteType": "CONTINUOUS",
+          "quantizationMode": "NONE",
+          "numQuantizeSteps": 5,
+          "paletteMiddleValue": 0.0
+        },
+        "bubblesOptions": {
+          "defaultRadius": 5.0,
+          "singleShape": "FILLED_CIRCLE"
+        },
+        "computeMode": "NORMAL",
+        "xAxisMode": "NORMAL",
+        "yAxisMode": "NORMAL",
+        "pieOptions": {
+          "donutHoleSize": 54.0
+        },
+        "scatterOptions": {
+          "equalScales": false,
+          "identityLine": false
+        },
+        "mapOptions": {
+          "tilesLayer": "cartodb-positron",
+          "lockSquareGrid": false
+        },
+        "mapGridOptions": {
+          "gridLonDeg": 0.5,
+          "gridLatDeg": 0.5
+        },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAADqElEQVRoQ+1ZS2hUVxj+/nPu3DuPUDUaEiJaLJoZzcJNaLWrRqMLK0IjzaLUXXVE40I00b24SLs0apNCN90lKBSLGBuNLaIuhJZCbRKkYhB8EvFBJnMf55czQVGTmDuTuXdGnLO5j/M/vu//zrnn3nMJH1ij95Fv9+4LP4F55WvYH0WYD6R7N43NxacsCXenB4fae1qa5wJfSH+ohLt3DR4F4fPXgRLQtefHjQNExIUQyNen6IS704PnAFhBKZQvwbftCyZ8PP37DwxqIin37z3R/Pd8gYTlnxfhIOdWyQn3fd0nH1QvHmjv2dhSCJgbydQQM64RkcPMCwlYCkI1GONrRoe3zxXzv2TqHAOWthPgjtTIyHV9fiOZ7ABoy1z+M/WvGRlunqbwsfbL9aYdfZjubXJmC/pPQ0PKIHFS9zPDhcAQlPqzcXT0ciFAwvSZdUhrhXRFwgQTRq685nAYgILOUSEcdIVLHb+icKkVCDp/ReGgK1zq+BWFS61A0PkrCgdd4VLHD1XhZZ2/1gsRSYG9bwFa8S7yzHSfiJ8CWOW7SIwJEMYB2Aw4YBABCSaqIvBHt7u2bpiR8Omr9/Sn3WO97dK6vnbap1z9gTNLIgb1M6ufx77f9otvQGVgOKvCH3f+dhEEAohvd325oQywFgWC7yGtVX+ZkYH7BNS+gUDgZutndTuLgirAIL4JFwvDqSv3LgiSR75aX3OpWDHziRM6YT/g+v5l05p42OjYbqMgWZfbWSFOEpDbfHfX1ba0EXl+Yr1tU5aECyHi16dC2G+l/NjxwMEE2PwUhppaSx3jD9Q8+J+ael9tEPLZfXpn0kIkvhUkW8FqsZ/YedkQFBQzbe5qmVFhPn/4LAixKZBqB57fuktt/QXNmbyAhWBcGdIhFLmkKaYpPHTm+hLLi/YL09qxbsuqOyVFF0ByX0Oae3riyGYTMIxqkBuHlDEoLAMjBUEpMHJr5XybTa45Cc9yoEwbrmVDmSaELSEdfZyEF5uAHX+CbDRDLtnwFBO/+s2qrx14SuOw4XKWvDeeO998d3LFNMLDR2vakpnsXzD4MSaFh6iSgGfCE4tAYjnAJiDqAF4N4rXvIukaEeFELOEYpvSEoEysKpKJV0W0T9aKGc8SC6Lji2oSmWgi9w9p6gWDGEyKBWngmgyB9V0W+r1e32eQx4JcJaTDUza5poRhKyHc3DkJx5Mytxookq6Swkl/cugLXwrPV7ly8q8QLic1gsDywSn8AipiKDgSHLx3AAAAAElFTkSuQmCC",
+        "disableSafetyLimits": false,
+        "useLiveProcessingIfAvailable": true,
+        "legendPlacement": "OUTER_RIGHT"
+      },
+      "maxDataBytes": 157286400
+    },
+    {
+      "copySelectionFromScript": true,
+      "engineType": "LINO",
+      "def": {
+        "type": "lines",
+        "variant": "normal",
+        "name": "ETP de tous les salariés / an",
         "userEditedName": true,
         "genericDimension0": [
           {
@@ -1209,7 +1610,7 @@
         "showXAxis": false,
         "showInChartValues": false,
         "showInChartLabels": true,
-        "strokeWidth": 1,
+        "strokeWidth": 5,
         "fillOpacity": 0.6,
         "showXAxisLabel": true,
         "showYAxisLabel": true,
@@ -1261,7 +1662,102 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABDklEQVRoQ+2UMQrCQBRETSMIHkHZPkewtF5sBLH1CFYJCBIEIVtZeAkRbGRr7TyC/apHUAJWYisakIzrRP/2O/vfvOQHlT87wS/yqsiunNHdZ2ylAQ6Tbf2cXeYHowdFJFECq9hOXKrHRcBe3aUADpNldZ/0rp8AfMz0Cpz3b/mAvb/hFdgXVN47cGAVr9su7WwY4OBbWkV26owescIVAm5Gtn80elEmuLeAG8Nd7TRrZWUH/OqWZigPvrQYoLxuaQEma0A+aTIh8HHEMLxSskAxTCYEPo4YhldKFiiGyYTAxxHD8ErJAsUwmRD4OGIYXilZoBgmEwIfRwzDKyULFMNkQuDjiGF4pWSBf2f4BvC9JykfHXNiAAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABMElEQVRoQ+2TMW7CQBRE/y5XSIVAPgZ16EAbWu4QeiwKary5RkoqJKeFJkVOQBlhl5wgaVi0qSIkZGR5zCj5bi3Pzpu3NvLPHvPXeJM0X4vIgwT5Kl7c6JKPHrg/33Stsa8ixsbyQeRbjDyXmfusI4sSOEnzXeHdYx2gqm8ogCNgLIqC/D1Ca8C9xdugcwpZkNOy9JP3KhOo9zDgJM23hXdDVPG6uY0DI/+/upCNXekIF6ydlavxvokybWTcbDjCGQkfB/+0aKMY6oyrwD/2RI6ld1PU4ffIvdnwPcohzlRgxKpMmWqYyQaiixpGrMqUqYaZbCC6qGHEqkyZapjJBqKLGkasypSphplsILqoYcSqTJlqmMkGoosaRqzKlKmGmWwguqhhxKpMmWqYyQaiyxmwsjgp/8hd+wAAAABJRU5ErkJggg\u003d\u003d",
+        "disableSafetyLimits": false,
+        "useLiveProcessingIfAvailable": true,
+        "legendPlacement": "OUTER_RIGHT"
+      },
+      "maxDataBytes": 157286400
+    },
+    {
+      "copySelectionFromScript": true,
+      "engineType": "LINO",
+      "def": {
+        "type": "grouped_columns",
+        "variant": "normal",
+        "name": "New chart",
+        "userEditedName": false,
+        "genericDimension0": [],
+        "genericDimension1": [],
+        "facetDimension": [],
+        "animationDimension": [],
+        "genericMeasures": [],
+        "xDimension": [],
+        "yDimension": [],
+        "uaXDimension": [],
+        "uaYDimension": [],
+        "uaSize": [],
+        "uaShape": [],
+        "uaColor": [],
+        "uaTooltip": [],
+        "groupDimension": [],
+        "xMeasure": [],
+        "yMeasure": [],
+        "colorMeasure": [],
+        "sizeMeasure": [],
+        "geometry": [],
+        "tooltipMeasures": [],
+        "boxplotBreakdownDim": [],
+        "boxplotValue": [],
+        "filters": [],
+        "axis1LogScale": false,
+        "axis2LogScale": false,
+        "includeZero": true,
+        "smoothing": true,
+        "showLegend": true,
+        "showXAxis": false,
+        "showInChartValues": false,
+        "showInChartLabels": true,
+        "strokeWidth": 1,
+        "fillOpacity": 0.6,
+        "showXAxisLabel": true,
+        "showYAxisLabel": true,
+        "hexbinRadius": 20,
+        "hexbinNumber": 20,
+        "hexbinRadiusMode": "NUM_HEXAGONS",
+        "chartHeight": 200,
+        "singleXAxis": true,
+        "multiTooltips": false,
+        "animationFrameDuration": 3000,
+        "animationRepeat": true,
+        "colorOptions": {
+          "singleColor": "#2678B1",
+          "transparency": 0.75,
+          "colorPalette": "default",
+          "ccScaleMode": "NORMAL",
+          "customPalette": {
+            "id": "__dku_custom__",
+            "name": "Custom Palette",
+            "colors": [],
+            "values": [],
+            "fixedValues": false
+          },
+          "paletteType": "CONTINUOUS",
+          "quantizationMode": "NONE",
+          "numQuantizeSteps": 5,
+          "paletteMiddleValue": 0.0
+        },
+        "bubblesOptions": {
+          "defaultRadius": 5.0,
+          "singleShape": "FILLED_CIRCLE"
+        },
+        "xAxisMode": "NORMAL",
+        "yAxisMode": "NORMAL",
+        "pieOptions": {
+          "donutHoleSize": 54.0
+        },
+        "scatterOptions": {
+          "equalScales": false,
+          "identityLine": false
+        },
+        "mapOptions": {
+          "tilesLayer": "cartodb-positron",
+          "lockSquareGrid": false
+        },
+        "mapGridOptions": {
+          "gridLonDeg": 0.5,
+          "gridLatDeg": 0.5
+        },
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
