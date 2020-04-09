@@ -28,6 +28,15 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "Hospital_X_Year",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
@@ -199,11 +208,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586427925127
+    "lastModifiedOn": 1586449962834
   },
   "creationTag": {
     "versionNumber": 0,
