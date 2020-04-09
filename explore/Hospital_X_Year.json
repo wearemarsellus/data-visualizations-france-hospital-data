@@ -665,7 +665,7 @@
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "ETP (équivalent temps plein) total infirmiers / an (+23%)",
+        "name": "ETP (équivalent temps plein) total infirmiers / an (+30%)",
         "userEditedName": true,
         "genericDimension0": [
           {
@@ -868,7 +868,7 @@
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "ETP (équivalent temps plein) total de médecins / an (+22,5%)",
+        "name": "ETP (équivalent temps plein) total de médecins / an (+30%)",
         "userEditedName": true,
         "genericDimension0": [
           {
@@ -1071,7 +1071,7 @@
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "ETP (Équivalent temps plein) pour chaque spé / an (+30%)",
+        "name": "ETP (Équivalent temps plein) pour chaque spé / an",
         "userEditedName": true,
         "genericDimension0": [
           {
@@ -1472,7 +1472,7 @@
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "ETP de tous les salariés / an",
+        "name": "ETP de tous les salariés / an (+41%)",
         "userEditedName": true,
         "genericDimension0": [
           {
@@ -1890,7 +1890,7 @@
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "Moy passage aux urgences (par hop. \u003d +100%), total passage aux urgences +35%",
+        "name": "Moy passage aux urgences (par hop. \u003d +100%), total passage aux urgences +55%",
         "userEditedName": true,
         "genericDimension0": [
           {
@@ -2093,6 +2093,221 @@
           "gridLatDeg": 0.5
         },
         "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAB40lEQVRoQ+2WvU8CMRyGW5h0N7kYw8GqcRYWE1hI5CBRg3+Bs4nRWFY3m2CizO4mfoLeDTrIJg6u6mSgLqLuDAapueEMEuAK1zsKlLl9+3vep3cHBGP2g6PEe3b/EfdBmtnMPwKCEzEAIG3lGwngi1K1uBJRoirSiwRr0W4ShxbYgjThQluGWt5PEJbbOlTA56VqbjWibDSDBdDV3BtOPbHAmmuEBDbtWQAQgsJyWDloBgpmLoP++mTtNRv/ZAX9y+t1g5vrm69pu3PU7asQyabKTmYYmGHLIoTguA4alXR4+rYTiIquTwlOpp2ADsywnUVrsBAyFhuA7tq9dXstwTPDLKAsn5VeAT3/DrOAmkN5AdvXW/qEUj94/pqwmkvPTtUghI3WJruBegXX7jYwXWlWSyzXTUX6HcFajGWtG2s6Aucf3pe+F5SbNQh/eBysIuOI4MQ6jywnGUyGnRygIj1HsPbv35GTPKd7XQMe5HParRRm4BlkzPsBzUFA8xWcPGwNDezoBZ8PvFT2tIxTC27utwUW1VS/pdgC9xss6j4JLKoZXnNJw7yaFDVHGhbVDK+5pGFeTYqaIw2LaobXXNIwryZFzZGGRTXDay5pmFeTouZIw6Ka4TWXNMyrSVFzxs7wL4EYkyklG0fDAAAAAElFTkSuQmCC",
+        "disableSafetyLimits": false,
+        "useLiveProcessingIfAvailable": true,
+        "legendPlacement": "OUTER_RIGHT"
+      },
+      "maxDataBytes": 157286400
+    },
+    {
+      "copySelectionFromScript": true,
+      "engineType": "LINO",
+      "def": {
+        "type": "lines",
+        "variant": "normal",
+        "name": "New chart",
+        "userEditedName": true,
+        "genericDimension0": [
+          {
+            "column": "an",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of SEJHC, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of SEJHC, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Sum of SEJHC, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Sum of SEJHC, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            }
+          }
+        ],
+        "genericDimension1": [],
+        "facetDimension": [],
+        "animationDimension": [],
+        "genericMeasures": [
+          {
+            "column": "SEJHC",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "SEJHC",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis2",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          }
+        ],
+        "xDimension": [],
+        "yDimension": [],
+        "uaXDimension": [],
+        "uaYDimension": [],
+        "uaSize": [],
+        "uaShape": [],
+        "uaColor": [],
+        "uaTooltip": [],
+        "groupDimension": [],
+        "xMeasure": [],
+        "yMeasure": [],
+        "colorMeasure": [],
+        "sizeMeasure": [],
+        "geometry": [],
+        "tooltipMeasures": [],
+        "boxplotBreakdownDim": [],
+        "boxplotValue": [],
+        "filters": [
+          {
+            "filterType": "ALPHANUM_FACET",
+            "column": "cat",
+            "columnType": "ALPHANUM",
+            "isA": "filter",
+            "excludedValues": {
+              "108": true,
+              "109": true,
+              "114": true,
+              "119": true,
+              "122": true,
+              "127": true,
+              "128": true,
+              "129": true,
+              "131": true,
+              "135": true,
+              "138": true,
+              "139": true,
+              "140": true,
+              "141": true,
+              "144": true,
+              "146": true,
+              "156": true,
+              "161": true,
+              "173": true,
+              "179": true,
+              "292": true,
+              "362": true,
+              "365": true,
+              "412": true,
+              "422": true,
+              "425": true,
+              "426": true,
+              "430": true,
+              "431": true,
+              "433": true,
+              "444": true,
+              "696": true,
+              "697": true,
+              "698": true,
+              "699": true,
+              "999": true,
+              "___dku_no_value___": true
+            },
+            "explicitExclude": false
+          }
+        ],
+        "axis1LogScale": false,
+        "axis2LogScale": false,
+        "includeZero": true,
+        "smoothing": true,
+        "showLegend": true,
+        "showXAxis": false,
+        "showInChartValues": false,
+        "showInChartLabels": true,
+        "strokeWidth": 5,
+        "fillOpacity": 0.6,
+        "showXAxisLabel": true,
+        "showYAxisLabel": true,
+        "xAxisLabel": "",
+        "hexbinRadius": 20,
+        "hexbinNumber": 20,
+        "hexbinRadiusMode": "NUM_HEXAGONS",
+        "chartHeight": 200,
+        "singleXAxis": true,
+        "multiTooltips": false,
+        "animationFrameDuration": 3000,
+        "animationRepeat": true,
+        "colorOptions": {
+          "singleColor": "#2678B1",
+          "transparency": 0.75,
+          "colorPalette": "default",
+          "ccScaleMode": "NORMAL",
+          "customPalette": {
+            "id": "__dku_custom__",
+            "name": "Custom Palette",
+            "colors": [],
+            "values": [],
+            "fixedValues": false
+          },
+          "paletteType": "CONTINUOUS",
+          "quantizationMode": "NONE",
+          "numQuantizeSteps": 5,
+          "paletteMiddleValue": 0.0
+        },
+        "bubblesOptions": {
+          "defaultRadius": 5.0,
+          "singleShape": "FILLED_CIRCLE"
+        },
+        "computeMode": "NORMAL",
+        "xAxisMode": "NORMAL",
+        "yAxisMode": "NORMAL",
+        "pieOptions": {
+          "donutHoleSize": 54.0
+        },
+        "scatterOptions": {
+          "equalScales": false,
+          "identityLine": false
+        },
+        "mapOptions": {
+          "tilesLayer": "cartodb-positron",
+          "lockSquareGrid": false
+        },
+        "mapGridOptions": {
+          "gridLonDeg": 0.5,
+          "gridLatDeg": 0.5
+        },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABzElEQVRoQ+2TsUsCYRjG389cqimotEEuIloaWgq0KKigpSzU5v6AWgKhw80lqCRqbsn54GzQpMhwyFIooi1oCK6lExqLhujecBBs0PNO3+6Dvlu/733e53l+3zHg9Evd6IcMXcnQVP9DOy2ydorZ0ToplaMG4iIDYCG/Z44xhrU6qaKeDwe8s2bakpzJV+5ou0sN7/5JYPX6dZW52AYCPkYCA+tNmUdAcEEBEKYPQuPnYb93pzp3dKaNfhrfBV9PV2P6iMfv3UxdG/N+VGdJAqslPcYQFpohUzEiyelLRLh62QvG65UxEk33Pu0H38zKMjuvG1hRlA63bybXyHSqqG8DwGSzwWrNVJ6g2fMzM2/n3DJh9bY8FJnwPNtZ5lTIWq+WA1sNKsnpHBi4pSWW763OUtxve2BJzlwAgFvrvJuHeNygMN2KZkuBh2PZvi/DUJz4F+2GNg08KJ+uIODmrwUGJrREMGt3qZNzpoGdNEexWwSmaJUnTUGYJxoUXgRhilZ50hSEeaJB4UUQpmiVJ01BmCcaFF4EYYpWedIUhHmiQeFFEKZolSdNQZgnGhReBGGKVnnSFIR5okHhRRCmaJUnTUGYJxoUXv4d4R8skXQp6sID1QAAAABJRU5ErkJggg\u003d\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
