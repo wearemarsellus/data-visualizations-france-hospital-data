@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586442327575
+    "lastModifiedOn": 1586442647016
   },
   "creationTag": {
     "versionNumber": 0,
@@ -87,21 +87,21 @@
   "schema": {
     "columns": [
       {
-        "name": "an",
-        "type": "string",
-        "meaning": "Text"
-      },
-      {
-        "name": "rs",
-        "type": "string"
-      },
-      {
         "name": "fi",
         "type": "string",
         "meaning": "Text"
       },
       {
+        "name": "an",
+        "type": "string",
+        "meaning": "Text"
+      },
+      {
         "name": "fi_ej",
+        "type": "string"
+      },
+      {
+        "name": "rs",
         "type": "string"
       },
       {
