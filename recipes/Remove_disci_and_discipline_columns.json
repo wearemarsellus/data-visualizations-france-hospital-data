@@ -62,18 +62,18 @@
     "main": {
       "items": [
         {
-          "ref": "Capacity_indicators_by_HOSPITAL_and_YEAR",
+          "ref": "capact0018_without_discipline",
           "appendMode": false
         }
       ]
     }
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586442999268
+    "lastModifiedOn": 1586443134990
   },
   "creationTag": {
     "versionNumber": 0,
