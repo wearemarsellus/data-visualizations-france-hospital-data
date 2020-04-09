@@ -48,36 +48,6 @@
       "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
-      "type": "ColumnReorder",
-      "params": {
-        "columns": [
-          "an",
-          "rs"
-        ],
-        "reorderAction": "AT_START",
-        "appliesTo": "COLUMNS"
-      },
-      "alwaysShowComment": false
-    },
-    {
-      "preview": false,
-      "metaType": "PROCESSOR",
-      "disabled": false,
-      "type": "ColumnReorder",
-      "params": {
-        "referenceColumn": "fi",
-        "columns": [
-          "DISCI"
-        ],
-        "reorderAction": "BEFORE_COLUMN",
-        "appliesTo": "SINGLE_COLUMN"
-      },
-      "alwaysShowComment": false
-    },
-    {
-      "preview": false,
-      "metaType": "PROCESSOR",
-      "disabled": false,
       "type": "ColumnsSelector",
       "params": {
         "columns": [
