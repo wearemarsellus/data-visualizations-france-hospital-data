@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586426755013
+    "lastModifiedOn": 1586426848625
   },
   "creationTag": {
     "versionNumber": 0,
@@ -248,10 +248,6 @@
       {
         "name": "TECHN",
         "type": "string"
-      },
-      {
-        "name": "field_40",
-        "type": "double"
       }
     ],
     "userModified": true
