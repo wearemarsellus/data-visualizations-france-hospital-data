@@ -124,6 +124,17 @@
                 "measureIdx": 0,
                 "label": "Sum of JOU, ascending",
                 "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Sum of PLA, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Sum of PLA, ascending",
+                "sortAscending": true
               }
             ],
             "sort": {
@@ -144,6 +155,17 @@
             "displayed": true,
             "isA": "measure",
             "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "PLA",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis2",
             "displayType": "column",
             "computeMode": "NORMAL",
             "computeModeDim": 0
@@ -270,7 +292,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAYElEQVRoQ+3UAREAQAiEQO1f+gN8A1wbCMztHLs99u94uG6cYYZjBCQdE/q9wzDDMQKSjgk1WpKWdIyApGNCrbSkJR0jIOmYUCstaUnHCEg6JtRKS1rSMQKSjgm10ueSfinJACn8bS8UAAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABlUlEQVRoQ2NkGGGAkRT/yhSu4nzSH/adFD0DpXbd8WepQZZSs9HtJ8nDuBwvX77F+z8jM9ejDs/VA+HBVWfe8YeZCH0kxm6qeJgYiyhVs/bIi/BgG4mVyOasPf6yIdhSvIEUswedh9efeNEWaCFRhc0T////Z2RkZPwPklu16ipbWJj2L1I8C1I7qDy85shz7RAbyav4PLHl8AfBH4zflENspM6Q6tlB5eFVh5/JhdlKPSLHE6ToGVQxTIrDsamVq9hi/KjD5yw+cwbUwxtOvowLMBdfRKlHSdE/oB4mxaHUUjvqYWqF5GA1ZzSGKY2ZtYdeSwbbiT4HmbPu+IvWIEuJ6jXHn8eHWEoupNRsaugfjWFKQnHTyReKfuYS9ykxg9Z6yYrhDcde6AZYSVymteNoYT5ZHqaFQ+hl5qiH6RXSA2XPaAwPVMjTy97RGKZXSA+UPaMxPFAhTy97R2OYXiE9UPaMxvBAhTy97B2NYXqF9EDZMxrDAxXy9LJ3NIbpFdIDZc9oDA9UyNPL3tEYpldID5Q9AJi3TykU6Qq4AAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
