@@ -2105,7 +2105,7 @@
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "Moy SEJHC (par etablissement +30%), nbr total SEJHC (stable, +2%) (diff entre les deux très bizarre ?)",
+        "name": "Moy séjour hosp. complet par etablissement +30%",
         "userEditedName": true,
         "genericDimension0": [
           {
@@ -2320,7 +2320,7 @@
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "New chart",
+        "name": "Moy séjour hos. partiel +90%",
         "userEditedName": true,
         "genericDimension0": [
           {
