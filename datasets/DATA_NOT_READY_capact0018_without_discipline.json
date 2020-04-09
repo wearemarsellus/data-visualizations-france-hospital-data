@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586443260746
+    "lastModifiedOn": 1586443267509
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,102 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "fi",
+        "type": "string",
+        "meaning": "Text"
+      },
+      {
+        "name": "an",
+        "type": "string",
+        "meaning": "Text"
+      },
+      {
+        "name": "fi_ej",
+        "type": "string"
+      },
+      {
+        "name": "rs",
+        "type": "string"
+      },
+      {
+        "name": "stj",
+        "type": "string"
+      },
+      {
+        "name": "cat",
+        "type": "string",
+        "meaning": "Text"
+      },
+      {
+        "name": "dep",
+        "type": "string",
+        "meaning": "Text"
+      },
+      {
+        "name": "reg",
+        "type": "string"
+      },
+      {
+        "name": "anc_reg",
+        "type": "string"
+      },
+      {
+        "name": "espic",
+        "type": "bigint"
+      },
+      {
+        "name": "cominsee",
+        "type": "string",
+        "meaning": "Text"
+      },
+      {
+        "name": "grp",
+        "type": "string",
+        "meaning": "Text"
+      },
+      {
+        "name": "LIT",
+        "type": "bigint"
+      },
+      {
+        "name": "SEJHC",
+        "type": "double"
+      },
+      {
+        "name": "JOU",
+        "type": "double"
+      },
+      {
+        "name": "PLA",
+        "type": "double"
+      },
+      {
+        "name": "SEJHP",
+        "type": "double"
+      },
+      {
+        "name": "PAS",
+        "type": "bigint"
+      },
+      {
+        "name": "SEJACC",
+        "type": "bigint"
+      },
+      {
+        "name": "SEHEM",
+        "type": "bigint"
+      },
+      {
+        "name": "SERAD",
+        "type": "bigint"
+      },
+      {
+        "name": "SECHI",
+        "type": "bigint"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
