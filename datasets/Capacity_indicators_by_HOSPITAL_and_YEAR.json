@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586441918297
+    "lastModifiedOn": 1586442327575
   },
   "creationTag": {
     "versionNumber": 0,
@@ -87,20 +87,21 @@
   "schema": {
     "columns": [
       {
-        "name": "fi",
-        "type": "string"
-      },
-      {
         "name": "an",
         "type": "string",
         "meaning": "Text"
       },
       {
-        "name": "fi_ej",
+        "name": "rs",
         "type": "string"
       },
       {
-        "name": "rs",
+        "name": "fi",
+        "type": "string",
+        "meaning": "Text"
+      },
+      {
+        "name": "fi_ej",
         "type": "string"
       },
       {
@@ -114,7 +115,8 @@
       },
       {
         "name": "dep",
-        "type": "string"
+        "type": "string",
+        "meaning": "Text"
       },
       {
         "name": "reg",
@@ -130,19 +132,13 @@
       },
       {
         "name": "cominsee",
-        "type": "string"
+        "type": "string",
+        "meaning": "Text"
       },
       {
         "name": "grp",
-        "type": "string"
-      },
-      {
-        "name": "DISCI",
-        "type": "bigint"
-      },
-      {
-        "name": "DISCIPLINE",
-        "type": "string"
+        "type": "string",
+        "meaning": "Text"
       },
       {
         "name": "LIT",
