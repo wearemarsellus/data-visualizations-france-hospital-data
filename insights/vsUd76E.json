@@ -1,0 +1,262 @@
+{
+  "type": "chart",
+  "params": {
+    "datasetSmartName": "Hospital_X_Year",
+    "engineType": "LINO",
+    "refreshableSelection": {
+      "selection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 1000000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "def": {
+      "type": "lines",
+      "variant": "normal",
+      "name": "Chimio (moy +300%), Radio (moy +43% depuis 2007)",
+      "userEditedName": true,
+      "genericDimension0": [
+        {
+          "column": "an",
+          "type": "ALPHANUM",
+          "numParams": {
+            "emptyBinsMode": "ZEROS"
+          },
+          "maxValues": 20,
+          "generateOthersCategory": true,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of SECHI, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of SECHI, ascending",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 1,
+              "label": "Average of SERAD, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 1,
+              "label": "Average of SERAD, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "NATURAL",
+            "label": "Natural ordering",
+            "sortAscending": true
+          }
+        }
+      ],
+      "genericDimension1": [],
+      "facetDimension": [],
+      "animationDimension": [],
+      "genericMeasures": [
+        {
+          "column": "SECHI",
+          "function": "AVG",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        },
+        {
+          "column": "SERAD",
+          "function": "AVG",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        }
+      ],
+      "xDimension": [],
+      "yDimension": [],
+      "uaXDimension": [],
+      "uaYDimension": [],
+      "uaSize": [],
+      "uaShape": [],
+      "uaColor": [],
+      "uaTooltip": [],
+      "groupDimension": [],
+      "xMeasure": [],
+      "yMeasure": [],
+      "colorMeasure": [],
+      "sizeMeasure": [],
+      "geometry": [],
+      "tooltipMeasures": [],
+      "boxplotBreakdownDim": [],
+      "boxplotValue": [],
+      "filters": [
+        {
+          "filterType": "ALPHANUM_FACET",
+          "column": "cat",
+          "columnType": "ALPHANUM",
+          "isA": "filter",
+          "excludedValues": {
+            "108": true,
+            "109": true,
+            "114": true,
+            "119": true,
+            "122": true,
+            "127": true,
+            "128": true,
+            "129": true,
+            "131": true,
+            "135": true,
+            "138": true,
+            "139": true,
+            "140": true,
+            "141": true,
+            "144": true,
+            "146": true,
+            "156": true,
+            "161": true,
+            "173": true,
+            "179": true,
+            "292": true,
+            "362": true,
+            "365": true,
+            "412": true,
+            "422": true,
+            "425": true,
+            "426": true,
+            "430": true,
+            "431": true,
+            "433": true,
+            "444": true,
+            "696": true,
+            "697": true,
+            "698": true,
+            "699": true,
+            "999": true,
+            "___dku_no_value___": true
+          },
+          "explicitExclude": false
+        }
+      ],
+      "axis1LogScale": false,
+      "axis2LogScale": false,
+      "includeZero": true,
+      "smoothing": true,
+      "showLegend": true,
+      "showXAxis": false,
+      "showInChartValues": false,
+      "showInChartLabels": true,
+      "strokeWidth": 5,
+      "fillOpacity": 0.6,
+      "showXAxisLabel": true,
+      "showYAxisLabel": true,
+      "xAxisLabel": "",
+      "hexbinRadius": 20,
+      "hexbinNumber": 20,
+      "hexbinRadiusMode": "NUM_HEXAGONS",
+      "chartHeight": 200,
+      "singleXAxis": true,
+      "multiTooltips": false,
+      "animationFrameDuration": 3000,
+      "animationRepeat": true,
+      "colorOptions": {
+        "singleColor": "#2678B1",
+        "transparency": 0.75,
+        "colorPalette": "default",
+        "ccScaleMode": "NORMAL",
+        "customPalette": {
+          "id": "__dku_custom__",
+          "name": "Custom Palette",
+          "colors": [],
+          "values": [],
+          "fixedValues": false
+        },
+        "paletteType": "CONTINUOUS",
+        "quantizationMode": "NONE",
+        "numQuantizeSteps": 5,
+        "paletteMiddleValue": 0.0
+      },
+      "bubblesOptions": {
+        "defaultRadius": 5.0,
+        "singleShape": "FILLED_CIRCLE"
+      },
+      "computeMode": "NORMAL",
+      "xAxisMode": "NORMAL",
+      "yAxisMode": "NORMAL",
+      "pieOptions": {
+        "donutHoleSize": 54.0
+      },
+      "scatterOptions": {
+        "equalScales": false,
+        "identityLine": false
+      },
+      "mapOptions": {
+        "tilesLayer": "cartodb-positron",
+        "lockSquareGrid": false
+      },
+      "mapGridOptions": {
+        "gridLonDeg": 0.5,
+        "gridLatDeg": 0.5
+      },
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAB1ElEQVRoQ2NkGGGAcbj7V758y/6HnT6OMH8Oew+jR+ioh4d7Eh+N4dEYHgIhIF+yOfBhj+96Ypw65JM0erVDyNND2sOkehYUGEPaw4RiE5v8kPMwObGK7PEh4WG58q0LGf4z3HvU5d1ITqwOGQ9TGpswj6499mJ9sJVE4LDMw2uPv3RhZPhf/Z+R8VawhXj6oG5LUytG8SX7QZGHifHouhMvZjH8Z1D9wcgY8fP7t4/i3//8/84jIMTI9q/oz9/f68KsZY4Tk78H1MOrjrxW33z9QUiMmewEd32Jr+gO3njipfjf//9XBFlKwPuzxHhq0MXwuuMv9pdsvZR2r8XtNqUeIFU/3WJ4//7/LB84XzkFWojvIiYJk+oRYtXTxcOgGKVmsiTWc8OipUWJZ+lWD8uVb1n1qNMnjFLHUkM/1ZP0QOZPYgKEah6Wrdha+LjDu58YSwdSDUUeli/fMomJhbH3fqv3Q1yeWHX1KluYtvavgfQkSZ0HSpPoYCqhcRZalHoSOUTXHn+xNNhSInrIxPBgcSi13EFRHqaWI+hpzqiH6RnaA2HXaAxTM9QHW5VE87Z0Q0MDU0NDwz9qBiKlZo0maUpDcLDrH43hwR5DlLpvxMUwAH5qlylkXvCVAAAAAElFTkSuQmCC",
+      "disableSafetyLimits": false,
+      "useLiveProcessingIfAvailable": true,
+      "legendPlacement": "OUTER_RIGHT"
+    },
+    "maxDataBytes": 157286400
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Chimio (moy +300%), Radio (moy +43% depuis 2007) on Hospital_X_Year",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1586449962895
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1586449962895
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

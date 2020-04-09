@@ -1,0 +1,262 @@
+{
+  "type": "chart",
+  "params": {
+    "datasetSmartName": "Hospital_X_Year",
+    "engineType": "LINO",
+    "refreshableSelection": {
+      "selection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 1000000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "def": {
+      "type": "lines",
+      "variant": "normal",
+      "name": "Moy séjour hosp. complet par etablissement +30%",
+      "userEditedName": true,
+      "genericDimension0": [
+        {
+          "column": "an",
+          "type": "ALPHANUM",
+          "numParams": {
+            "emptyBinsMode": "ZEROS"
+          },
+          "maxValues": 20,
+          "generateOthersCategory": true,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of SEJHC, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of SEJHC, ascending",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 1,
+              "label": "Sum of SEJHC, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 1,
+              "label": "Sum of SEJHC, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "NATURAL",
+            "label": "Natural ordering",
+            "sortAscending": true
+          }
+        }
+      ],
+      "genericDimension1": [],
+      "facetDimension": [],
+      "animationDimension": [],
+      "genericMeasures": [
+        {
+          "column": "SEJHC",
+          "function": "AVG",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        },
+        {
+          "column": "SEJHC",
+          "function": "SUM",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis2",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        }
+      ],
+      "xDimension": [],
+      "yDimension": [],
+      "uaXDimension": [],
+      "uaYDimension": [],
+      "uaSize": [],
+      "uaShape": [],
+      "uaColor": [],
+      "uaTooltip": [],
+      "groupDimension": [],
+      "xMeasure": [],
+      "yMeasure": [],
+      "colorMeasure": [],
+      "sizeMeasure": [],
+      "geometry": [],
+      "tooltipMeasures": [],
+      "boxplotBreakdownDim": [],
+      "boxplotValue": [],
+      "filters": [
+        {
+          "filterType": "ALPHANUM_FACET",
+          "column": "cat",
+          "columnType": "ALPHANUM",
+          "isA": "filter",
+          "excludedValues": {
+            "108": true,
+            "109": true,
+            "114": true,
+            "119": true,
+            "122": true,
+            "127": true,
+            "128": true,
+            "129": true,
+            "131": true,
+            "135": true,
+            "138": true,
+            "139": true,
+            "140": true,
+            "141": true,
+            "144": true,
+            "146": true,
+            "156": true,
+            "161": true,
+            "173": true,
+            "179": true,
+            "292": true,
+            "362": true,
+            "365": true,
+            "412": true,
+            "422": true,
+            "425": true,
+            "426": true,
+            "430": true,
+            "431": true,
+            "433": true,
+            "444": true,
+            "696": true,
+            "697": true,
+            "698": true,
+            "699": true,
+            "999": true,
+            "___dku_no_value___": true
+          },
+          "explicitExclude": false
+        }
+      ],
+      "axis1LogScale": false,
+      "axis2LogScale": false,
+      "includeZero": true,
+      "smoothing": true,
+      "showLegend": true,
+      "showXAxis": false,
+      "showInChartValues": false,
+      "showInChartLabels": true,
+      "strokeWidth": 5,
+      "fillOpacity": 0.6,
+      "showXAxisLabel": true,
+      "showYAxisLabel": true,
+      "xAxisLabel": "",
+      "hexbinRadius": 20,
+      "hexbinNumber": 20,
+      "hexbinRadiusMode": "NUM_HEXAGONS",
+      "chartHeight": 200,
+      "singleXAxis": true,
+      "multiTooltips": false,
+      "animationFrameDuration": 3000,
+      "animationRepeat": true,
+      "colorOptions": {
+        "singleColor": "#2678B1",
+        "transparency": 0.75,
+        "colorPalette": "default",
+        "ccScaleMode": "NORMAL",
+        "customPalette": {
+          "id": "__dku_custom__",
+          "name": "Custom Palette",
+          "colors": [],
+          "values": [],
+          "fixedValues": false
+        },
+        "paletteType": "CONTINUOUS",
+        "quantizationMode": "NONE",
+        "numQuantizeSteps": 5,
+        "paletteMiddleValue": 0.0
+      },
+      "bubblesOptions": {
+        "defaultRadius": 5.0,
+        "singleShape": "FILLED_CIRCLE"
+      },
+      "computeMode": "NORMAL",
+      "xAxisMode": "NORMAL",
+      "yAxisMode": "NORMAL",
+      "pieOptions": {
+        "donutHoleSize": 54.0
+      },
+      "scatterOptions": {
+        "equalScales": false,
+        "identityLine": false
+      },
+      "mapOptions": {
+        "tilesLayer": "cartodb-positron",
+        "lockSquareGrid": false
+      },
+      "mapGridOptions": {
+        "gridLonDeg": 0.5,
+        "gridLatDeg": 0.5
+      },
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABzElEQVRoQ+2TsUsCYRjG389cqimotEEuIloaWgq0KKigpSzU5v6AWgKhw80lqCRqbsn54GzQpMhwyFIooi1oCK6lExqLhujecBBs0PNO3+6Dvlu/733e53l+3zHg9Evd6IcMXcnQVP9DOy2ydorZ0ToplaMG4iIDYCG/Z44xhrU6qaKeDwe8s2bakpzJV+5ou0sN7/5JYPX6dZW52AYCPkYCA+tNmUdAcEEBEKYPQuPnYb93pzp3dKaNfhrfBV9PV2P6iMfv3UxdG/N+VGdJAqslPcYQFpohUzEiyelLRLh62QvG65UxEk33Pu0H38zKMjuvG1hRlA63bybXyHSqqG8DwGSzwWrNVJ6g2fMzM2/n3DJh9bY8FJnwPNtZ5lTIWq+WA1sNKsnpHBi4pSWW763OUtxve2BJzlwAgFvrvJuHeNygMN2KZkuBh2PZvi/DUJz4F+2GNg08KJ+uIODmrwUGJrREMGt3qZNzpoGdNEexWwSmaJUnTUGYJxoUXgRhilZ50hSEeaJB4UUQpmiVJ01BmCcaFF4EYYpWedIUhHmiQeFFEKZolSdNQZgnGhReBGGKVnnSFIR5okHhRRCmaJUnTUGYJxoUXv4d4R8skXQp6sID1QAAAABJRU5ErkJggg\u003d\u003d",
+      "disableSafetyLimits": false,
+      "useLiveProcessingIfAvailable": true,
+      "legendPlacement": "OUTER_RIGHT"
+    },
+    "maxDataBytes": 157286400
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Moy séjour hosp. complet par etablissement +30% on Hospital_X_Year",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1586449962894
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1586449962894
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

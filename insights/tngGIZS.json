@@ -1,0 +1,272 @@
+{
+  "type": "chart",
+  "params": {
+    "datasetSmartName": "Hospital_X_Year",
+    "engineType": "LINO",
+    "refreshableSelection": {
+      "selection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 1000000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "def": {
+      "type": "lines",
+      "variant": "normal",
+      "name": "ETP (équivalent temps plein) total infirmiers / an (+30%) (moy +60%)",
+      "userEditedName": true,
+      "genericDimension0": [
+        {
+          "column": "an",
+          "type": "ALPHANUM",
+          "numParams": {
+            "emptyBinsMode": "ZEROS"
+          },
+          "maxValues": 20,
+          "generateOthersCategory": true,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Sum of INF, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Sum of INF, ascending",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 1,
+              "label": "Average of INF, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 1,
+              "label": "Average of INF, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "NATURAL",
+            "label": "Natural ordering",
+            "sortAscending": true
+          }
+        }
+      ],
+      "genericDimension1": [],
+      "facetDimension": [],
+      "animationDimension": [],
+      "genericMeasures": [
+        {
+          "column": "INF",
+          "function": "SUM",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        },
+        {
+          "column": "INF",
+          "function": "AVG",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis2",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        }
+      ],
+      "xDimension": [],
+      "yDimension": [],
+      "uaXDimension": [],
+      "uaYDimension": [],
+      "uaSize": [],
+      "uaShape": [],
+      "uaColor": [],
+      "uaTooltip": [],
+      "groupDimension": [],
+      "xMeasure": [],
+      "yMeasure": [],
+      "colorMeasure": [],
+      "sizeMeasure": [],
+      "geometry": [],
+      "tooltipMeasures": [],
+      "boxplotBreakdownDim": [],
+      "boxplotValue": [],
+      "filters": [
+        {
+          "filterType": "ALPHANUM_FACET",
+          "column": "an",
+          "columnType": "ALPHANUM",
+          "isA": "filter",
+          "excludedValues": {
+            "2000": true
+          },
+          "explicitExclude": false
+        },
+        {
+          "filterType": "ALPHANUM_FACET",
+          "column": "cat",
+          "columnType": "ALPHANUM",
+          "isA": "filter",
+          "excludedValues": {
+            "108": true,
+            "109": true,
+            "114": true,
+            "119": true,
+            "122": true,
+            "127": true,
+            "128": true,
+            "129": true,
+            "131": true,
+            "135": true,
+            "138": true,
+            "139": true,
+            "140": true,
+            "141": true,
+            "144": true,
+            "146": true,
+            "156": true,
+            "161": true,
+            "173": true,
+            "179": true,
+            "292": true,
+            "362": true,
+            "365": true,
+            "412": true,
+            "422": true,
+            "425": true,
+            "426": true,
+            "430": true,
+            "431": true,
+            "433": true,
+            "444": true,
+            "696": true,
+            "697": true,
+            "698": true,
+            "699": true,
+            "999": true,
+            "___dku_no_value___": true
+          },
+          "explicitExclude": false
+        }
+      ],
+      "axis1LogScale": false,
+      "axis2LogScale": false,
+      "includeZero": true,
+      "smoothing": true,
+      "showLegend": true,
+      "showXAxis": false,
+      "showInChartValues": false,
+      "showInChartLabels": true,
+      "strokeWidth": 5,
+      "fillOpacity": 0.6,
+      "showXAxisLabel": true,
+      "showYAxisLabel": true,
+      "xAxisLabel": "",
+      "hexbinRadius": 20,
+      "hexbinNumber": 20,
+      "hexbinRadiusMode": "NUM_HEXAGONS",
+      "chartHeight": 200,
+      "singleXAxis": true,
+      "multiTooltips": false,
+      "animationFrameDuration": 3000,
+      "animationRepeat": true,
+      "colorOptions": {
+        "singleColor": "#2678B1",
+        "transparency": 0.75,
+        "colorPalette": "default",
+        "ccScaleMode": "NORMAL",
+        "customPalette": {
+          "id": "__dku_custom__",
+          "name": "Custom Palette",
+          "colors": [],
+          "values": [],
+          "fixedValues": false
+        },
+        "paletteType": "CONTINUOUS",
+        "quantizationMode": "NONE",
+        "numQuantizeSteps": 5,
+        "paletteMiddleValue": 0.0
+      },
+      "bubblesOptions": {
+        "defaultRadius": 5.0,
+        "singleShape": "FILLED_CIRCLE"
+      },
+      "computeMode": "NORMAL",
+      "xAxisMode": "NORMAL",
+      "yAxisMode": "NORMAL",
+      "pieOptions": {
+        "donutHoleSize": 54.0
+      },
+      "scatterOptions": {
+        "equalScales": false,
+        "identityLine": false
+      },
+      "mapOptions": {
+        "tilesLayer": "cartodb-positron",
+        "lockSquareGrid": false
+      },
+      "mapGridOptions": {
+        "gridLonDeg": 0.5,
+        "gridLatDeg": 0.5
+      },
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABmElEQVRoQ+2UPUsDQRCGZxMlhT9ATZPY+ANEEO2sBD9QUqiV2OkPCAQr2yhiaWlv4RUSEAsJWBjS2lkEDTY5FDuryK2ccBLkjnf33EiGzJU3e7vvM8/sKRqyR3HjLVRq9d7MI93Pndbpxkv0zmv6VQr0XGl+YjGObeCAQ6D20Wps2CQ5XqNTTwL8/c2/ARcrtW1NtBcFUFo/KArOno7XH22mzGv4+0R6yxSwr8CF8tUUZTPntoYQsI1BtFdqw9Fdcg33cxctxhRB9tatgNPcL9Mwl/edW6Uok3ZUTc9JBtZaFQ+uL56ry5umm5muC0c0lwt2V2bybdNvXK2LBR4v34z5J0sfrg4JAUnru9LC5KGrPdPuYzXSpoe4/MmYnmm67s/A3/aIqN93zxQIrbMGHmR7CDasQ2BuBhF0LLDXfJ0ezXbf12bzb2gDbnVomBsQyivAqEPc62KYu0GUXwyjDnGvi2HuBlF+MYw6xL0uhrkbRPnFMOoQ97oY5m4Q5RfDqEPc62KYu0GUXwyjDnGvi2HuBlH+oTP8BTl4aSlk+aULAAAAAElFTkSuQmCC",
+      "disableSafetyLimits": false,
+      "useLiveProcessingIfAvailable": true,
+      "legendPlacement": "OUTER_RIGHT"
+    },
+    "maxDataBytes": 157286400
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "ETP (équivalent temps plein) total infirmiers / an (+30%) (moy +60%) on Hospital_X_Year",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1586449962891
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1586449962891
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
