@@ -206,11 +206,11 @@
   "listed": false,
   "name": "Sum of LIT by an on JOIN_09_04_2020",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586431519958
+    "lastModifiedOn": 1586431552397
   },
   "creationTag": {
     "versionNumber": 0,
