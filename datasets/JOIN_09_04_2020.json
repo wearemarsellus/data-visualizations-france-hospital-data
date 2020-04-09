@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586435406748
+    "lastModifiedOn": 1586435429062
   },
   "creationTag": {
     "versionNumber": 0,
@@ -184,7 +184,8 @@
       },
       {
         "name": "DISCI",
-        "type": "string"
+        "type": "string",
+        "meaning": "Text"
       },
       {
         "name": "DISCIPLINE",
