@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586435348861
+    "lastModifiedOn": 1586435350304
   },
   "creationTag": {
     "versionNumber": 0,
@@ -95,7 +95,8 @@
       },
       {
         "name": "fi_ej",
-        "type": "string"
+        "type": "string",
+        "meaning": "Text"
       },
       {
         "name": "rs",
