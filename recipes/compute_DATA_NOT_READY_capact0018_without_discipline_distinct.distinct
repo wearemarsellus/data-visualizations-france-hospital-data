@@ -1,0 +1,114 @@
+{
+  "preFilter": {
+    "distinct": false,
+    "enabled": false
+  },
+  "keys": [
+    {
+      "column": "fi"
+    },
+    {
+      "column": "an"
+    },
+    {
+      "column": "fi_ej"
+    },
+    {
+      "column": "rs"
+    },
+    {
+      "column": "stj"
+    },
+    {
+      "column": "cat"
+    },
+    {
+      "column": "dep"
+    },
+    {
+      "column": "reg"
+    },
+    {
+      "column": "anc_reg"
+    },
+    {
+      "column": "espic"
+    },
+    {
+      "column": "cominsee"
+    },
+    {
+      "column": "grp"
+    },
+    {
+      "column": "LIT"
+    },
+    {
+      "column": "SEJHC"
+    },
+    {
+      "column": "JOU"
+    },
+    {
+      "column": "PLA"
+    },
+    {
+      "column": "SEJHP"
+    },
+    {
+      "column": "PAS"
+    },
+    {
+      "column": "SEJACC"
+    },
+    {
+      "column": "SEHEM"
+    },
+    {
+      "column": "SERAD"
+    },
+    {
+      "column": "SECHI"
+    }
+  ],
+  "globalCount": false,
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "skipPrerunValidate": false,
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "mode": "AUTO",
+        "autoModeRepartitionInto": 10,
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "outputColumnNameOverrides": {},
+  "postFilter": {
+    "distinct": false,
+    "enabled": false
+  }
+}
