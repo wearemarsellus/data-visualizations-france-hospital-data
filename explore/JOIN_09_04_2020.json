@@ -13532,11 +13532,11 @@
       "def": {
         "type": "grouped_columns",
         "variant": "normal",
-        "name": "Sum of LIT by an",
+        "name": "Sum of LIT by DISCIPLINE",
         "userEditedName": false,
         "genericDimension0": [
           {
-            "column": "an",
+            "column": "DISCIPLINE",
             "type": "ALPHANUM",
             "numParams": {
               "emptyBinsMode": "ZEROS"
@@ -13619,6 +13619,7 @@
               "CLINIQUE PASTEUR": true,
               "CLINIQUE AMBROISE PARE": true,
               "UNITE AUTODIALYSE ASSISTEE ASS ANIDER": true,
+              "HOPITAL LOCAL": true,
               "AURA POITOU-CHARENTES": true,
               "CLINIQUE DES CEDRES": true,
               "CLINIQUE DE L\u0027ORANGERIE": true,
@@ -17006,7 +17007,6 @@
               "ANTENNE ATIR DE TRINITE - U.A.D. 5": true,
               "HAD GUYANE - ANTENNE DE SAINT-LAURENT": true,
               "CENTRE HOSPITALIER DE MAYOTTE": true,
-              "C.P.A. BOURG EN BRESSE": true,
               "CH BELLEY": true,
               "HOPITAL LOCAL DE THOISSEY": true,
               "CTRE MEDICAL FELIX MANGINI": true,
@@ -26679,7 +26679,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABPElEQVRoQ2NkGGGAkVT/ypdv2Y+s52GnjyOpZgyk+lEPEwr90RgebkkaOUZB+XXYx/Coh4kopdEDiVC5QE95jFJasXirPMwB93u9HxITw/jUkFtt0SrrYHiYkOOxOYSQHnJicNTDVKoNRmOYUPIkJ0krlG9NR07WDzq9Z6Inc2LKCnKyBroeusQwMflx1MNEVH/kxPiQiWEmZo6If39/rIB5ktzqbsA8TGpZMephMqup0RgmNamh96AI8UF5kJAabL2y0SQ9mqSJq6RG8/BoHkZq8eAa4qFHII0WWqOF1ggotMgZOxvSpfSoh4lI1cMqhpFj/DfDv/hnnX6PBs2IB6lVGbZqCZ8Zox6GRvVokiY1qZHT1SNHDzlJmpWBaSH65P2wjuFRD3f6OJK85IGIqm5QKxn18KCOHio4DgAqXrFlX5A0ngAAAABJRU5ErkJggg\u003d\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAuUlEQVRoQ+3Tuw2EQBRDUQZog1aQyOmGCggph5LohIzY1rMm4RKbz5zd24afXa1y3uW413GezsozKvc+176593NgR4xf2NEKbPlLC4g0LCB9Exp2tAJbGhYQaVhAomEHKbmlYUGThgUkGnaQklsaFjRpWECiYQcpuaVhQZOGBSQadpCSWxoWNGlYQKJhBym5pWFBk4YFJBp2kJJbGhY0aVhAomEHKbnt3nDy43s9q9Rwr49Mvud3B34BlM2QKSXHzVoAAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
