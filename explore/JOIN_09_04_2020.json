@@ -94,7 +94,7 @@
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "Sum of LIT by an",
+        "name": "Avg. of LIT by an",
         "userEditedName": false,
         "genericDimension0": [
           {
@@ -117,19 +117,19 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Sum of LIT, descending"
+                "label": "Average of LIT, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Sum of LIT, ascending",
+                "label": "Average of LIT, ascending",
                 "sortAscending": true
               }
             ],
             "sort": {
-              "type": "AGGREGATION",
-              "measureIdx": 0,
-              "label": "Sum of LIT, descending"
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
             }
           }
         ],
@@ -139,7 +139,7 @@
         "genericMeasures": [
           {
             "column": "LIT",
-            "function": "SUM",
+            "function": "AVG",
             "type": "NUMERICAL",
             "displayed": true,
             "isA": "measure",
@@ -273,7 +273,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABEElEQVRoQ2NkGGGAcYT5l4GghxXKtgU86PLaMFwChqCHh4tHYf4Y9fBwi1F0/4zG8GgMD7MQGE3SwyxCMbwzGsOUxrBK7jb2O5O9flJqDq300ymG/zMyMDD+p5UnSDGXTh4mxUm0VTvqYdqG78CbPhrDAx8HtHXBaAzTNnwH3vQBi2HF4q3y93u9H9I7CAbMw/T26OgQz0CFOL3tHU3S9A5xufKtMx51emfQy97RGKZXSA+UPaMxPFAhTy97h0wMy5dtznnY5TuF0oAZMh7G5VG58s1ljzp9u4gNiCHvYZhHtRpWsV1rCPtFyOPDxsOEPDraliY2hIaiOvmyLcsedvlEgdw+mqSHYgyS4uYRF8MA+lgiKf4aHUsAAAAASUVORK5CYII\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABbElEQVRoQ2NkGGGAkZB/FSq2Njzo8G4gpG6oyBP08FDxCLHuHPUwsSE1VNWRHMPK1Rtk77YGPB4xHgZ5VKl8N/+9TtePQ9HTJMfwUPQksptHPUxqDMqXb6l62OnTRqq+gVI/GsMDFfL0snc0hqkd0grl290fdHrupLa55JpH1xhWKN/S+KDTp55cx1JDH808rF62kfdml/9najiSEjPkyze1Puz0q4aZQTMPU+JIWuod9TAtQ3cwmD0gMaxQtsniQZffCWoHgELF1oQHHd4L8Jk7IB6mvkc3JTzo8MPr0dFCi9qhPljNG7AkrVi1R/x+m8tLegfMgHmY3h4dzcMDFeL0tnc0SdM7xOlt35CJYanizSLPen3fUBpAQ8bDlHp00JTS8uVbex92ehdTy0OEzBmNYUIhNNTlR2N4sMWgfPmW1oedPvAxKUrdNyhjWL5qh+TDNo/nlHoOm/5B6WFaeHTQVEu09NxoDANDAACza0ApuDiGcgAAAABJRU5ErkJggg\u003d\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
@@ -309,12 +309,12 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Sum of INF, descending"
+                "label": "Average of INF, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Sum of INF, ascending",
+                "label": "Average of INF, ascending",
                 "sortAscending": true
               }
             ],
@@ -331,7 +331,7 @@
         "genericMeasures": [
           {
             "column": "INF",
-            "function": "SUM",
+            "function": "AVG",
             "type": "NUMERICAL",
             "displayed": true,
             "isA": "measure",
@@ -476,7 +476,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABP0lEQVRoQ2NkGGGAcYT5l2HUw0MpxuUrtrQ87PCpIcXNozFMSmgNRbWDMoYVSrdKMLAwWjxo99oAClT5si1TH3b5ZFMjgAedh+XLt0x72OmTRQ3PYTNj0HmYVh6FmTvqYVqHMC7z5cu3Fj3s9O6jtf0DHsNy5ZvSH3X6zaS1R0eTNK1DWCV3G/udyV4/aW0PIfNplqTlyjfZPOr0O0LIAfSWp5mH6e0RYu0b9TCxITVU1Y3GMKkxJ1K2kfdNl/9nUvUNlPrRGB6okKeXvaMxTK+QHih7RmN4oEKeXvaOxjC9Qnqg7BmNYVjIy5VvTX/U6U23kQh6xTjWGJYv31LysNOnh16OoKc9o0larmxLwaMunwn0DHV62jWyY1i+fEvrw06fanqGOL3tGrkxPFiGUWkd4yM3hmkdsoPF/BEXwwA6Vjgpxqn0+wAAAABJRU5ErkJggg\u003d\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABBklEQVRoQ+2UwQnCQBBFswXYgbAeBFuwBIlB7xayRjSnKMYtxLsSgyXYguDBBTuwgIgHL+YUyMwOyU8BM//9N1kVdOxTHeMNANx24zAMwy1rACfdMqEVHBiWaHhkTr27nb+byAbDTbQoeYZIwwNTjJ82vFEUJw64H1+Hr2zyoID9zhQHTAX6mysCWMf51mXRhhoWhjka9r2D9aT16pK6/TTxCc0K7BOU8dEqVRCoUgIsHi0pFihz4B+mbFfCbBiWYIEyQ23D2pyPzs4WlKEoZ9cGpgzDMRvA/y1rUyTOhilH+xw7YJijZZ87Kob1Mt+5Q7T2GYpyN06asl0Js2FYggXKDJ0z/AH6BCIp7+kfBwAAAABJRU5ErkJggg\u003d\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
