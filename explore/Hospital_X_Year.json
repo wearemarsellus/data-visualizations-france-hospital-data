@@ -1,0 +1,87 @@
+{
+  "script": {
+    "steps": [],
+    "maxProcessedMemTableBytes": -1,
+    "columnsSelection": {
+      "mode": "ALL"
+    },
+    "columnWidthsByName": {
+      "fi": 100,
+      "an": 100,
+      "fi_ej": 100,
+      "rs": 300,
+      "stj": 100,
+      "cat": 100,
+      "dep": 100,
+      "reg": 100,
+      "anc_reg": 100,
+      "espic": 100,
+      "COMINSEE": 100,
+      "grp": 100,
+      "LIT": 100,
+      "SEJHC": 100,
+      "JOU": 100,
+      "PLA": 100,
+      "SEJHP": 100,
+      "PAS": 100,
+      "SEJACC": 100,
+      "SEHEM": 100,
+      "SERAD": 100,
+      "SECHI": 100,
+      "nat": 100,
+      "ETPSAL": 100,
+      "EFFLIB": 100,
+      "ADMTO": 100,
+      "CADRE": 100,
+      "INF": 100,
+      "REEDU": 100,
+      "AIDES": 100,
+      "ASHAU": 100,
+      "PSYCH": 100,
+      "SAGFE": 100,
+      "EDUTO": 100,
+      "PHLAB": 100,
+      "TECHN": 100
+    },
+    "coloring": {
+      "scheme": "MEANING_AND_STATUS",
+      "individualColumns": [],
+      "valueColoringMode": "HASH"
+    },
+    "sorting": [],
+    "analysisColumnData": {},
+    "explorationSampling": {
+      "selection": {
+        "maxStoredBytes": 104857600,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 1000000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 1
+    },
+    "vizSampling": {
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
+    "globalSearchQuery": "ouest parisien",
+    "explorationFilters": [],
+    "previewMode": "ALL_ROWS"
+  },
+  "charts": []
+}
