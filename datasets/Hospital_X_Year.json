@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586444903931
+    "lastModifiedOn": 1586444918995
   },
   "creationTag": {
     "versionNumber": 0,
@@ -107,7 +107,8 @@
       },
       {
         "name": "stj",
-        "type": "string"
+        "type": "string",
+        "meaning": "Text"
       },
       {
         "name": "cat",
