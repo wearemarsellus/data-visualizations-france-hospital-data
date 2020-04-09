@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586434757771
+    "lastModifiedOn": 1586435269479
   },
   "creationTag": {
     "versionNumber": 0,
@@ -176,6 +176,78 @@
       },
       {
         "name": "SECHI",
+        "type": "string"
+      },
+      {
+        "name": "DISCI",
+        "type": "string"
+      },
+      {
+        "name": "DISCIPLINE",
+        "type": "string"
+      },
+      {
+        "name": "stjr",
+        "type": "string"
+      },
+      {
+        "name": "IVG",
+        "type": "string"
+      },
+      {
+        "name": "nat",
+        "type": "string"
+      },
+      {
+        "name": "ETPSAL",
+        "type": "string"
+      },
+      {
+        "name": "EFFLIB",
+        "type": "string"
+      },
+      {
+        "name": "ADMTO",
+        "type": "string"
+      },
+      {
+        "name": "CADRE",
+        "type": "string"
+      },
+      {
+        "name": "INF",
+        "type": "string"
+      },
+      {
+        "name": "REEDU",
+        "type": "string"
+      },
+      {
+        "name": "AIDES",
+        "type": "string"
+      },
+      {
+        "name": "ASHAU",
+        "type": "string"
+      },
+      {
+        "name": "PSYCH",
+        "type": "string"
+      },
+      {
+        "name": "SAGFE",
+        "type": "string"
+      },
+      {
+        "name": "EDUTO",
+        "type": "string"
+      },
+      {
+        "name": "PHLAB",
+        "type": "string"
+      },
+      {
+        "name": "TECHN",
         "type": "string"
       }
     ],
