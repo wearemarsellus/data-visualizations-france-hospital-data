@@ -92,9 +92,9 @@
       "copySelectionFromScript": true,
       "engineType": "LINO",
       "def": {
-        "type": "grouped_columns",
+        "type": "lines",
         "variant": "normal",
-        "name": "Avg. of JOU by an",
+        "name": "Sum of JOU by an",
         "userEditedName": false,
         "genericDimension0": [
           {
@@ -117,19 +117,19 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of JOU, descending"
+                "label": "Sum of JOU, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of JOU, ascending",
+                "label": "Sum of JOU, ascending",
                 "sortAscending": true
               }
             ],
             "sort": {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of JOU, descending"
+              "label": "Sum of JOU, descending"
             }
           }
         ],
@@ -139,13 +139,13 @@
         "genericMeasures": [
           {
             "column": "JOU",
-            "function": "AVG",
+            "function": "SUM",
             "type": "NUMERICAL",
             "displayed": true,
             "isA": "measure",
             "displayAxis": "axis1",
             "displayType": "column",
-            "computeMode": "NORMAL",
+            "computeMode": "AVG_RATIO",
             "computeModeDim": 0
           }
         ],
@@ -166,7 +166,52 @@
         "tooltipMeasures": [],
         "boxplotBreakdownDim": [],
         "boxplotValue": [],
-        "filters": [],
+        "filters": [
+          {
+            "filterType": "ALPHANUM_FACET",
+            "column": "cat",
+            "columnType": "ALPHANUM",
+            "isA": "filter",
+            "excludedValues": {
+              "108": true,
+              "109": true,
+              "114": true,
+              "119": true,
+              "122": true,
+              "127": true,
+              "128": true,
+              "129": true,
+              "131": true,
+              "135": true,
+              "138": true,
+              "139": true,
+              "140": true,
+              "141": true,
+              "144": true,
+              "146": true,
+              "156": true,
+              "161": true,
+              "173": true,
+              "179": true,
+              "292": true,
+              "362": true,
+              "365": true,
+              "412": true,
+              "422": true,
+              "425": true,
+              "430": true,
+              "431": true,
+              "433": true,
+              "444": true,
+              "696": true,
+              "697": true,
+              "699": true,
+              "999": true,
+              "___dku_no_value___": true
+            },
+            "explicitExclude": false
+          }
+        ],
         "axis1LogScale": false,
         "axis2LogScale": false,
         "includeZero": true,
@@ -225,6 +270,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABDUlEQVRoQ+2Svw2CQBTGucQFrKwE3cER7MBRLDEn1upFSicxQucIDgHY2DmABRbGxAKL4+7eI/JR3/v+/RBezz7Rs74eCv87cRAG4T9bAL+0LtDxJp/dtuFV947rPQibLh/EWVqmUWyq4+reCWFfZvNKRRdXoU10nRRuCuTLfFepMDEJa+OWrPA7bC08T9Q2grfVIC7cNqa9OxS2t2U3lUC4m1zspQJhe1t2U4mNcLA6H8vDYkk9C1th6qIfPxTmWp7KF4SplubyAWGu5al8QZhq6W8fX2bDSkUPCm8QplhZx2OanEb1cyCKNLzr3P16C8I2VuTWmMh8Xahw35QDhLnpuPYHYdcLc+v3jvALeickKWTp5rYAAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
