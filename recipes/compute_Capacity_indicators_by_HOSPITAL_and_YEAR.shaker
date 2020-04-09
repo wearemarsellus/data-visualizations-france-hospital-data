@@ -25,8 +25,70 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "DISCIPLINE"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "columns": [
+          "an",
+          "rs"
+        ],
+        "reorderAction": "AT_START",
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "fi",
+        "columns": [
+          "DISCI"
+        ],
+        "reorderAction": "BEFORE_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "DISCI"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -41,9 +103,34 @@
       "meaning": "Text"
     }
   },
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "SECHI": 100,
+    "rs": 225,
+    "SEJHC": 100,
+    "fi": 100,
+    "PAS": 100,
+    "grp": 100,
+    "PLA": 100,
+    "stj": 100,
+    "SEHEM": 100,
+    "an": 100,
+    "dep": 100,
+    "cominsee": 100,
+    "fi_ej": 100,
+    "JOU": 100,
+    "SERAD": 100,
+    "SEJHP": 100,
+    "DISCI": 100,
+    "reg": 100,
+    "DISCIPLINE": 218,
+    "LIT": 100,
+    "cat": 100,
+    "SEJACC": 100,
+    "espic": 100,
+    "anc_reg": 100
+  },
   "sorting": [],
-  "globalSearchQuery": "",
+  "globalSearchQuery": "ouest parisien",
   "coloring": {
     "scheme": "MEANING_AND_STATUS",
     "individualColumns": [],
