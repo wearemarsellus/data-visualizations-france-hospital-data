@@ -150,7 +150,7 @@
       }
     }
   },
-  "name": "Test",
+  "name": "Séries longues - SAE 2000-2018",
   "projectStatus": "Sandbox",
   "imgPattern": 3,
   "metrics": {
@@ -208,11 +208,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586693406605
+    "lastModifiedOn": 1586705700900
   },
   "creationTag": {
     "versionNumber": 0,
