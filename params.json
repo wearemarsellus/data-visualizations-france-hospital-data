@@ -150,7 +150,7 @@
       }
     }
   },
-  "name": "SAE-serie-longue-2018",
+  "name": "Test",
   "projectStatus": "Sandbox",
   "imgPattern": 3,
   "metrics": {
@@ -208,11 +208,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586449962834
+    "lastModifiedOn": 1586693406605
   },
   "creationTag": {
     "versionNumber": 0,
@@ -221,7 +221,7 @@
     },
     "lastModifiedOn": 1586192540469
   },
-  "shortDesc": "The project *SAE-serie-longue-2018* was created by Emmanuel Gratuze on Apr 06th 2020",
+  "shortDesc": "The project *Test* was created by Eric Beaufol on Apr 11th 2020",
   "tags": [],
   "customFields": {},
   "checklists": {
