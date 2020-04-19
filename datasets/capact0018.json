@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587301064245
+    "lastModifiedOn": 1587301124454
   },
   "creationTag": {
     "versionNumber": 0,
@@ -145,7 +145,7 @@
       {
         "name": "LIT",
         "type": "string",
-        "meaning": "DoubleMeaning"
+        "meaning": "LongMeaning"
       },
       {
         "name": "SEJHC",
