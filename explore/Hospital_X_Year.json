@@ -113,12 +113,12 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of LIT, descending"
+                "label": "Sum of LIT, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of LIT, ascending",
+                "label": "Sum of LIT, ascending",
                 "sortAscending": true
               }
             ],
@@ -135,7 +135,7 @@
         "genericMeasures": [
           {
             "column": "LIT",
-            "function": "AVG",
+            "function": "SUM",
             "type": "NUMERICAL",
             "displayed": true,
             "isA": "measure",
@@ -269,7 +269,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABAklEQVRoQ+2RMQ4BURiE/xetiEKhkCgo6USvUK24hiNsotFJ9grOsbRO4AA62+tEg1hRSBSyu9md2BHz2vfel5n5nCWczjzs1Y/N/W41uCa9+6U7lzdsy1/3K7EtzcVVM3eLAm+cl/XNf7kLFwnZ9sNtFExGRRjPv93FpnY534euYjMza7x4ztzpEHjTT/xSCr8HyVo+67u0EUsvnBYQfa/C6EXZeDLMZgSdR4bRi7LxZJjNCDqPDKMXZePJMJsRdB4ZRi/KxpNhNiPoPDKMXpSNJ8NsRtB5ZBi9KBtPhtmMoPPIMHpRNp4MsxlB55Fh9KJsPBlmM4LOI8PoRdl4f2f4AayqISmzMVg/AAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABL0lEQVRoQ+2VsWrCUBiFz58uPoV5ls6J3foSPoApCN2ExMnJydWpU+11je/hIrHv0KWkERRBxOKB5pr89c+ak8v5zgc3gjt7hOUNBy6HQIosfmS/aWOOBr5UPhy4PgTPP5DJZxa9txHwvNOfgC+OkLgcgFTAtwhKVOjscyLzIo1mTY9SO/A1oPDFDYs0Hl3L+Xp/c+AjSDdZLrZZ9OQL7LdzGwM+FgoTt7rlRdg48Ck4KnwhCPLgoVxvRr0PH/ZbA1wHXDdxrwIcfpsV3opxPPV+S9dR3OcZ/8owM5QBMytpzphhzfaY7maYWUlzxgxrtsd0N8PMSpozZlizPaa7GWZW0pwxw5rtMd3NMLOS5owZ1myP6W6GmZU0Z8ywZntMdzPMrKQ5Y4Y122O6353hHWUMLilszKrGAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
