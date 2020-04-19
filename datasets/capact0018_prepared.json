@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587287731364
+    "lastModifiedOn": 1587288799314
   },
   "creationTag": {
     "versionNumber": 0,
@@ -154,6 +154,18 @@
       },
       {
         "name": "JOU",
+        "type": "double"
+      },
+      {
+        "name": "DUR_HC",
+        "type": "double"
+      },
+      {
+        "name": "TAUX_OCCUP",
+        "type": "double"
+      },
+      {
+        "name": "TAUX_OCCUP_copy",
         "type": "double"
       },
       {
