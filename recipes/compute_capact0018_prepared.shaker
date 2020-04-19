@@ -24,8 +24,50 @@
     },
     "autoRefreshSample": false
   },
-  "explorationFilters": [],
-  "exploreUIParams": {},
+  "explorationFilters": [
+    {
+      "validityFilter": {
+        "column": "cat",
+        "type": "validity",
+        "params": {
+          "nok": true,
+          "type": "Text",
+          "ok": true,
+          "empty": true
+        }
+      },
+      "column": "cat",
+      "active": true,
+      "alphanumFilter": {
+        "values": [],
+        "column": "cat",
+        "type": "alphanum",
+        "params": {
+          "mode": "full_string",
+          "normalization": "exact"
+        }
+      },
+      "type": "columnFilter",
+      "$$hashKey": "object:82036",
+      "facet": {
+        "columnType": "ALPHANUM",
+        "selectedValues": {
+          "101": true,
+          "355": true,
+          "106": true
+        },
+        "column": "cat",
+        "sort": "count",
+        "type": "facet",
+        "currentMode": "ALPHANUM"
+      },
+      "currentMode": "FACET"
+    }
+  ],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -41,7 +83,32 @@
       "meaning": "Text"
     }
   },
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "SECHI": 100,
+    "rs": 300,
+    "SEJHC": 100,
+    "fi": 100,
+    "PAS": 100,
+    "grp": 100,
+    "PLA": 100,
+    "stj": 100,
+    "SEHEM": 100,
+    "an": 100,
+    "dep": 100,
+    "cominsee": 100,
+    "fi_ej": 100,
+    "JOU": 100,
+    "SERAD": 100,
+    "SEJHP": 100,
+    "DISCI": 100,
+    "reg": 100,
+    "DISCIPLINE": 218,
+    "LIT": 100,
+    "cat": 100,
+    "SEJACC": 100,
+    "espic": 100,
+    "anc_reg": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
