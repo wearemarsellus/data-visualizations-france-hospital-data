@@ -52,7 +52,9 @@
       "facet": {
         "columnType": "ALPHANUM",
         "selectedValues": {
-          "355": true
+          "101": true,
+          "355": true,
+          "106": true
         },
         "column": "cat",
         "sort": "count",
@@ -88,7 +90,9 @@
       "facet": {
         "columnType": "ALPHANUM",
         "selectedValues": {
-          "Médecine": true
+          "Médecine": true,
+          "Chirurgie": true,
+          "Gynéco-Obstétrique": true
         },
         "column": "DISCIPLINE",
         "sort": "count",
