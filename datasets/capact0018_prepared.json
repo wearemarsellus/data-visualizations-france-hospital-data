@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587289075527
+    "lastModifiedOn": 1587289793123
   },
   "creationTag": {
     "versionNumber": 0,
@@ -154,6 +154,10 @@
       },
       {
         "name": "JOU",
+        "type": "double"
+      },
+      {
+        "name": "DUR_MOY_HC",
         "type": "double"
       },
       {
