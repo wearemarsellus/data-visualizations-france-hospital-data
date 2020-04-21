@@ -209,7 +209,7 @@
       "alwaysShowComment": false
     },
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "CreateColumnWithGREL",
@@ -255,12 +255,14 @@
     "SEHEM": 100,
     "an": 100,
     "fi_ej": 100,
+    "TAUX_OCCUPATION_HP": 150,
     "JOU": 100,
     "SEJHP": 100,
     "DISCI": 100,
     "LIT": 100,
     "SEJACC": 100,
-    "anc_reg": 100
+    "anc_reg": 100,
+    "TAUX_OCCUPATION_HC": 176
   },
   "sorting": [
     {
