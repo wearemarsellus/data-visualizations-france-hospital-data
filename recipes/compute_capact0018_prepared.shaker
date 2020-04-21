@@ -204,7 +204,7 @@
       "type": "CreateColumnWithGREL",
       "params": {
         "expression": "(JOU/365)/LIT*100",
-        "column": "TAUX_OCCUPATION"
+        "column": "TAUX_OCCUPATION_HC"
       },
       "alwaysShowComment": false
     },
