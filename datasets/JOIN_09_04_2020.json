@@ -75,7 +75,7 @@
   "tags": [],
   "params": {
     "connection": "filesystem_managed",
-    "path": "${projectKey}/JOIN_09_04_2020",
+    "path": "/S_RIES_LONGUES_SAE_2000_2018_ERIC.JOIN_09_04_2020",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",

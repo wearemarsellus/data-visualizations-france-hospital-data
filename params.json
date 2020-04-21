@@ -151,7 +151,6 @@
     }
   },
   "name": "Séries longues - SAE 2000-2018",
-  "projectStatus": "Sandbox",
   "imgPattern": 3,
   "metrics": {
     "probes": [],
@@ -208,11 +207,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586705700900
+    "lastModifiedOn": 1587478845745
   },
   "creationTag": {
     "versionNumber": 0,
@@ -222,7 +221,9 @@
     "lastModifiedOn": 1586192540469
   },
   "shortDesc": "The project *Test* was created by Eric Beaufol on Apr 11th 2020",
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
