@@ -154,7 +154,7 @@
       "def": {
         "type": "grouped_columns",
         "variant": "normal",
-        "name": "Avg. of LIT by an",
+        "name": "Sum of LIT by an",
         "userEditedName": false,
         "genericDimension0": [
           {
@@ -173,6 +173,28 @@
                 "type": "NATURAL",
                 "label": "Natural ordering",
                 "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Sum of LIT, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Sum of LIT, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of TAUX_OCCUPATION, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of TAUX_OCCUPATION, ascending",
+                "sortAscending": true
               }
             ],
             "sort": {
@@ -185,7 +207,30 @@
         "genericDimension1": [],
         "facetDimension": [],
         "animationDimension": [],
-        "genericMeasures": [],
+        "genericMeasures": [
+          {
+            "column": "LIT",
+            "function": "SUM",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "TAUX_OCCUPATION",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          }
+        ],
         "xDimension": [],
         "yDimension": [],
         "uaXDimension": [],
@@ -210,42 +255,6 @@
             "columnType": "ALPHANUM",
             "isA": "filter",
             "excludedValues": {
-              "108": true,
-              "109": true,
-              "114": true,
-              "119": true,
-              "122": true,
-              "127": true,
-              "128": true,
-              "129": true,
-              "131": true,
-              "135": true,
-              "138": true,
-              "139": true,
-              "140": true,
-              "141": true,
-              "144": true,
-              "146": true,
-              "156": true,
-              "161": true,
-              "173": true,
-              "179": true,
-              "292": true,
-              "362": true,
-              "365": true,
-              "412": true,
-              "422": true,
-              "425": true,
-              "426": true,
-              "430": true,
-              "431": true,
-              "433": true,
-              "444": true,
-              "696": true,
-              "697": true,
-              "698": true,
-              "699": true,
-              "999": true,
               "___dku_no_value___": true
             },
             "explicitExclude": false
@@ -318,7 +327,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABAUlEQVRoQ+2aQQ6CMBBFZ8I95Cy41cRTeAMTPQIm3sBr6FYu4gbjNUhNFyZgoJWGGpDHioRC+NPpvN8BlZkdOhW96f5S2Hctj+us7dyIFCqSufTYexH8jl6l1faZb+5jyYBoM1wXnJjk7EqjMl8t08P1ZscY0YeKWfhSKjSAkxTcJdauLV8g/kpwh9iTiOycGVYrYMFFK2ZK+2bx4zqCo2CJGXbAvm+VJqXdEWANs4bBUsDmgSpNla7tR3tuHsASWGpEAA7DYTgMhxtFobVrifHAeGA8vm7T4rRwWjgt+tKDfz2Ew3AYDsPhngaja/hvGgADvexoHzOZfzyGiuDsBL8AuxcVdIEDvloAAAAASUVORK5CYII\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABMUlEQVRoQ2NkGGGAEZt/5cu37AeJP+z0cYSxGf4yNcPUPuzx2jdUw4l4DxPlQ8bv8EDp9PYiSgudFVHZw5iuR04lKCnmP+MdBsb/KiT49zI41XGeKWBoaPhHgj4UpUPJw2CHP+Q84yz/3WQvepZjZPw/4/9/xnSouBOuABk2HmZgYq5i+Pe3DV/Mg1LYqIdBIYS1lCYz01AxD+NN0qMxjCWCRpM0LFBGkzSZ+Re96qCwHh7NwygBOFotYW/1jdbDo/UwtKtIbrk12vCABSDpvaXRUnq0lB7tLaGWPKNt6dG2NPKoJZn10mi1NFotkZZ0cA3ijY54jI54QGZSRntLo72l0d4SiaUqUl0+OqZF2mTaaPdwtHs42j0c7R5ib3iQVg4PLdVYW1pDywukuXbEeRgA0pYIZWvtPqAAAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
@@ -396,6 +405,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
