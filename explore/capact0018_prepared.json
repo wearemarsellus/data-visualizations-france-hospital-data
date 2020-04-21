@@ -84,7 +84,7 @@
       "def": {
         "type": "grouped_columns",
         "variant": "normal",
-        "name": "Avg. of TAUX_OCCUPATION by an",
+        "name": "Avg. of TAUX_OCCUPATION_HC by an",
         "userEditedName": false,
         "genericDimension0": [
           {
@@ -107,12 +107,12 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of TAUX_OCCUPATION, descending"
+                "label": "Average of TAUX_OCCUPATION_HC, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of TAUX_OCCUPATION, ascending",
+                "label": "Average of TAUX_OCCUPATION_HC, ascending",
                 "sortAscending": true
               }
             ],
@@ -128,7 +128,7 @@
         "animationDimension": [],
         "genericMeasures": [
           {
-            "column": "TAUX_OCCUPATION",
+            "column": "TAUX_OCCUPATION_HC",
             "function": "AVG",
             "type": "NUMERICAL",
             "displayed": true,
@@ -235,7 +235,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABIklEQVRoQ+2avQ3CMBCF7yZJQ8UW9KlYgx5WAFZgh1RQs0UqmrAAIxhZ4Ohk2QkRzt/lpbOU5t337vnshGlhD2vUmx2ud6erOuUbqRGCNRCXhKUeSzsp4SYrDVnIRQjO9rcLsVk1FVYVYRWCu7QIBAe8PRlLx0j+Qrh+x/BjNj0MwV87zopw3UKGyuqc79zaiZAjnwrCEOzZ1BIOTUQx8q6Ahmn7POYv3zE0dmhJwsS0tmspMia4bQRdpGA2VPgFVE0Ygi1uzT0MwiAczvpeDw99bkujWjp2nQLBCQcPEB4ytGBpPyANlaln6V4tLc+vrTRDuwEEf777/HNaAuGUoQVLt53QEVpIaYRWly6xd1pI6ZQp3aX6c3g36R8AEDzBCrwBXHH5R/U3W1gAAAAASUVORK5CYII\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABQklEQVRoQ+2ZsQ3CMBBFz2yAREeRjj1oEEKpWYENYIYwTyoK2IMKIlGBRE2DUVCMDsuJHckCn33pkjjFy//37xILSOwQMfJmm/KguM5FPsWMDByD4lhhzFOr7VXhLiv98kUmA9wGius5KoXJA/ctEQbWgiOY0MrW5R4EvMsL900XhdWa+jkyCjNwY0VSCusNX51jC36uxWBpBtZs+hUyEqQttNQLlADXqsiXJsf8NbSwwhLgUZ9XRT43pioCto2gQg6Op+1iFTQwHu18AEvxnKgWFkxbMimFbdxmaReFGbgZWIKpYba0rkjP0GJLs6XN0efla8kWFPrERb4tMXBHI42iD7PC1BU2hczofpndhuOdbQzU75OwNAMDACvs6G22tNrWDGmW5hrmGnYsYO2LJtg/HslZ2l0/Giu97g9TQE4O+AVuikhW5JE1lwAAAABJRU5ErkJggg\u003d\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
@@ -362,6 +362,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
