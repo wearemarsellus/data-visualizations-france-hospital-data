@@ -380,6 +380,151 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABHElEQVRoQ+1YsQ3CMBD8FwVTIGaBOkhMwBA0zEAKZqGgZ5bAFBTokSUsmWDjtyWi2Ll0iZzEd39/Z5tpYhf78C4Pl6t53h2bVW18qAFbEkon4ifg3OrOaL590uNsyRmTYgYFLCQnJt73iRyydUYB2CXg3+BHB9jXRiJyv7WbXW6Lue8VA5iZFz5PSPWHagB/VF9I7H3XNusqK6yRu/GHOiscQA/Alhh3VaWRSn9MaOERyuHYP4xLx0wr9g1reJC0YQIV1ujFGQNJv7eb6GGlcmBazgFFit8gh5HDyh7DwiNwxAOXVioILg2X1kkFsYRY0inlaxQ2D9g8pEkHsYRY0ikGsYRY0ikFsVRcDmcWtojXvAfxRcw8c5KTA/wCYw1TVvsPg6cAAAAASUVORK5CYII\u003d",
+        "disableSafetyLimits": false,
+        "useLiveProcessingIfAvailable": true,
+        "legendPlacement": "OUTER_RIGHT"
+      },
+      "maxDataBytes": 157286400
+    },
+    {
+      "copySelectionFromScript": true,
+      "engineType": "LINO",
+      "def": {
+        "type": "grouped_columns",
+        "variant": "normal",
+        "name": "Avg. of TAUX_ROTATION by an",
+        "userEditedName": false,
+        "genericDimension0": [
+          {
+            "column": "an",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of TAUX_ROTATION, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of TAUX_ROTATION, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            }
+          }
+        ],
+        "genericDimension1": [],
+        "facetDimension": [],
+        "animationDimension": [],
+        "genericMeasures": [
+          {
+            "column": "TAUX_ROTATION",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          }
+        ],
+        "xDimension": [],
+        "yDimension": [],
+        "uaXDimension": [],
+        "uaYDimension": [],
+        "uaSize": [],
+        "uaShape": [],
+        "uaColor": [],
+        "uaTooltip": [],
+        "groupDimension": [],
+        "xMeasure": [],
+        "yMeasure": [],
+        "colorMeasure": [],
+        "sizeMeasure": [],
+        "geometry": [],
+        "tooltipMeasures": [],
+        "boxplotBreakdownDim": [],
+        "boxplotValue": [],
+        "filters": [],
+        "axis1LogScale": false,
+        "axis2LogScale": false,
+        "includeZero": true,
+        "smoothing": true,
+        "showLegend": true,
+        "showXAxis": false,
+        "showInChartValues": false,
+        "showInChartLabels": true,
+        "strokeWidth": 1,
+        "fillOpacity": 0.6,
+        "showXAxisLabel": true,
+        "showYAxisLabel": true,
+        "hexbinRadius": 20,
+        "hexbinNumber": 20,
+        "hexbinRadiusMode": "NUM_HEXAGONS",
+        "chartHeight": 200,
+        "singleXAxis": true,
+        "multiTooltips": false,
+        "animationFrameDuration": 3000,
+        "animationRepeat": true,
+        "colorOptions": {
+          "singleColor": "#2678B1",
+          "transparency": 0.75,
+          "colorPalette": "default",
+          "ccScaleMode": "NORMAL",
+          "customPalette": {
+            "id": "__dku_custom__",
+            "name": "Custom Palette",
+            "colors": [],
+            "values": [],
+            "fixedValues": false
+          },
+          "paletteType": "CONTINUOUS",
+          "quantizationMode": "NONE",
+          "numQuantizeSteps": 5,
+          "paletteMiddleValue": 0.0
+        },
+        "bubblesOptions": {
+          "defaultRadius": 5.0,
+          "singleShape": "FILLED_CIRCLE"
+        },
+        "xAxisMode": "NORMAL",
+        "yAxisMode": "NORMAL",
+        "pieOptions": {
+          "donutHoleSize": 54.0
+        },
+        "scatterOptions": {
+          "equalScales": false,
+          "identityLine": false
+        },
+        "mapOptions": {
+          "tilesLayer": "cartodb-positron",
+          "lockSquareGrid": false
+        },
+        "mapGridOptions": {
+          "gridLonDeg": 0.5,
+          "gridLatDeg": 0.5
+        },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABDUlEQVRoQ2NkGGGAcTj5V758y36Qfx52+jjC2ZzezvLft+6FiQ9qD8McDXMstsjB6snB7mFkjxGR4p4wMDDIYMQksicHi4dJ9Bguvw8OD8uVb1nJyMAgRkQMUapkYD0Mi7X/DAyvhqSHcRUC0pV7hEFR87Td5S02NcPOw4RKw1EPU5pTceunbh4mFJMolTpS8T8aw6MxTLUQGE3SeFtdhNrSo3kYvfeBo806WmhRLctiGDSah0fzMCndw9FCa7TQQhovGm1aDsEBgNE8PJqHR/MwePB7tGk52rSkWgiMtqVH29KjbWk8s4ejDY/Rhsdow2O04UG1Ghe7QdSth2ns2AE3flCv8aBF6Iw4DwMAb/UIdEIzXFMAAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
