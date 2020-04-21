@@ -111,17 +111,6 @@
       "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
-      "type": "CreateColumnWithGREL",
-      "params": {
-        "expression": "(JOU/365)/LIT*100",
-        "column": "TAUX_OCCUPATION"
-      },
-      "alwaysShowComment": false
-    },
-    {
-      "preview": false,
-      "metaType": "PROCESSOR",
-      "disabled": false,
       "type": "FilterOnValue",
       "params": {
         "normalizationMode": "EXACT",
@@ -141,7 +130,7 @@
       "alwaysShowComment": false
     },
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "FilterOnValue",
@@ -159,6 +148,63 @@
         "matchingMode": "FULL_STRING",
         "action": "KEEP_ROW",
         "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "RemoveRowsOnEmpty",
+      "params": {
+        "columns": [
+          "LIT"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "RemoveRowsOnEmpty",
+      "params": {
+        "columns": [
+          "JOU"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnNumericalRange",
+      "params": {
+        "min": 1.0,
+        "max": 1.0E7,
+        "booleanMode": "AND",
+        "columns": [
+          "LIT",
+          "JOU"
+        ],
+        "action": "KEEP_ROW",
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "(JOU/365)/LIT*100",
+        "column": "TAUX_OCCUPATION"
       },
       "alwaysShowComment": false
     }
@@ -204,7 +250,12 @@
     "SEJACC": 100,
     "anc_reg": 100
   },
-  "sorting": [],
+  "sorting": [
+    {
+      "column": "TAUX_OCCUPATION",
+      "ascending": false
+    }
+  ],
   "globalSearchQuery": "",
   "coloring": {
     "scheme": "MEANING_AND_STATUS",
