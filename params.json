@@ -150,7 +150,7 @@
       }
     }
   },
-  "name": "Séries longues - SAE 2000-2018",
+  "name": "Séries longues - SAE 2000-2018 (eric)",
   "imgPattern": 3,
   "metrics": {
     "probes": [],
@@ -207,11 +207,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587478845745
+    "lastModifiedOn": 1587479712870
   },
   "creationTag": {
     "versionNumber": 0,
@@ -220,7 +220,7 @@
     },
     "lastModifiedOn": 1586192540469
   },
-  "shortDesc": "The project *Test* was created by Eric Beaufol on Apr 11th 2020",
+  "shortDesc": "The project *Test* was created by Eric Beaufol on Apr 11th 2020\nThe project *S_RIES_LONGUES_SAE_2000_2018_ERIC* was copied from *TEST* on *dev* branch by Eric Beaufol on Apr 21st 2020",
   "tags": [
     "duplicated"
   ],
