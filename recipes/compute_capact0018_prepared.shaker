@@ -207,6 +207,17 @@
         "column": "TAUX_OCCUPATION"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "JOU / SEJHC",
+        "column": "DUREE_MOY_HC"
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -237,6 +248,7 @@
     "DISCIPLINE": 218,
     "cat": 100,
     "espic": 100,
+    "DUREE_MOY_HC": 155,
     "grp": 100,
     "stj": 100,
     "TAUX_OCCUPATION": 155,
