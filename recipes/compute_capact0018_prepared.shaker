@@ -218,6 +218,17 @@
         "column": "DUREE_MOY_HC"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "(SEJHC/365)/LIT*100",
+        "column": "TAUX_ROTATION"
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -250,6 +261,7 @@
     "espic": 100,
     "DUREE_MOY_HC": 155,
     "grp": 100,
+    "TAUX_ROTATION": 148,
     "stj": 100,
     "TAUX_OCCUPATION": 155,
     "SEHEM": 100,
