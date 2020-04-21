@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587477435899
+    "lastModifiedOn": 1587477756712
   },
   "creationTag": {
     "versionNumber": 0,
@@ -162,7 +162,7 @@
         "type": "double"
       },
       {
-        "name": "TAUX_OCCUPATION",
+        "name": "TAUX_OCCUPATION_HC",
         "type": "double"
       },
       {
