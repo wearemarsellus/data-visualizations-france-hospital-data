@@ -108,13 +108,35 @@
   },
   "steps": [
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "CreateColumnWithGREL",
       "params": {
         "expression": "(JOU/365)/LIT*100",
         "column": "TAUX_OCCUPATION"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "cat"
+        ],
+        "values": [
+          "355",
+          "101",
+          "106"
+        ],
+        "matchingMode": "FULL_STRING",
+        "action": "KEEP_ROW",
+        "appliesTo": "SINGLE_COLUMN"
       },
       "alwaysShowComment": false
     }
