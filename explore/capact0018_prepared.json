@@ -37,7 +37,12 @@
       "individualColumns": [],
       "valueColoringMode": "HASH"
     },
-    "sorting": [],
+    "sorting": [
+      {
+        "column": "TAUX_OCCUPATION",
+        "ascending": false
+      }
+    ],
     "analysisColumnData": {},
     "explorationSampling": {
       "selection": {
@@ -69,82 +74,7 @@
       "autoRefresh": true
     },
     "globalSearchQuery": "",
-    "explorationFilters": [
-      {
-        "column": "cat",
-        "type": "columnFilter",
-        "currentMode": "FACET",
-        "active": true,
-        "facet": {
-          "type": "facet",
-          "column": "cat",
-          "columnType": "ALPHANUM",
-          "currentMode": "ALPHANUM",
-          "sort": "count",
-          "selectedValues": {
-            "101": true,
-            "106": true,
-            "355": true
-          }
-        },
-        "alphanumFilter": {
-          "type": "alphanum",
-          "column": "cat",
-          "values": [],
-          "params": {
-            "mode": "full_string",
-            "normalization": "exact"
-          }
-        },
-        "validityFilter": {
-          "type": "validity",
-          "column": "cat",
-          "params": {
-            "type": "Text",
-            "ok": true,
-            "nok": true,
-            "empty": true
-          }
-        }
-      },
-      {
-        "column": "DISCIPLINE",
-        "type": "columnFilter",
-        "currentMode": "FACET",
-        "active": true,
-        "facet": {
-          "type": "facet",
-          "column": "DISCIPLINE",
-          "columnType": "ALPHANUM",
-          "currentMode": "ALPHANUM",
-          "sort": "count",
-          "selectedValues": {
-            "Médecine": true,
-            "Gynéco-Obstétrique": true,
-            "Chirurgie": true
-          }
-        },
-        "alphanumFilter": {
-          "type": "alphanum",
-          "column": "DISCIPLINE",
-          "values": [],
-          "params": {
-            "mode": "full_string",
-            "normalization": "exact"
-          }
-        },
-        "validityFilter": {
-          "type": "validity",
-          "column": "DISCIPLINE",
-          "params": {
-            "type": "FreeText",
-            "ok": true,
-            "nok": true,
-            "empty": true
-          }
-        }
-      }
-    ],
+    "explorationFilters": [],
     "previewMode": "ALL_ROWS"
   },
   "charts": [
@@ -154,7 +84,7 @@
       "def": {
         "type": "grouped_columns",
         "variant": "normal",
-        "name": "Sum of LIT by an",
+        "name": "Avg. of TAUX_OCCUPATION by an",
         "userEditedName": false,
         "genericDimension0": [
           {
@@ -177,22 +107,11 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Sum of LIT, descending"
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 0,
-                "label": "Sum of LIT, ascending",
-                "sortAscending": true
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 1,
                 "label": "Average of TAUX_OCCUPATION, descending"
               },
               {
                 "type": "AGGREGATION",
-                "measureIdx": 1,
+                "measureIdx": 0,
                 "label": "Average of TAUX_OCCUPATION, ascending",
                 "sortAscending": true
               }
@@ -208,17 +127,6 @@
         "facetDimension": [],
         "animationDimension": [],
         "genericMeasures": [
-          {
-            "column": "LIT",
-            "function": "SUM",
-            "type": "NUMERICAL",
-            "displayed": true,
-            "isA": "measure",
-            "displayAxis": "axis1",
-            "displayType": "column",
-            "computeMode": "NORMAL",
-            "computeModeDim": 0
-          },
           {
             "column": "TAUX_OCCUPATION",
             "function": "AVG",
