@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587477756712
+    "lastModifiedOn": 1587477900847
   },
   "creationTag": {
     "versionNumber": 0,
@@ -151,6 +151,10 @@
       },
       {
         "name": "SEJHC",
+        "type": "double"
+      },
+      {
+        "name": "TAUX_ROTATION",
         "type": "double"
       },
       {
